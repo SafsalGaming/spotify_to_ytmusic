@@ -1,0 +1,867 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Match Editor</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+
+    :root {
+      --bg: #0a0f18;
+      --bg-soft: #0f1725;
+      --panel: #111b2a;
+      --line: #223249;
+      --text: #e6edf7;
+      --muted: #90a2ba;
+      --song: #6aa7ff;
+      --video: #ff8b86;
+      --none: #9cb0c8;
+      --accent: #8eb8ff;
+      --ok: #6ed39a;
+      --err: #ff9f96;
+      --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Manrope", "Noto Sans Hebrew", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 10% -10%, #1d2e47 0%, transparent 30%),
+        radial-gradient(circle at 100% -30%, #1c2438 0%, transparent 35%),
+        linear-gradient(180deg, #070b12 0%, var(--bg) 100%);
+    }
+
+    .app {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .top {
+      position: sticky;
+      top: 8px;
+      z-index: 10;
+      padding: 12px;
+      margin-bottom: 12px;
+      backdrop-filter: blur(8px);
+    }
+
+    .top-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      letter-spacing: 0.3px;
+    }
+
+    .muted { color: var(--muted); }
+
+    .toolbar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .toggles {
+      display: inline-flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      font-size: 12px;
+      font-weight: 700;
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .toggle.song { color: var(--song); border-color: #33588e; }
+    .toggle.video { color: var(--video); border-color: #744040; }
+    .toggle.none { color: var(--none); border-color: #2e4058; }
+
+    input[type="checkbox"], input[type="radio"] { accent-color: var(--accent); }
+
+    #searchBox {
+      width: 260px;
+      max-width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--bg-soft);
+      color: var(--text);
+      padding: 8px 10px;
+      outline: none;
+      font-size: 13px;
+    }
+
+    #searchBox:focus {
+      border-color: #43638f;
+      box-shadow: 0 0 0 3px rgba(142, 184, 255, 0.14);
+    }
+
+    button {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--bg-soft);
+      color: var(--text);
+      padding: 8px 12px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: 0.15s ease;
+    }
+
+    button:hover { border-color: #3f5c86; background: #142033; }
+    button.primary { border-color: #3f5c86; color: #d9e7ff; }
+
+    .alerts {
+      display: grid;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .alert {
+      display: none;
+      padding: 9px 11px;
+      border-radius: 12px;
+      border: 1px solid;
+      font-size: 13px;
+    }
+
+    .alert.ok { border-color: #2f6a4a; background: rgba(110, 211, 154, 0.12); color: var(--ok); }
+    .alert.err { border-color: #73403e; background: rgba(255, 159, 150, 0.12); color: var(--err); }
+
+    .summary {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+
+    .pill {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .cards {
+      display: grid;
+      gap: 10px;
+    }
+
+    .track {
+      padding: 12px;
+    }
+
+    .track-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .track-title {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .track-sub {
+      margin-top: 3px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .choice-badge {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      padding: 4px 9px;
+      letter-spacing: 0.4px;
+      white-space: nowrap;
+    }
+
+    .choice-badge.song { color: var(--song); border-color: #33588e; background: rgba(106, 167, 255, 0.1); }
+    .choice-badge.video { color: var(--video); border-color: #744040; background: rgba(255, 139, 134, 0.1); }
+    .choice-badge.none { color: var(--none); border-color: #2e4058; background: rgba(156, 176, 200, 0.1); }
+
+    .options {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(180px, 1fr));
+      gap: 10px;
+    }
+
+    .option {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--bg-soft);
+      padding: 8px;
+      min-height: 0;
+      cursor: pointer;
+      transition: 0.14s ease;
+    }
+
+    .option:hover { border-color: #3f5c86; }
+    .option.active.song { border-color: #3e6eb0; box-shadow: inset 0 0 0 1px #3e6eb0; }
+    .option.active.video { border-color: #a95d5a; box-shadow: inset 0 0 0 1px #a95d5a; }
+    .option.active.none { border-color: #4d617d; box-shadow: inset 0 0 0 1px #4d617d; }
+    .option.disabled { opacity: 0.55; cursor: not-allowed; }
+
+    .opt-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+      font-size: 11px;
+      text-transform: uppercase;
+      color: var(--muted);
+      letter-spacing: 0.5px;
+      font-weight: 700;
+    }
+
+    .opt-body {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 8px;
+      align-items: start;
+    }
+    .opt-body.no-media {
+      grid-template-columns: 1fr;
+    }
+
+    .opt-meta {
+      min-width: 0;
+    }
+
+    .thumb {
+      width: 100%;
+      height: 62px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #0a111b;
+    }
+
+    .opt-title {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 2px;
+    }
+
+    .opt-sub {
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.3;
+    }
+
+    .opt-link {
+      font-size: 11px;
+      margin-top: 4px;
+    }
+
+    a { color: #9fc4ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    @media (max-width: 1100px) {
+      .options { grid-template-columns: 1fr; }
+      .top { position: static; }
+      #searchBox { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <section class="top panel">
+      <div class="top-row">
+        <div>
+          <h1>Match Editor</h1>
+          <div class="muted">Edit per-track choice and save as <code>match_fixed.json</code></div>
+        </div>
+        <div class="muted" id="loadInfo"></div>
+      </div>
+      <div class="toolbar">
+        <div class="toggles">
+          <label class="toggle song"><input id="flt-song" type="checkbox" checked />song <span id="count-song">0</span></label>
+          <label class="toggle video"><input id="flt-video" type="checkbox" checked />video <span id="count-video">0</span></label>
+          <label class="toggle none"><input id="flt-none" type="checkbox" checked />none <span id="count-none">0</span></label>
+        </div>
+        <input id="searchBox" type="text" placeholder="Search Spotify title or artist" />
+        <button id="resetBtn">Reset</button>
+        <button id="saveBtn" class="primary">Save match_fixed.json</button>
+      </div>
+    </section>
+
+    <div class="alerts">
+      <div id="okBox" class="alert ok"></div>
+      <div id="errorBox" class="alert err"></div>
+    </div>
+
+    <div id="summary" class="summary"></div>
+    <div id="cards" class="cards"></div>
+  </div>
+
+  <script>
+    const state = {
+      data: [],
+      source: "",
+      visibleChoices: new Set(["song", "video", "none"]),
+      textFilter: "",
+      eventsBound: false,
+      refreshMs: 2500,
+      refreshTimer: null,
+      lastSignature: "",
+      localChoiceOverrides: new Map(),
+      lastUpdateAt: null,
+      isRefreshing: false,
+      lastUserInteractionAt: 0,
+      interactionHoldMs: 1400,
+      pendingPayload: null,
+    };
+
+    const esc = (v) => String(v ?? "")
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;");
+
+    const arr = (v) => Array.isArray(v) ? v : [];
+
+    function formatClock(d) {
+      if (!d) return "--:--:--";
+      return d.toLocaleTimeString([], { hour12: false });
+    }
+
+    function trackKey(item, idx) {
+      const sp = item?.spotify || {};
+      const id = String(sp.id || "").trim();
+      if (id) return `id:${id}`;
+      const title = String(sp.title || "").trim().toLowerCase();
+      const artists = arr(sp.artists).join("|").trim().toLowerCase();
+      return `row:${title}::${artists}::${idx}`;
+    }
+
+    function textSignature(text) {
+      const s = String(text || "");
+      const len = s.length;
+      const step = Math.max(1, Math.floor(len / 3500));
+      let h = 0;
+      for (let i = 0; i < len; i += step) {
+        h = ((h * 31) + s.charCodeAt(i)) >>> 0;
+      }
+      return `${len}:${h}`;
+    }
+
+    function toChoice(v) {
+      const s = String(v ?? "").toLowerCase();
+      if (s === "song" || s === "songs") return "song";
+      if (s === "video" || s === "videos") return "video";
+      return "none";
+    }
+
+    function thumbnailFromVideoId(videoId) {
+      const vid = String(videoId || "").trim();
+      if (!vid) return "";
+      return `https://i.ytimg.com/vi/${vid}/hqdefault.jpg`;
+    }
+
+    function normalizeCandidate(raw, forcedType) {
+      if (!raw || typeof raw !== "object" || !raw.videoId) return null;
+      return {
+        type: forcedType,
+        videoId: raw.videoId,
+        title: raw.title || "",
+        channel: raw.channel || "",
+        url: raw.url || `https://music.youtube.com/watch?v=${raw.videoId}`,
+        thumbnail_url: raw.thumbnail_url || thumbnailFromVideoId(raw.videoId),
+      };
+    }
+
+    function candidateFromYoutube(yt, forcedType) {
+      if (!yt || typeof yt !== "object" || !yt.videoId) return null;
+      return normalizeCandidate({
+        videoId: yt.videoId,
+        title: yt.title,
+        channel: yt.channel,
+        url: yt.url,
+        thumbnail_url: yt.thumbnail_url,
+      }, forcedType);
+    }
+
+    function syncChoice(item) {
+      item.search = item.search || {};
+      item.decision = item.decision || {};
+
+      const cands = item.search.candidates || {};
+      const songCand = normalizeCandidate(cands.song_first, "song") || (item.youtube?.type === "song" ? candidateFromYoutube(item.youtube, "song") : null);
+      const videoCand = normalizeCandidate(cands.video_first, "video") || (item.youtube?.type === "video" ? candidateFromYoutube(item.youtube, "video") : null);
+
+      item.search.candidates = { song_first: songCand, video_first: videoCand };
+
+      let choice = toChoice(item.search.choise || item.search.choice || item.choise || item.search.selected_stage);
+      if (choice === "song" && !songCand) choice = "none";
+      if (choice === "video" && !videoCand) choice = "none";
+
+      item.search.choise = choice;
+      item.search.choice = choice;
+      item.search.selected_stage = choice === "song" ? "songs" : (choice === "video" ? "videos" : "none");
+      item.choise = choice;
+
+      const selected = choice === "song" ? songCand : (choice === "video" ? videoCand : null);
+      if (selected) {
+        item.youtube = {
+          type: choice,
+          videoId: selected.videoId,
+          title: selected.title,
+          channel: selected.channel,
+          url: selected.url,
+          thumbnail_url: selected.thumbnail_url,
+        };
+        item.decision.status = "matched";
+      } else {
+        item.youtube = {
+          type: null,
+          videoId: null,
+          title: null,
+          channel: null,
+          url: null,
+          thumbnail_url: null,
+        };
+        item.decision.status = "no_match";
+      }
+    }
+
+    function isChanged(item) {
+      return toChoice(item.search?.choise) !== toChoice(item.__autoChoice);
+    }
+
+    function summaryPill(label, value) {
+      return `<div class="pill">${esc(label)} <b>${esc(value)}</b></div>`;
+    }
+
+    function markUserInteraction() {
+      state.lastUserInteractionAt = Date.now();
+    }
+
+    function captureViewportAnchor() {
+      const cards = Array.from(document.querySelectorAll(".track[data-key]"));
+      if (!cards.length) return null;
+
+      for (const el of cards) {
+        const rect = el.getBoundingClientRect();
+        if (rect.bottom > 0) {
+          return { key: el.dataset.key || "", top: rect.top };
+        }
+      }
+
+      const last = cards[cards.length - 1];
+      const r = last.getBoundingClientRect();
+      return { key: last.dataset.key || "", top: r.top };
+    }
+
+    function restoreViewportFromAnchor(anchor, fallbackY) {
+      if (anchor && anchor.key) {
+        const cards = Array.from(document.querySelectorAll(".track[data-key]"));
+        const found = cards.find(el => (el.dataset.key || "") === anchor.key);
+        if (found) {
+          const delta = found.getBoundingClientRect().top - anchor.top;
+          window.scrollBy(0, delta);
+          return;
+        }
+      }
+      window.scrollTo(0, fallbackY);
+    }
+
+    function renderPreserveViewport() {
+      const anchor = captureViewportAnchor();
+      const y = window.scrollY || window.pageYOffset || 0;
+      render();
+      requestAnimationFrame(() => {
+        restoreViewportFromAnchor(anchor, y);
+        setTimeout(() => restoreViewportFromAnchor(anchor, y), 120);
+      });
+    }
+
+    function renderSummary(filtered) {
+      const total = state.data.length;
+      const shown = filtered.length;
+      const changed = state.data.filter(isChanged).length;
+      const chosen = state.data.filter(x => toChoice(x.search?.choise) !== "none").length;
+      const html = [
+        summaryPill("Total", total),
+        summaryPill("Shown", shown),
+        summaryPill("Chosen", chosen),
+        summaryPill("Changed", changed),
+      ].join("");
+      document.getElementById("summary").innerHTML = html;
+    }
+
+    function optionCard(kind, label, cand, idx, currentChoice) {
+      const active = currentChoice === kind;
+      const disabled = kind !== "none" && !cand;
+      const cls = `${kind} ${active ? "active" : ""} ${disabled ? "disabled" : ""}`;
+      const checked = active ? "checked" : "";
+      const dis = disabled ? "disabled" : "";
+
+      const title = kind === "none"
+        ? "Leave unmatched"
+        : (cand?.title || `No ${label.toLowerCase()} result`);
+
+      const sub = kind === "none"
+        ? "This track will not be added"
+        : (cand?.channel || "");
+
+      const link = cand?.url
+        ? `<div class="opt-link"><a href="${esc(cand.url)}" target="_blank">Open</a></div>`
+        : "";
+
+      if (kind === "none") {
+        return `
+          <label class="option ${cls}">
+            <div class="opt-head">
+              <span>${esc(label)}</span>
+              <input type="radio" name="choice-${idx}" value="${kind}" ${checked} />
+            </div>
+            <div class="opt-title">${esc(title)}</div>
+            <div class="opt-sub">${esc(sub)}</div>
+          </label>
+        `;
+      }
+
+      const media = cand?.thumbnail_url
+        ? `<img class="thumb" src="${esc(cand.thumbnail_url)}" alt="thumbnail" />`
+        : "";
+      const body = media
+        ? `<div class="opt-body"><div>${media}</div><div class="opt-meta"><div class="opt-title">${esc(title)}</div><div class="opt-sub">${esc(sub)}</div>${link}</div></div>`
+        : `<div class="opt-body no-media"><div class="opt-meta"><div class="opt-title">${esc(title)}</div><div class="opt-sub">${esc(sub)}</div>${link}</div></div>`;
+
+      return `
+        <label class="option ${cls}">
+          <div class="opt-head">
+            <span>${esc(label)}</span>
+            <input type="radio" name="choice-${idx}" value="${kind}" ${checked} ${dis} />
+          </div>
+          ${body}
+        </label>
+      `;
+    }
+
+    function renderCard(item) {
+      const idx = item.__idx;
+      const sp = item.spotify || {};
+      const choice = toChoice(item.search?.choise);
+      const cands = item.search?.candidates || {};
+
+      return `
+        <article class="track panel" data-idx="${idx}" data-key="${esc(item.__key || String(idx))}">
+          <div class="track-head">
+            <div>
+              <h3 class="track-title">${esc(sp.title || "Unknown title")}</h3>
+              <div class="track-sub">${esc(arr(sp.artists).join(", ") || "Unknown artist")}</div>
+            </div>
+            <div class="choice-badge ${choice}">${choice}${isChanged(item) ? " *" : ""}</div>
+          </div>
+
+          <div class="options">
+            ${optionCard("song", "Song", cands.song_first, idx, choice)}
+            ${optionCard("video", "Video", cands.video_first, idx, choice)}
+            ${optionCard("none", "None", null, idx, choice)}
+          </div>
+        </article>
+      `;
+    }
+
+    function render() {
+      const q = state.textFilter.trim().toLowerCase();
+      const filtered = state.data.filter(item => {
+        const choice = toChoice(item.search?.choise);
+        if (!state.visibleChoices.has(choice)) return false;
+        if (!q) return true;
+        const title = String(item.spotify?.title || "").toLowerCase();
+        const artists = arr(item.spotify?.artists).join(" ").toLowerCase();
+        return title.includes(q) || artists.includes(q);
+      });
+
+      document.getElementById("count-song").textContent = state.data.filter(x => toChoice(x.search?.choise) === "song").length;
+      document.getElementById("count-video").textContent = state.data.filter(x => toChoice(x.search?.choise) === "video").length;
+      document.getElementById("count-none").textContent = state.data.filter(x => toChoice(x.search?.choise) === "none").length;
+
+      renderSummary(filtered);
+      document.getElementById("cards").innerHTML = filtered.length
+        ? filtered.map(renderCard).join("")
+        : `<div class="panel" style="padding:14px; color: var(--muted);">No tracks match the current filters.</div>`;
+    }
+
+    function setChoiceByIndex(idx, choice) {
+      markUserInteraction();
+      const item = state.data.find(x => x.__idx === idx);
+      if (!item) return;
+      item.search = item.search || {};
+      item.search.choise = toChoice(choice);
+      syncChoice(item);
+      const current = toChoice(item.search?.choise);
+      if (current === toChoice(item.__autoChoice)) {
+        state.localChoiceOverrides.delete(item.__key);
+      } else {
+        state.localChoiceOverrides.set(item.__key, current);
+      }
+      render();
+    }
+
+    function savePayload() {
+      return state.data.map(item => {
+        syncChoice(item);
+        const clone = JSON.parse(JSON.stringify(item));
+        delete clone.__idx;
+        delete clone.__autoChoice;
+        return clone;
+      });
+    }
+
+    async function saveFixedFile() {
+      const payload = savePayload();
+      const text = JSON.stringify(payload, null, 2);
+      let savedWithPicker = false;
+
+      if ("showSaveFilePicker" in window) {
+        try {
+          const handle = await window.showSaveFilePicker({
+            suggestedName: "match_fixed.json",
+            types: [{ description: "JSON", accept: { "application/json": [".json"] } }],
+          });
+          const writable = await handle.createWritable();
+          await writable.write(text);
+          await writable.close();
+          savedWithPicker = true;
+        } catch (_) {
+          savedWithPicker = false;
+        }
+      }
+
+      if (!savedWithPicker) {
+        const blob = new Blob([text], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "match_fixed.json";
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+      }
+    }
+
+    function showMessage(id, text) {
+      const el = document.getElementById(id);
+      el.style.display = "block";
+      el.innerHTML = text;
+    }
+
+    function clearMessages() {
+      document.getElementById("okBox").style.display = "none";
+      document.getElementById("errorBox").style.display = "none";
+    }
+
+    function bindEvents() {
+      if (state.eventsBound) return;
+      state.eventsBound = true;
+
+      ["song", "video", "none"].forEach(name => {
+        const el = document.getElementById(`flt-${name}`);
+        el.addEventListener("change", () => {
+          if (el.checked) state.visibleChoices.add(name);
+          else state.visibleChoices.delete(name);
+          render();
+        });
+      });
+
+      document.getElementById("searchBox").addEventListener("input", (e) => {
+        markUserInteraction();
+        state.textFilter = e.target.value || "";
+        render();
+      });
+
+      document.getElementById("cards").addEventListener("change", (e) => {
+        const t = e.target;
+        if (!(t instanceof HTMLInputElement)) return;
+        if (t.type !== "radio" || !t.name.startsWith("choice-")) return;
+        const idx = Number(t.name.replace("choice-", ""));
+        setChoiceByIndex(idx, t.value);
+      });
+
+      document.getElementById("resetBtn").addEventListener("click", () => {
+        markUserInteraction();
+        state.localChoiceOverrides.clear();
+        state.data.forEach(item => {
+          item.search = item.search || {};
+          item.search.choise = item.__autoChoice;
+          syncChoice(item);
+        });
+        render();
+      });
+
+      document.getElementById("saveBtn").addEventListener("click", async () => {
+        markUserInteraction();
+        clearMessages();
+        try {
+          await saveFixedFile();
+          showMessage("okBox", "Saved <code>match_fixed.json</code>");
+        } catch (err) {
+          showMessage("errorBox", `Save failed: ${esc(err?.message || err)}`);
+        }
+      });
+
+      window.addEventListener("scroll", markUserInteraction, { passive: true });
+      window.addEventListener("wheel", markUserInteraction, { passive: true });
+      window.addEventListener("touchmove", markUserInteraction, { passive: true });
+    }
+
+    function hydrateItems(raw) {
+      const keysInData = new Set();
+      const hydrated = raw.map((item, idx) => {
+        const obj = (item && typeof item === "object") ? item : {};
+        obj.__idx = idx;
+        obj.__key = trackKey(obj, idx);
+
+        // Auto choice from source JSON
+        syncChoice(obj);
+        obj.__autoChoice = toChoice(obj.search?.choise);
+
+        // Re-apply local manual override, if exists.
+        const localChoice = state.localChoiceOverrides.get(obj.__key);
+        if (localChoice) {
+          obj.search = obj.search || {};
+          obj.search.choise = localChoice;
+          syncChoice(obj);
+        }
+
+        const current = toChoice(obj.search?.choise);
+        if (current === obj.__autoChoice) state.localChoiceOverrides.delete(obj.__key);
+        else state.localChoiceOverrides.set(obj.__key, current);
+
+        keysInData.add(obj.__key);
+        return obj;
+      });
+
+      for (const k of Array.from(state.localChoiceOverrides.keys())) {
+        if (!keysInData.has(k)) state.localChoiceOverrides.delete(k);
+      }
+
+      return hydrated;
+    }
+
+    async function fetchJsonWithMeta(path) {
+      const sep = path.includes("?") ? "&" : "?";
+      const res = await fetch(`${path}${sep}_ts=${Date.now()}`, { cache: "no-store" });
+      if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
+      const text = await res.text();
+      const data = JSON.parse(text);
+      if (!Array.isArray(data)) throw new Error(`${path} must contain a JSON array`);
+      return { data, signature: textSignature(text) };
+    }
+
+    async function loadPreferredSource() {
+      try {
+        const fixed = await fetchJsonWithMeta("./match_fixed.json");
+        return { ...fixed, source: "match_fixed.json" };
+      } catch (_) {
+        const results = await fetchJsonWithMeta("./match_results.json");
+        return { ...results, source: "match_results.json" };
+      }
+    }
+
+    function updateLiveInfo(mode = "") {
+      const extra = mode ? ` | ${mode}` : "";
+      const info = `Live ${state.refreshMs / 1000}s | ${state.source || "no source"} | ${state.data.length} tracks | ${formatClock(state.lastUpdateAt)}${extra}`;
+      document.getElementById("loadInfo").textContent = info;
+    }
+
+    function applyPayload(payload) {
+      state.source = payload.source;
+      state.lastSignature = payload.signature;
+      state.data = hydrateItems(payload.data);
+      renderPreserveViewport();
+    }
+
+    async function refreshFromJson(initial = false) {
+      if (state.isRefreshing) return;
+      state.isRefreshing = true;
+      try {
+        const idleMs = Date.now() - state.lastUserInteractionAt;
+        if (!initial && state.pendingPayload && idleMs >= state.interactionHoldMs) {
+          applyPayload(state.pendingPayload);
+          state.pendingPayload = null;
+        }
+
+        const payload = await loadPreferredSource();
+        const sourceChanged = payload.source !== state.source;
+        const changed = payload.signature !== state.lastSignature;
+        if (initial || sourceChanged || changed) {
+          const idleNowMs = Date.now() - state.lastUserInteractionAt;
+          if (!initial && idleNowMs < state.interactionHoldMs) {
+            state.pendingPayload = payload;
+          } else {
+            applyPayload(payload);
+            state.pendingPayload = null;
+          }
+        }
+        state.lastUpdateAt = new Date();
+        updateLiveInfo(state.pendingPayload ? "paused while scrolling" : "");
+      } catch (err) {
+        if (initial) {
+          showMessage(
+            "errorBox",
+            `Failed to load JSON: ${esc(err?.message || err)}<br/>Run <code>python -m http.server 8080</code> and open <code>http://localhost:8080/match_results_report.html</code>.`
+          );
+        }
+      } finally {
+        state.isRefreshing = false;
+      }
+    }
+
+    function startLiveRefresh() {
+      if (state.refreshTimer) clearInterval(state.refreshTimer);
+      state.refreshTimer = setInterval(() => {
+        refreshFromJson(false);
+      }, state.refreshMs);
+    }
+
+    async function init() {
+      clearMessages();
+      bindEvents();
+      await refreshFromJson(true);
+      startLiveRefresh();
+    }
+
+    init();
+  </script>
+</body>
+</html>

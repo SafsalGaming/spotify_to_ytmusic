@@ -1,0 +1,98 @@
+{"kind":"deck","id":"monkeys_hebrew","slideCount":8,"slideSize":{"width":1280,"height":720}}
+{"kind":"image","slide":1,"role":"background visual","path":"C:\\Users\\idoit\\Downloads\\spotify_to_ytmusic\\tmp\\slides\\monkeys_hebrew\\pro-reference-images\\slide-01.png","bbox":[0,0,1280,720]}
+{"kind":"textbox","slide":1,"role":"kicker","text":"טבע וחקר בעלי חיים","textChars":18,"textLines":1,"bbox":[680,92,440,25]}
+{"kind":"textbox","slide":1,"role":"cover title","text":"קופים: עולם עשיר של חוכמה ותנועה","textChars":32,"textLines":1,"bbox":[565,138,610,145]}
+{"kind":"textbox","slide":1,"role":"cover subtitle","text":"היכרות עם משפחות, מינים, התנהגות ובתי גידול של קופים ברחבי העולם.","textChars":65,"textLines":1,"bbox":[640,310,535,76]}
+{"kind":"textbox","slide":1,"role":"cover takeaway","text":"קופים הם פרימטים חברתיים, סקרנים וגמישים במיוחד.","textChars":48,"textLines":1,"bbox":[704,475,440,38]}
+{"kind":"textbox","slide":1,"role":"pill label","text":"מצגת קצרה בעברית","textChars":16,"textLines":1,"bbox":[92,589,268,22]}
+{"kind":"image","slide":2,"role":"background visual","path":"C:\\Users\\idoit\\Downloads\\spotify_to_ytmusic\\tmp\\slides\\monkeys_hebrew\\pro-reference-images\\slide-02.png","bbox":[0,0,1280,720]}
+{"kind":"textbox","slide":2,"role":"section label","text":"מאפיינים","textChars":8,"textLines":1,"bbox":[760,23,440,22]}
+{"kind":"textbox","slide":2,"role":"slide number","text":"2 / 8","textChars":5,"textLines":1,"bbox":[58,23,96,22]}
+{"kind":"textbox","slide":2,"role":"title","text":"מה הופך קוף לקוף?","textChars":17,"textLines":1,"bbox":[506,92,710,72]}
+{"kind":"textbox","slide":2,"role":"subtitle","text":"לקופים יש שילוב של גוף מתאים לטיפוס, חושים מפותחים ולמידה חברתית.","textChars":65,"textLines":1,"bbox":[506,174,710,62]}
+{"kind":"textbox","slide":2,"role":"card heading","text":"גוף גמיש","textChars":8,"textLines":1,"bbox":[102,446,310,32]}
+{"kind":"textbox","slide":2,"role":"card body","text":"ידיים ורגליים אוחזות, כתפיים ניידות וזנב שעוזר בשיווי משקל אצל מינים רבים.","textChars":74,"textLines":1,"bbox":[102,490,310,100]}
+{"kind":"textbox","slide":2,"role":"card heading","text":"ראייה וחישה","textChars":11,"textLines":1,"bbox":[492,446,310,32]}
+{"kind":"textbox","slide":2,"role":"card body","text":"עיניים קדמיות מסייעות להעריך מרחקים בין ענפים, פירות וחברים בקבוצה.","textChars":67,"textLines":1,"bbox":[492,490,310,100]}
+{"kind":"textbox","slide":2,"role":"card heading","text":"מוח ולמידה","textChars":10,"textLines":1,"bbox":[882,446,310,32]}
+{"kind":"textbox","slide":2,"role":"card body","text":"קופים לומדים זה מזה: איפה למצוא אוכל, איך לפתור בעיות ואיך להתנהג בקבוצה.","textChars":73,"textLines":1,"bbox":[882,490,310,100]}
+{"kind":"image","slide":3,"role":"background visual","path":"C:\\Users\\idoit\\Downloads\\spotify_to_ytmusic\\tmp\\slides\\monkeys_hebrew\\pro-reference-images\\slide-03.png","bbox":[0,0,1280,720]}
+{"kind":"textbox","slide":3,"role":"section label","text":"חלוקה בסיסית","textChars":12,"textLines":1,"bbox":[760,23,440,22]}
+{"kind":"textbox","slide":3,"role":"slide number","text":"3 / 8","textChars":5,"textLines":1,"bbox":[58,23,96,22]}
+{"kind":"textbox","slide":3,"role":"title","text":"שתי קבוצות מרכזיות","textChars":18,"textLines":1,"bbox":[456,90,760,72]}
+{"kind":"textbox","slide":3,"role":"subtitle","text":"בדרך כלל מחלקים קופים לקופי העולם החדש ולקופי העולם הישן.","textChars":57,"textLines":1,"bbox":[456,172,760,62]}
+{"kind":"textbox","slide":3,"role":"comparison group","text":"קופי העולם החדש","textChars":15,"textLines":1,"bbox":[128,354,432,38]}
+{"kind":"textbox","slide":3,"role":"pill label","text":"אמריקה המרכזית והדרומית","textChars":23,"textLines":1,"bbox":[312,413,232,22]}
+{"kind":"textbox","slide":3,"role":"comparison trait","text":"לעיתים זנב לופת","textChars":15,"textLines":1,"bbox":[138,457,382,28]}
+{"kind":"textbox","slide":3,"role":"comparison trait","text":"נחיריים פונים לצדדים","textChars":20,"textLines":1,"bbox":[138,499,382,28]}
+{"kind":"textbox","slide":3,"role":"comparison trait","text":"חיים רבים בצמרות יער","textChars":20,"textLines":1,"bbox":[138,541,382,28]}
+{"kind":"textbox","slide":3,"role":"comparison group","text":"קופי העולם הישן","textChars":15,"textLines":1,"bbox":[720,354,432,38]}
+{"kind":"textbox","slide":3,"role":"pill label","text":"אפריקה ואסיה","textChars":12,"textLines":1,"bbox":[904,413,232,22]}
+{"kind":"textbox","slide":3,"role":"comparison trait","text":"לרוב אין זנב לופת","textChars":17,"textLines":1,"bbox":[730,457,382,28]}
+{"kind":"textbox","slide":3,"role":"comparison trait","text":"נחיריים קרובים ופונים מטה","textChars":25,"textLines":1,"bbox":[730,499,382,28]}
+{"kind":"textbox","slide":3,"role":"comparison trait","text":"חלקם חיים גם על הקרקע","textChars":21,"textLines":1,"bbox":[730,541,382,28]}
+{"kind":"image","slide":4,"role":"background visual","path":"C:\\Users\\idoit\\Downloads\\spotify_to_ytmusic\\tmp\\slides\\monkeys_hebrew\\pro-reference-images\\slide-04.png","bbox":[0,0,1280,720]}
+{"kind":"textbox","slide":4,"role":"section label","text":"סוגים ודוגמאות","textChars":14,"textLines":1,"bbox":[760,23,440,22]}
+{"kind":"textbox","slide":4,"role":"slide number","text":"4 / 8","textChars":5,"textLines":1,"bbox":[58,23,96,22]}
+{"kind":"textbox","slide":4,"role":"title","text":"מינים מוכרים ומה מייחד אותם","textChars":27,"textLines":1,"bbox":[426,90,790,72]}
+{"kind":"textbox","slide":4,"role":"subtitle","text":"כל מין מותאם אחרת לסביבה, למזון ולחיי החברה שלו.","textChars":48,"textLines":1,"bbox":[426,172,790,62]}
+{"kind":"textbox","slide":4,"role":"species name","text":"קפוצ'ין","textChars":7,"textLines":1,"bbox":[104,361,244,30]}
+{"kind":"textbox","slide":4,"role":"species detail","text":"חכם וסקרן; משתמש בכלים במצבים מסוימים.","textChars":38,"textLines":1,"bbox":[104,398,286,36]}
+{"kind":"textbox","slide":4,"role":"species name","text":"מקאק","textChars":4,"textLines":1,"bbox":[489,361,244,30]}
+{"kind":"textbox","slide":4,"role":"species detail","text":"מסתגל היטב לסביבות שונות, כולל אזורים קרובים לאדם.","textChars":50,"textLines":1,"bbox":[489,398,286,36]}
+{"kind":"textbox","slide":4,"role":"species name","text":"מנדריל","textChars":6,"textLines":1,"bbox":[874,361,244,30]}
+{"kind":"textbox","slide":4,"role":"species detail","text":"קוף גדול וצבעוני מאפריקה, חי בקבוצות גדולות.","textChars":44,"textLines":1,"bbox":[874,398,286,36]}
+{"kind":"textbox","slide":4,"role":"species name","text":"טמרין","textChars":5,"textLines":1,"bbox":[104,503,244,30]}
+{"kind":"textbox","slide":4,"role":"species detail","text":"קטן וזריז, לעיתים עם שפם או ציציות שיער בולטות.","textChars":47,"textLines":1,"bbox":[104,540,286,36]}
+{"kind":"textbox","slide":4,"role":"species name","text":"שאגן","textChars":4,"textLines":1,"bbox":[489,503,244,30]}
+{"kind":"textbox","slide":4,"role":"species detail","text":"ידוע בקריאות חזקות שנשמעות למרחק רב ביער.","textChars":41,"textLines":1,"bbox":[489,540,286,36]}
+{"kind":"textbox","slide":4,"role":"species name","text":"חוטמן","textChars":5,"textLines":1,"bbox":[874,503,244,30]}
+{"kind":"textbox","slide":4,"role":"species detail","text":"בעל אף ארוך במיוחד, חי באזורי ביצות ונהרות בבורנאו.","textChars":51,"textLines":1,"bbox":[874,540,286,36]}
+{"kind":"image","slide":5,"role":"background visual","path":"C:\\Users\\idoit\\Downloads\\spotify_to_ytmusic\\tmp\\slides\\monkeys_hebrew\\pro-reference-images\\slide-05.png","bbox":[0,0,1280,720]}
+{"kind":"textbox","slide":5,"role":"section label","text":"התנהגות","textChars":7,"textLines":1,"bbox":[760,23,440,22]}
+{"kind":"textbox","slide":5,"role":"slide number","text":"5 / 8","textChars":5,"textLines":1,"bbox":[58,23,96,22]}
+{"kind":"textbox","slide":5,"role":"title","text":"חיי חברה ותקשורת","textChars":16,"textLines":1,"bbox":[506,92,710,72]}
+{"kind":"textbox","slide":5,"role":"subtitle","text":"קופים חיים ברשת חברתית: שיתוף פעולה, משחק, אזהרות ולמידה מצעירים ומבוגרים.","textChars":74,"textLines":1,"bbox":[506,174,710,62]}
+{"kind":"textbox","slide":5,"role":"card heading","text":"טיפוח","textChars":5,"textLines":1,"bbox":[102,446,310,32]}
+{"kind":"textbox","slide":5,"role":"card body","text":"סירוק הדדי מנקה פרווה וגם מחזק קשרים בין פרטים.","textChars":47,"textLines":1,"bbox":[102,490,310,100]}
+{"kind":"textbox","slide":5,"role":"card heading","text":"קריאות ותנועות","textChars":14,"textLines":1,"bbox":[492,446,310,32]}
+{"kind":"textbox","slide":5,"role":"card body","text":"קולות, הבעות פנים ותנוחות גוף מעבירים אזהרה, פחד, עניין או פיוס.","textChars":64,"textLines":1,"bbox":[492,490,310,100]}
+{"kind":"textbox","slide":5,"role":"card heading","text":"משחק ולמידה","textChars":11,"textLines":1,"bbox":[882,446,310,32]}
+{"kind":"textbox","slide":5,"role":"card body","text":"צעירים מתרגלים טיפוס, מרדף ופתרון בעיות דרך משחק.","textChars":49,"textLines":1,"bbox":[882,490,310,100]}
+{"kind":"image","slide":6,"role":"background visual","path":"C:\\Users\\idoit\\Downloads\\spotify_to_ytmusic\\tmp\\slides\\monkeys_hebrew\\pro-reference-images\\slide-06.png","bbox":[0,0,1280,720]}
+{"kind":"textbox","slide":6,"role":"section label","text":"תזונה ותפקיד בטבע","textChars":17,"textLines":1,"bbox":[760,23,440,22]}
+{"kind":"textbox","slide":6,"role":"slide number","text":"6 / 8","textChars":5,"textLines":1,"bbox":[58,23,96,22]}
+{"kind":"textbox","slide":6,"role":"title","text":"מה קופים אוכלים?","textChars":16,"textLines":1,"bbox":[436,90,780,72]}
+{"kind":"textbox","slide":6,"role":"subtitle","text":"התפריט משתנה בין מינים, אבל קופים רבים משפיעים על היער דרך הפצת זרעים.","textChars":70,"textLines":1,"bbox":[436,172,780,62]}
+{"kind":"textbox","slide":6,"role":"food center","text":"תפריט\nמשתנה","textChars":11,"textLines":2,"bbox":[578,448,124,82]}
+{"kind":"textbox","slide":6,"role":"card heading","text":"פירות","textChars":5,"textLines":1,"bbox":[164,394,316,32]}
+{"kind":"textbox","slide":6,"role":"card body","text":"מקור אנרגיה חשוב; זרעים עוברים למקומות חדשים.","textChars":45,"textLines":1,"bbox":[164,438,316,36]}
+{"kind":"textbox","slide":6,"role":"card heading","text":"עלים ופרחים","textChars":11,"textLines":1,"bbox":[782,394,316,32]}
+{"kind":"textbox","slide":6,"role":"card body","text":"מזון נפוץ אצל מינים המותאמים לעיכול צמחי.","textChars":41,"textLines":1,"bbox":[782,438,316,36]}
+{"kind":"textbox","slide":6,"role":"card heading","text":"חרקים וביצים","textChars":12,"textLines":1,"bbox":[164,558,316,32]}
+{"kind":"textbox","slide":6,"role":"card body","text":"תוספת חלבון במינים אוכלי-כול.","textChars":29,"textLines":1,"bbox":[164,602,316,36]}
+{"kind":"textbox","slide":6,"role":"card heading","text":"אגוזים ושורשים","textChars":14,"textLines":1,"bbox":[782,558,316,32]}
+{"kind":"textbox","slide":6,"role":"card body","text":"דורשים כוח, מיומנות או שימוש בחפצים.","textChars":36,"textLines":1,"bbox":[782,602,316,36]}
+{"kind":"image","slide":7,"role":"background visual","path":"C:\\Users\\idoit\\Downloads\\spotify_to_ytmusic\\tmp\\slides\\monkeys_hebrew\\pro-reference-images\\slide-07.png","bbox":[0,0,1280,720]}
+{"kind":"textbox","slide":7,"role":"section label","text":"בתי גידול ושימור","textChars":16,"textLines":1,"bbox":[760,23,440,22]}
+{"kind":"textbox","slide":7,"role":"slide number","text":"7 / 8","textChars":5,"textLines":1,"bbox":[58,23,96,22]}
+{"kind":"textbox","slide":7,"role":"title","text":"איפה הם חיים, ומה מאיים עליהם?","textChars":30,"textLines":1,"bbox":[506,92,710,72]}
+{"kind":"textbox","slide":7,"role":"subtitle","text":"קופים חיים ביערות גשם, סוואנות, הרים ומנגרובים, אבל רבים נפגעים מאובדן שטחי מחיה.","textChars":81,"textLines":1,"bbox":[506,174,710,62]}
+{"kind":"textbox","slide":7,"role":"card heading","text":"איום מרכזי","textChars":10,"textLines":1,"bbox":[102,446,310,32]}
+{"kind":"textbox","slide":7,"role":"card body","text":"כריתת יערות ופיצול שטחים מקשים על קבוצות למצוא מזון ובני זוג.","textChars":61,"textLines":1,"bbox":[102,490,310,100]}
+{"kind":"textbox","slide":7,"role":"card heading","text":"סכנות נוספות","textChars":12,"textLines":1,"bbox":[492,446,310,32]}
+{"kind":"textbox","slide":7,"role":"card body","text":"ציד, סחר לא חוקי בחיות בר וקונפליקט עם בני אדם.","textChars":47,"textLines":1,"bbox":[492,490,310,100]}
+{"kind":"textbox","slide":7,"role":"card heading","text":"מה עוזר","textChars":7,"textLines":1,"bbox":[882,446,310,32]}
+{"kind":"textbox","slide":7,"role":"card body","text":"שמורות טבע, מסדרונות אקולוגיים, מחקר וחינוך קהילתי.","textChars":51,"textLines":1,"bbox":[882,490,310,100]}
+{"kind":"image","slide":8,"role":"background visual","path":"C:\\Users\\idoit\\Downloads\\spotify_to_ytmusic\\tmp\\slides\\monkeys_hebrew\\pro-reference-images\\slide-08.png","bbox":[0,0,1280,720]}
+{"kind":"textbox","slide":8,"role":"section label","text":"סיכום","textChars":5,"textLines":1,"bbox":[760,23,440,22]}
+{"kind":"textbox","slide":8,"role":"slide number","text":"8 / 8","textChars":5,"textLines":1,"bbox":[58,23,96,22]}
+{"kind":"textbox","slide":8,"role":"title","text":"שלוש נקודות לזכור","textChars":17,"textLines":1,"bbox":[426,96,790,72]}
+{"kind":"textbox","slide":8,"role":"subtitle","text":"קופים הם לא רק חיות חכמות ומצחיקות; הם חלק חשוב ממערכות טבע מורכבות.","textChars":68,"textLines":1,"bbox":[426,178,790,62]}
+{"kind":"textbox","slide":8,"role":"summary number","text":"1","textChars":1,"textLines":1,"bbox":[1062,358,24,22]}
+{"kind":"textbox","slide":8,"role":"summary point","text":"יש קבוצות רבות של קופים, וכל אחת מותאמת לסביבה אחרת.","textChars":52,"textLines":1,"bbox":[236,352,780,42]}
+{"kind":"textbox","slide":8,"role":"summary number","text":"2","textChars":1,"textLines":1,"bbox":[1062,434,24,22]}
+{"kind":"textbox","slide":8,"role":"summary point","text":"חיי חברה, תקשורת ולמידה הם חלק מרכזי בהצלחה שלהם.","textChars":49,"textLines":1,"bbox":[236,428,780,42]}
+{"kind":"textbox","slide":8,"role":"summary number","text":"3","textChars":1,"textLines":1,"bbox":[1062,510,24,22]}
+{"kind":"textbox","slide":8,"role":"summary point","text":"שמירה על בתי גידול מגינה גם על קופים וגם על היערות שבהם הם חיים.","textChars":64,"textLines":1,"bbox":[236,504,780,42]}
+{"kind":"textbox","slide":8,"role":"closing question","text":"שאלה לדיון: איזה קוף הכי מסקרן אתכם לחקור?","textChars":42,"textLines":1,"bbox":[260,628,760,26]}
