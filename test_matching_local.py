@@ -72,8 +72,8 @@ class OfflineTests(unittest.TestCase):
                 result = evaluate(target=raw(artist="Unknown", duration=duration))
                 self.assertEqual(result["strict_accepted"], expected)
 
-    def test_matching_artist_allows_far_or_missing_duration(self):
-        for duration in (900, None, 0):
+    def test_matching_artist_allows_modest_or_missing_duration(self):
+        for duration in (190, None, 0):
             self.assertTrue(evaluate(target=raw(duration=duration))["strict_accepted"])
 
     def test_missing_and_zero_duration_do_not_match_unknown_artist(self):
@@ -107,20 +107,121 @@ class OfflineTests(unittest.TestCase):
     def test_artist_containment_both_directions(self):
         for source, target in (("First Artist", "First Artist Official"), ("First Artist", "Artist")):
             with self.subTest(source=source, target=target):
-                self.assertTrue(evaluate(track(artist=source), raw(artist=target, duration=900))["strict_accepted"])
+                self.assertTrue(evaluate(track(artist=source), raw(artist=target, duration=190))["strict_accepted"])
 
     def test_artist_boundaries(self):
-        self.assertFalse(evaluate(track(artist="Art"), raw(artist="Artist", duration=900))["strict_accepted"])
+        self.assertFalse(evaluate(track(artist="Art"), raw(artist="Artist", duration=190))["strict_accepted"])
 
     def test_artist_from_title_or_channel(self):
-        title_result = evaluate(target=raw("First Artist - Song Name", "Unknown", 900))
+        title_result = evaluate(target=raw("First Artist - Song Name", "Unknown", 190))
         self.assertTrue(title_result["strict_accepted"])
-        target = raw(artist="Unknown", duration=900)
+        target = raw(artist="Unknown", duration=190)
         target["author"] = "First Artist Official"
         self.assertTrue(evaluate(target=target)["strict_accepted"])
 
     def test_any_spotify_artist_can_match(self):
-        self.assertTrue(evaluate(track(artist="Other;First Artist"), raw(duration=900))["strict_accepted"])
+        self.assertTrue(evaluate(track(artist="Other;First Artist"), raw(duration=190))["strict_accepted"])
+
+    def test_million_dollar_spelling_and_artist_aliases(self):
+        source = track("מליון דולר", "Tuna", 173660)
+        client = self.fake_search([
+            raw("מיליון דולר", "Noa Kirel", 174, "other_artist"),
+            raw("מיליון דולר", "טונה", 174, "tuna"),
+        ])
+        with patch.object(app, "AI_MATCH_ENABLED", True), patch.object(app, "run_lm_studio_json_prompt") as ai:
+            result = app.match_track(client, source)
+        ai.assert_not_called()
+        self.assertEqual(result["youtube"]["videoId"], "tuna")
+        self.assertEqual(result["scores"]["duration_delta_ms"], 340)
+        self.assertEqual(result["search"]["ai"]["status"], "skipped_full_match")
+        self.assertTrue(result["decision"]["checks"]["title_match"])
+        self.assertTrue(result["decision"]["checks"]["artist_match"])
+
+    def test_extra_words_raise_warning_without_discarding_metadata(self):
+        result = evaluate(target=raw("First Artist - Song Name Revisited"))
+        self.assertTrue(result["metadata_match"])
+        self.assertFalse(result["strict_accepted"])
+        self.assertEqual(result["extra_title_words"], ["revisited"])
+        self.assertEqual(result["red_flags"], ["extra_title_words"])
+
+    def test_bracketed_annotations_do_not_raise_extra_word_warning(self):
+        result = evaluate(target=raw("First Artist-Song Name (feat. Another Artist) [bonus notes]"))
+        self.assertEqual(result["extra_title_words"], [])
+        self.assertTrue(result["strict_accepted"])
+
+    def test_nested_brackets_are_ignored_only_for_extra_words(self):
+        result = evaluate(target=raw("Song Name (additional [nested] description)"))
+        self.assertEqual(result["extra_title_words"], [])
+        self.assertTrue(result["strict_accepted"])
+        live = evaluate(target=raw("Song Name (Live)"))
+        self.assertEqual(live["extra_title_words"], [])
+        self.assertFalse(live["hard_allowed"])
+
+    def test_repeated_extra_title_words_are_detected(self):
+        self.assertEqual(evaluate(target=raw("Song Name Song"))["extra_title_words"], ["song"])
+
+    def test_artist_prefix_with_no_space_does_not_count_as_song_title(self):
+        result = evaluate(track("ננח", "ננח קלאסי", 141686), raw(
+            "ננח קלאסי- פלקסים בימית2000", "classy nanach", 218,
+        ))
+        self.assertFalse(result["checks"]["title_match"])
+        self.assertFalse(result["strict_accepted"])
+
+    def test_relative_duration_guard_in_both_directions_and_at_boundary(self):
+        for duration, allowed in ((80, False), (80.001, True), (79.999, False),
+                                  (120, False), (119.999, True), (120.001, False)):
+            with self.subTest(duration=duration):
+                result = evaluate(track(duration=100000), raw(duration=duration))
+                self.assertEqual(result["hard_allowed"], allowed)
+                self.assertEqual(result["strict_accepted"], allowed)
+
+    def test_ai_cannot_override_relative_duration_guard(self):
+        response = {"decision": "match", "videoId": "candidate", "reason": "same title"}
+        with patch.object(app, "AI_MATCH_ENABLED", True), patch.object(
+            app, "run_lm_studio_json_prompt", return_value=(response, None),
+        ) as ai:
+            result = app.match_track(self.fake_search([raw(duration=250)]), track())
+        ai.assert_called_once()
+        self.assertEqual(result["decision"]["status"], "no_match")
+        self.assertEqual(result["search"]["ai"]["status"], "invalid_selection")
+        self.assertFalse(result["search"]["checked_candidates"][0]["final_accepted"])
+
+    def test_hebrew_live_studio_annotation_is_a_hard_rejection(self):
+        result = evaluate(target=raw("Song Name (חי באולפן גלגלצ)"))
+        self.assertFalse(result["checks"]["version_allowed"])
+        self.assertFalse(result["hard_allowed"])
+
+    def test_clear_match_does_not_request_an_ai_decision(self):
+        output = io.StringIO()
+        with patch.object(app, "AI_MATCH_ENABLED", True), patch.object(app, "run_lm_studio_json_prompt") as ai, contextlib.redirect_stdout(output):
+            result = app.match_track(self.fake_search([raw()]), track())
+        ai.assert_not_called()
+        self.assertEqual(result["decision"]["notes"], "selected_by_rules")
+        self.assertIn("AI not needed", output.getvalue())
+        self.assertNotIn("AI: finished", output.getvalue())
+
+    def test_ai_none_is_final_for_flagged_title(self):
+        response = {"decision": "none", "videoId": None, "reason": "different version"}
+        with patch.object(app, "AI_MATCH_ENABLED", True), patch.object(
+            app, "run_lm_studio_json_prompt", return_value=(response, None),
+        ) as ai:
+            result = app.match_track(self.fake_search([raw("Song Name Revisited")]), track())
+        ai.assert_called_once()
+        self.assertEqual(result["decision"]["status"], "no_match")
+        self.assertIsNone(result["youtube"]["videoId"])
+        self.assertEqual(result["decision"]["notes"], "ai_returned_none")
+        item = result["search"]["checked_candidates"][0]
+        self.assertTrue(item["evaluation"]["metadata_match"])
+        self.assertFalse(item["final_accepted"])
+        prompt = json.loads(ai.call_args.args[0])
+        self.assertEqual(prompt["candidates"][0]["extra_title_words"], ["revisited"])
+
+    def test_search_query_combines_artist_and_song_with_one_space(self):
+        source = track("  כנפיים  ", "  Tuna  ")
+        self.assertEqual(app.build_queries(source), ["Tuna כנפיים"])
+        client = self.fake_search()
+        app.match_track(client, source)
+        self.assertEqual([call.args[0] for call in client.search.call_args_list], ["Tuna כנפיים"] * 2)
 
     def test_versions_are_checked_separately(self):
         for source, target, expected in (
@@ -131,7 +232,7 @@ class OfflineTests(unittest.TestCase):
             ("Song Name Live", "Song Name Live Remix", False),
             ("Song Name Live", "Song Name Live", True),
             ("Song Name Remix", "Song Name Remix", True),
-            ("Song Name", "Song Name Alive", True),
+            ("Song Name", "Song Name Alive", False),
             ("Song Name", "Song Name - רמיקס", False),
             ("Song Name", "Song Name בהופעה חיה", False),
         ):
@@ -139,8 +240,8 @@ class OfflineTests(unittest.TestCase):
                 self.assertEqual(evaluate(track(source), raw(target))["strict_accepted"], expected)
 
     def test_hebrew_and_unicode_names(self):
-        self.assertTrue(evaluate(track("שיר אהבה", "אמן"), raw("אמן — שיר אהבה (Official Audio)", "אחר", 900))["strict_accepted"])
-        self.assertTrue(evaluate(track("Déjà Vu", "Beyoncé"), raw("DEJA VU", "Beyonce", 900))["strict_accepted"])
+        self.assertTrue(evaluate(track("שיר אהבה", "אמן"), raw("אמן — שיר אהבה (Official Audio)", "אחר", 190))["strict_accepted"])
+        self.assertTrue(evaluate(track("Déjà Vu", "Beyoncé"), raw("DEJA VU", "Beyonce", 190))["strict_accepted"])
 
     def test_next_candidate_after_rejection_and_complete_log(self):
         client = self.fake_search(
@@ -158,6 +259,33 @@ class OfflineTests(unittest.TestCase):
         result = app.match_track(self.fake_search([raw("Wrong")], [raw(video_id="video")]), track())
         self.assertEqual(result["youtube"]["type"], "video")
 
+    def test_oversized_search_batches_are_capped_before_evaluation_and_ai(self):
+        client = self.fake_search(
+            [raw("Song Name Bonus", video_id=f"song_{index}") for index in range(20)],
+            [raw("Song Name Bonus", video_id=f"video_{index}") for index in range(20)],
+        )
+        response = {"decision": "none", "videoId": None, "reason": "no preference"}
+        with patch.object(app, "AI_MATCH_ENABLED", True), patch.object(
+            app, "run_lm_studio_json_prompt", return_value=(response, None),
+        ) as ai:
+            result = app.match_track(client, track())
+        expected_ids = ["song_0", "song_1", "song_2", "video_0", "video_1", "video_2"]
+        checked = result["search"]["checked_candidates"]
+        self.assertEqual([item["candidate"]["videoId"] for item in checked], expected_ids)
+        prompt = json.loads(ai.call_args.args[0])
+        self.assertEqual([item["videoId"] for item in prompt["candidates"]], expected_ids)
+        self.assertEqual(client.search.call_count, 2)
+        self.assertTrue(all(call.kwargs["limit"] == 3 for call in client.search.call_args_list))
+
+    def test_fourth_result_cannot_be_selected(self):
+        client = self.fake_search(
+            [raw("Wrong", video_id=f"wrong_{index}") for index in range(3)]
+            + [raw(video_id="fourth_match")],
+        )
+        result = app.match_track(client, track())
+        self.assertEqual(result["decision"]["status"], "no_match")
+        self.assertEqual(len(result["search"]["checked_candidates"]), 3)
+
     def test_empty_search(self):
         result = app.match_track(self.fake_search(), track())
         self.assertEqual(result["decision"]["status"], "no_match")
@@ -171,7 +299,7 @@ class OfflineTests(unittest.TestCase):
         self.assertEqual(result["search"]["errors"][0]["stage"], "songs")
 
     def test_ai_uses_existing_candidates_without_research(self):
-        client = self.fake_search([raw(video_id="first"), raw(video_id="second")])
+        client = self.fake_search([raw("Song Name Bonus", video_id="first"), raw("Song Name Bonus", video_id="second")])
         response = {"decision": "match", "videoId": "second", "reason": "same recording"}
         with patch.object(app, "AI_MATCH_ENABLED", True), patch.object(
             app, "run_lm_studio_json_prompt", return_value=(response, None),
@@ -180,11 +308,11 @@ class OfflineTests(unittest.TestCase):
         self.assertEqual(client.search.call_count, 2)
         self.assertEqual(result["youtube"]["videoId"], "second")
         prompt, model = ai.call_args.args
-        self.assertEqual(model, "qwen/qwen3.8-27b")
+        self.assertEqual(model, "qwen/qwen3.5-9b")
         self.assertEqual(len(json.loads(prompt)["candidates"]), 2)
         self.assertEqual(result["search"]["checked_candidates"][1]["ai_candidate_decision"], "chosen")
 
-    def test_invalid_ai_selection_none_or_outage_falls_back(self):
+    def test_invalid_ai_selection_none_or_outage_never_falls_back(self):
         for response, error in (
             ({"decision": "match", "videoId": "bad", "reason": "wrong"}, None),
             ({"decision": "match", "videoId": "invented", "reason": "wrong"}, None),
@@ -194,15 +322,80 @@ class OfflineTests(unittest.TestCase):
             with self.subTest(response=response, error=error), patch.object(app, "AI_MATCH_ENABLED", True), patch.object(
                 app, "run_lm_studio_json_prompt", return_value=(response, error),
             ):
-                result = app.match_track(self.fake_search([raw("Wrong", video_id="bad"), raw(video_id="good")]), track())
-                self.assertEqual(result["youtube"]["videoId"], "good")
+                result = app.match_track(self.fake_search([
+                    raw("Song Name Live", video_id="bad"), raw("Song Name Bonus", video_id="good"),
+                ]), track())
+                self.assertEqual(result["decision"]["status"], "no_match")
+                self.assertIsNone(result["youtube"]["videoId"])
                 self.assertEqual(result["search"]["ai"]["response"], response)
 
-    def test_ai_not_called_without_eligible_candidates(self):
-        with patch.object(app, "AI_MATCH_ENABLED", True), patch.object(app, "run_lm_studio_json_prompt") as ai:
+    def test_ai_reviews_candidates_even_when_all_fail_rules(self):
+        response = {"decision": "none", "videoId": None, "reason": "wrong version"}
+        with patch.object(app, "AI_MATCH_ENABLED", True), patch.object(
+            app, "run_lm_studio_json_prompt", return_value=(response, None),
+        ) as ai:
             result = app.match_track(self.fake_search([raw("Song Name Remix")]), track())
+            ai.assert_called_once()
+            self.assertEqual(result["search"]["ai"]["status"], "reviewed")
+            self.assertEqual(result["search"]["ai"]["mode"], "rescue")
+            self.assertEqual(result["decision"]["status"], "no_match")
+
+    def test_ai_rescues_transliterated_title_and_report_records_acceptance(self):
+        source = track("כנפיים", "Tuna")
+        response = {"decision": "match", "videoId": "transliterated", "reason": "same title in transliteration"}
+        with patch.object(app, "AI_MATCH_ENABLED", True), patch.object(
+            app, "run_lm_studio_json_prompt", return_value=(response, None),
+        ) as ai:
+            result = app.match_track(self.fake_search([raw("Knafaim", "Tuna", video_id="transliterated")]), source)
+        ai.assert_called_once()
+        item = result["search"]["checked_candidates"][0]
+        self.assertFalse(item["evaluation"]["strict_accepted"])
+        self.assertFalse(item["evaluation"]["checks"]["title_match"])
+        self.assertTrue(item["accepted_by_ai"])
+        self.assertTrue(item["final_accepted"])
+        self.assertEqual(result["decision"]["status"], "matched")
+        self.assertEqual(result["decision"]["notes"], "selected_by_ai_rescue")
+        with tempfile.TemporaryDirectory(dir=ROOT / "tmp") as temporary:
+            destination = Path(temporary) / "rescued.xlsx"
+            app.export_excel_report([{"spotify": source, **result}], destination)
+            workbook = load_workbook(destination)
+            try:
+                self.assertEqual(workbook.worksheets[1]["P2"].value, "accepted")
+                self.assertFalse(workbook.worksheets[1]["M2"].value)
+                self.assertIn("ai_confirmed_same_recording", workbook.worksheets[1]["Q2"].value)
+                self.assertIn("ai_confirmed_same_recording", workbook.worksheets[0]["Q2"].value)
+            finally:
+                workbook.close()
+
+    def test_ai_cannot_override_version_restrictions_in_rescue(self):
+        for version in ("Live", "Remix"):
+            response = {"decision": "match", "videoId": "bad", "reason": "same title"}
+            with self.subTest(version=version), patch.object(app, "AI_MATCH_ENABLED", True), patch.object(
+                app, "run_lm_studio_json_prompt", return_value=(response, None),
+            ) as ai:
+                result = app.match_track(self.fake_search([raw(f"Song Name {version}", video_id="bad")]), track())
+                ai.assert_called_once()
+                self.assertEqual(result["decision"]["status"], "no_match")
+                self.assertEqual(result["search"]["ai"]["status"], "invalid_selection")
+
+    def test_empty_search_has_no_candidates_to_send_to_ai(self):
+        with patch.object(app, "AI_MATCH_ENABLED", True), patch.object(app, "run_lm_studio_json_prompt") as ai:
+            result = app.match_track(self.fake_search(), track())
             ai.assert_not_called()
-            self.assertEqual(result["search"]["ai"]["status"], "skipped_no_eligible_candidates")
+            self.assertEqual(result["search"]["ai"]["status"], "skipped_no_candidates")
+
+    def test_failed_ai_rescue_does_not_accept_rejected_candidates(self):
+        for response, error in (
+            ({"decision": "none", "videoId": None, "reason": "uncertain"}, None),
+            ({"decision": "match", "videoId": "not_in_search", "reason": "invented"}, None),
+            (None, "timeout"),
+        ):
+            with self.subTest(response=response), patch.object(app, "AI_MATCH_ENABLED", True), patch.object(
+                app, "run_lm_studio_json_prompt", return_value=(response, error),
+            ) as ai:
+                result = app.match_track(self.fake_search([raw("Other title")]), track())
+                ai.assert_called_once()
+                self.assertEqual(result["decision"]["status"], "no_match")
 
     def mock_response(self, message, finish_reason="stop"):
         response = Mock()
@@ -336,6 +529,35 @@ class OfflineTests(unittest.TestCase):
                 with self.assertRaises(PermissionError):
                     app.main()
                 client.assert_not_called()
+
+    def test_main_never_adds_after_ai_returns_none(self):
+        with tempfile.TemporaryDirectory(dir=ROOT / "tmp") as temporary:
+            directory = Path(temporary)
+            csv_path = directory / "synthetic.csv"
+            with csv_path.open("w", encoding="utf-8", newline="") as stream:
+                writer = csv.DictWriter(stream, fieldnames=["Track Name", "Artist Name(s)", "Duration (ms)"])
+                writer.writeheader()
+                writer.writerow({"Track Name": "Song Name", "Artist Name(s)": "First Artist", "Duration (ms)": 180000})
+            oauth_path = directory / "fake_oauth.json"
+            oauth_path.write_text("{}", encoding="utf-8")
+            client = self.fake_search([raw("Song Name Revisited")])
+            response = {"decision": "none", "videoId": None, "reason": "different recording"}
+            with patch.multiple(app, CSV_FILE=str(csv_path), OAUTH_FILE=str(oauth_path),
+                                MATCH_FIXED_JSON=str(directory / "missing.json"),
+                                MATCH_RESULTS_JSON=str(directory / "results.json"),
+                                MATCH_RESULTS_XLSX=str(directory / "report.xlsx"), AI_MATCH_ENABLED=True), patch.object(
+                app, "YTMusic", return_value=client,
+            ), patch.object(app, "remove_all_from_playlist", return_value=0), patch.object(
+                app, "add_to_playlist_with_retry",
+            ) as adding, patch.object(app, "run_lm_studio_json_prompt", return_value=(response, None)) as ai, patch.object(
+                app.time, "sleep",
+            ), contextlib.redirect_stdout(io.StringIO()):
+                app.main()
+            ai.assert_called_once()
+            adding.assert_not_called()
+            rows = json.loads((directory / "results.json").read_text(encoding="utf-8"))
+            self.assertEqual(rows[0]["decision"]["status"], "no_match")
+            self.assertEqual(rows[0]["addition_status"], "not_attempted")
 
     def test_import_does_not_run_main(self):
         self.assertTrue(callable(app.main))
