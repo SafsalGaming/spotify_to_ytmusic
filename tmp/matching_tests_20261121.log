@@ -1,0 +1,411 @@
+  Searching once: First Artist Song Name
+  Found 1 song/video candidates in 0.0s
+  REJECTED [song #1]: duration_gap_at_least_20_percent
+  Checked 1 candidates; 0 eligible
+  REJECTED [song #1] Song Name: duration_gap_at_least_20_percent
+  Searching once: Tuna ╫¢╫á╫ñ╫Ö╫Ö╫¥
+  Found 1 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: knafaim
+  Checked 1 candidates; 0 eligible
+  REJECTED [song #1] Knafaim: extra_title_words:knafaim; title_mismatch
+  Searching once: First Artist Song Name
+  Found 1 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: live
+  REJECTED [song #1]: version_not_in_spotify:live
+  Checked 1 candidates; 0 eligible
+  REJECTED [song #1] Song Name Live: version_not_in_spotify:live
+  Searching once: First Artist Song Name
+  Found 1 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: remix
+  REJECTED [song #1]: version_not_in_spotify:remix
+  Checked 1 candidates; 0 eligible
+  REJECTED [song #1] Song Name Remix: version_not_in_spotify:remix
+  Searching once: First Artist Song Name
+  Found 1 song/video candidates in 0.0s
+  Checked 1 candidates; 0 eligible
+  AI: waiting for qwen/qwen3.5-9b (1 candidates; timeout=90s)...
+  AI: finished in 0.0s; none
+  REJECTED [song #1] Song Name: neither_artist_nor_duration_matches; ai: different version
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: completely, different
+  Checked 2 candidates; 0 eligible
+  AI: waiting for qwen/qwen3.5-9b (2 candidates; timeout=90s)...
+  AI: finished in 0.0s; match
+  REJECTED [song #1] Completely Different: extra_title_words:completely,different; title_mismatch; ai: same recording
+  REJECTED [video #1] Song Name: neither_artist_nor_duration_matches; ai: same recording
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: completely, different
+  Checked 2 candidates; 0 eligible
+  AI: waiting for qwen/qwen3.5-9b (2 candidates; timeout=90s)...
+  AI: finished in 0.0s; match
+  REJECTED [song #1] Completely Different: extra_title_words:completely,different; title_mismatch; ai: same recording
+  SELECTED [video #1] Song Name: ai_confirmed_same_recording: same recording
+  Searching once: First Artist Song Name
+  Found 1 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: remix
+  REJECTED [song #1]: version_not_in_spotify:remix
+  Checked 1 candidates; 0 eligible
+  REJECTED [song #1] Song Name Remix: version_not_in_spotify:remix
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  Checked 2 candidates; 0 eligible
+  AI: waiting for qwen/qwen3.5-9b (2 candidates; timeout=90s)...
+  AI: finished in 0.0s; match
+  REJECTED [song #1] Song Name: neither_artist_nor_duration_matches; ai: same recording
+  SELECTED [video #1] Song Name: ai_confirmed_same_recording: same recording
+  Searching once: First Artist Song Name
+  Found 40 song/video candidates in 0.0s
+  Checked 40 candidates; 0 eligible
+  AI: waiting for qwen/qwen3.5-9b (40 candidates; timeout=90s)...
+  AI: finished in 0.0s; none
+  REJECTED [song #1] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #2] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #3] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #4] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #5] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #6] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #7] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #8] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #9] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #10] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #11] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #12] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #13] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #14] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #15] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #16] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #17] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #18] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #19] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [song #20] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #1] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #2] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #3] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #4] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #5] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #6] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #7] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #8] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #9] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #10] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #11] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #12] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #13] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #14] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #15] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #16] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #17] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #18] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #19] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  REJECTED [video #20] Song Name: neither_artist_nor_duration_matches; ai: no preference
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  Checked 2 candidates; 2 eligible
+  Match: accepted by metadata rules; AI not needed
+  ELIGIBLE_NOT_SELECTED [song #1] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; lower_ranked_by_artist_duration_title
+  SELECTED [video #1] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  Checked 2 candidates; 2 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [song #1] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  ELIGIBLE_NOT_SELECTED [video #1] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; lower_ranked_by_artist_duration_title
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  Checked 2 candidates; 2 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [song #1] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  ELIGIBLE_NOT_SELECTED [video #1] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; lower_ranked_by_artist_duration_title
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  Checked 2 candidates; 2 eligible
+  Match: accepted by metadata rules; AI not needed
+  ELIGIBLE_NOT_SELECTED [song #1] Song Name: version_allowed; title_match; artist_match; duration_allowed; title_has_no_extra_words; lower_ranked_by_artist_duration_title
+  SELECTED [video #1] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: Ravid Plotnik ╫Ö╫ò╫¥ ╫ù╫ô╫⌐
+  Found 2 song/video candidates in 0.0s
+  Checked 2 candidates; 2 eligible
+  Match: accepted by metadata rules; AI not needed
+  ELIGIBLE_NOT_SELECTED [song #1] ╫Ö╫ò╫¥ ╫ù╫ô╫⌐: version_allowed; title_match; duration_match; duration_allowed; title_has_no_extra_words; lower_ranked_by_artist_duration_title
+  SELECTED [video #1] ╫Ö╫ò╫¥ ╫ù╫ô╫⌐: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: First Artist First Song
+  Found 1 song/video candidates in 0.0s
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [song #1] First Song: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: First Artist Second Song
+  Found 1 song/video candidates in 0.0s
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [song #1] Second Song: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  WARNING [video #1]: extra title words outside brackets: nme
+  Checked 2 candidates; 2 eligible
+  Match: accepted by metadata rules; AI not needed
+  ELIGIBLE_NOT_SELECTED [song #1] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; lower_ranked_by_artist_duration_title
+  SELECTED [video #1] Song Nme: version_allowed; title_match; artist_match; duration_match; duration_allowed; selected_by_artist_duration_title
+  Searching once: First Artist Song Name
+  Found 0 song/video candidates in 0.0s
+  Checked 0 candidates; 0 eligible
+  Searching once: First Artist Song Name
+  Found 0 song/video candidates in 0.0s
+  Checked 0 candidates; 0 eligible
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: nme
+  Checked 2 candidates; 2 eligible
+  Match: accepted by metadata rules; AI not needed
+  ELIGIBLE_NOT_SELECTED [song #1] Song Nme: version_allowed; title_match; artist_match; duration_match; duration_allowed; lower_ranked_by_artist_duration_title
+  SELECTED [video #1] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: remix
+  REJECTED [song #1]: version_not_in_spotify:remix
+  Checked 2 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  REJECTED [song #1] Song Name Remix: version_not_in_spotify:remix
+  SELECTED [song #2] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: First Artist Song Name
+  Found 1 song/video candidates in 0.0s
+  Checked 1 candidates; 0 eligible
+  AI: waiting for qwen/qwen3.5-9b (1 candidates; timeout=90s)...
+  AI: finished in 0.0s; none
+  REJECTED [song #1] Song Name: neither_artist_nor_duration_matches; ai: uncertain
+  Searching once: First Artist Song Name
+  Found 1 song/video candidates in 0.0s
+  Checked 1 candidates; 0 eligible
+  AI: waiting for qwen/qwen3.5-9b (1 candidates; timeout=90s)...
+  AI: finished in 0.0s; match
+  REJECTED [song #1] Song Name: neither_artist_nor_duration_matches; ai: invented
+  Searching once: First Artist Song Name
+  Found 1 song/video candidates in 0.0s
+  Checked 1 candidates; 0 eligible
+  AI: waiting for qwen/qwen3.5-9b (1 candidates; timeout=90s)...
+  AI: finished in 0.0s; error: timeout
+  REJECTED [song #1] Song Name: neither_artist_nor_duration_matches; ai: timeout
+  Searching once: First Artist Song Name
+  Found 4 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: wrong
+  WARNING [song #2]: extra title words outside brackets: wrong
+  WARNING [song #3]: extra title words outside brackets: wrong
+  Checked 4 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  REJECTED [song #1] Wrong: extra_title_words:wrong; title_mismatch
+  REJECTED [song #2] Wrong: extra_title_words:wrong; title_mismatch
+  REJECTED [song #3] Wrong: extra_title_words:wrong; title_mismatch
+  SELECTED [song #4] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: Ravid Plotnik Song Name
+  Found 1 song/video candidates in 0.0s
+  Artist [video #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  WARNING [video #1]: extra title words outside brackets: nme
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [video #1] ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º - Song Nme: version_allowed; title_match; artist_match; duration_allowed; selected_by_artist_duration_title
+  Searching once: Ravid Plotnik A Brand New Day
+  Found 1 song/video candidates in 0.0s
+  Artist [video #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [video #1] ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º - Brand New Day: version_allowed; title_match; artist_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: Ravid Plotnik Song Name
+  Found 1 song/video candidates in 0.0s
+  Artist [video #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  WARNING [video #1]: extra title words outside brackets: nme
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [video #1] ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º Song Nme: version_allowed; title_match; artist_match; duration_allowed; selected_by_artist_duration_title
+  Searching once: Ravid Plotnik A Brand New Day
+  Found 1 song/video candidates in 0.0s
+  Artist [video #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [video #1] ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º Brand New Day: version_allowed; title_match; artist_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: Ravid Plotnik Song Name
+  Found 1 song/video candidates in 0.0s
+  Artist [video #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  WARNING [video #1]: extra title words outside brackets: nme
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [video #1] ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º | Song Nme: version_allowed; title_match; artist_match; duration_allowed; selected_by_artist_duration_title
+  Searching once: Ravid Plotnik A Brand New Day
+  Found 1 song/video candidates in 0.0s
+  Artist [video #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [video #1] ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º | Brand New Day: version_allowed; title_match; artist_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º Song Name
+  Found 1 song/video candidates in 0.0s
+  Artist [video #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  WARNING [video #1]: extra title words outside brackets: nme
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [video #1] Ravid Plotnik - Song Nme: version_allowed; title_match; artist_match; duration_allowed; selected_by_artist_duration_title
+  Searching once: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º A Brand New Day
+  Found 1 song/video candidates in 0.0s
+  Artist [video #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [video #1] Ravid Plotnik - Brand New Day: version_allowed; title_match; artist_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º Song Name
+  Found 1 song/video candidates in 0.0s
+  Artist [video #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  WARNING [video #1]: extra title words outside brackets: nme
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [video #1] Ravid Plotnik Song Nme: version_allowed; title_match; artist_match; duration_allowed; selected_by_artist_duration_title
+  Searching once: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º A Brand New Day
+  Found 1 song/video candidates in 0.0s
+  Artist [video #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [video #1] Ravid Plotnik Brand New Day: version_allowed; title_match; artist_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º Song Name
+  Found 1 song/video candidates in 0.0s
+  Artist [video #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  WARNING [video #1]: extra title words outside brackets: nme
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [video #1] Ravid Plotnik | Song Nme: version_allowed; title_match; artist_match; duration_allowed; selected_by_artist_duration_title
+  Searching once: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º A Brand New Day
+  Found 1 song/video candidates in 0.0s
+  Artist [video #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [video #1] Ravid Plotnik | Brand New Day: version_allowed; title_match; artist_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: First Artist Song Name
+  Found 1 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: nme
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [song #1] Song Nme: version_allowed; title_match; artist_match; duration_match; duration_allowed; selected_by_artist_duration_title
+  Searching once: First Artist Love Story
+  Found 1 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: stroy
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [song #1] Love Stroy: version_allowed; title_match; artist_match; duration_match; duration_allowed; selected_by_artist_duration_title
+  Searching once: First Artist A Brand New Day
+  Found 1 song/video candidates in 0.0s
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [song #1] Brand New Day: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: First Artist ╫Ö╫ò╫¥ ╫ù╫ô╫⌐
+  Found 1 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: ╫ù╫ô
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [song #1] ╫Ö╫ò╫¥ ╫ù╫ô: version_allowed; title_match; artist_match; duration_match; duration_allowed; selected_by_artist_duration_title
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: live
+  REJECTED [song #1]: version_not_in_spotify:live
+  Checked 2 candidates; 0 eligible
+  AI: waiting for qwen/qwen3.5-9b (2 candidates; timeout=90s)...
+  AI: finished in 0.0s; match
+  REJECTED [song #1] Song Name Live: version_not_in_spotify:live; ai: wrong
+  REJECTED [song #2] Song Name: neither_artist_nor_duration_matches; ai: wrong
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: live
+  REJECTED [song #1]: version_not_in_spotify:live
+  Checked 2 candidates; 0 eligible
+  AI: waiting for qwen/qwen3.5-9b (2 candidates; timeout=90s)...
+  AI: finished in 0.0s; match
+  REJECTED [song #1] Song Name Live: version_not_in_spotify:live; ai: wrong
+  REJECTED [song #2] Song Name: neither_artist_nor_duration_matches; ai: wrong
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: live
+  REJECTED [song #1]: version_not_in_spotify:live
+  Checked 2 candidates; 0 eligible
+  AI: waiting for qwen/qwen3.5-9b (2 candidates; timeout=90s)...
+  AI: finished in 0.0s; none
+  REJECTED [song #1] Song Name Live: version_not_in_spotify:live; ai: uncertain
+  REJECTED [song #2] Song Name: neither_artist_nor_duration_matches; ai: uncertain
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: live
+  REJECTED [song #1]: version_not_in_spotify:live
+  Checked 2 candidates; 0 eligible
+  AI: waiting for qwen/qwen3.5-9b (2 candidates; timeout=90s)...
+  AI: finished in 0.0s; error: offline
+  REJECTED [song #1] Song Name Live: version_not_in_spotify:live; ai: offline
+  REJECTED [song #2] Song Name: neither_artist_nor_duration_matches; ai: offline
+  Searching once: First Artist Song Name
+  Found 3 song/video candidates in 0.0s
+  Checked 3 candidates; 3 eligible
+  Match: accepted by metadata rules; AI not needed
+  ELIGIBLE_NOT_SELECTED [song #1] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; lower_ranked_by_artist_duration_title
+  SELECTED [song #2] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  ELIGIBLE_NOT_SELECTED [song #3] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; lower_ranked_by_artist_duration_title
+  Searching once: Tuna ╫₧╫£╫Ö╫ò╫ƒ ╫ô╫ò╫£╫¿
+  Found 2 song/video candidates in 0.0s
+  Artist [song #2]: tuna = tuna (translit-me (local))
+  Checked 2 candidates; 2 eligible
+  Match: accepted by metadata rules; AI not needed
+  ELIGIBLE_NOT_SELECTED [song #1] ╫₧╫Ö╫£╫Ö╫ò╫ƒ ╫ô╫ò╫£╫¿: version_allowed; title_match; duration_match; duration_allowed; title_has_no_extra_words; lower_ranked_by_artist_duration_title
+  SELECTED [song #2] ╫₧╫Ö╫£╫Ö╫ò╫ƒ ╫ô╫ò╫£╫¿: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: First Artist Song Name
+  Found 4 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: remix
+  REJECTED [song #1]: version_not_in_spotify:remix
+  WARNING [song #3]: extra title words outside brackets: wrong
+  WARNING [video #1]: extra title words outside brackets: live
+  REJECTED [video #1]: version_not_in_spotify:live
+  Checked 4 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  REJECTED [song #1] Song Name Remix: version_not_in_spotify:remix
+  SELECTED [song #2] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  REJECTED [song #3] Wrong: extra_title_words:wrong; title_mismatch
+  REJECTED [video #1] Song Name Live: version_not_in_spotify:live
+  Searching once: First Artist Song Name
+  Search failed: search failed
+  Found 0 song/video candidates in 0.0s
+  Checked 0 candidates; 0 eligible
+  Searching once: Tuna ╫¢╫á╫ñ╫Ö╫Ö╫¥
+  Found 0 song/video candidates in 0.0s
+  Checked 0 candidates; 0 eligible
+  Searching once: Ravid Plotnik ╫Ö╫ò╫¥ ╫ù╫ô╫⌐
+  Found 1 song/video candidates in 0.0s
+  Artist [song #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [song #1] ╫Ö╫ò╫¥ ╫ù╫ô╫⌐: version_allowed; title_match; artist_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: Ravid Plotnik ╫Ö╫ò╫¥ ╫ù╫ô╫⌐
+  Found 1 song/video candidates in 0.0s
+  Artist [song #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [song #1] ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º - ╫Ö╫ò╫¥ ╫ù╫ô╫⌐: version_allowed; title_match; artist_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º ╫Ö╫ò╫¥ ╫ù╫ô╫⌐
+  Found 1 song/video candidates in 0.0s
+  Artist [song #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [song #1] ╫Ö╫ò╫¥ ╫ù╫ô╫⌐: version_allowed; title_match; artist_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º ╫Ö╫ò╫¥ ╫ù╫ô╫⌐
+  Found 1 song/video candidates in 0.0s
+  Artist [song #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [song #1] Ravid Plotnik - ╫Ö╫ò╫¥ ╫ù╫ô╫⌐: version_allowed; title_match; artist_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: Other Artist Song Name
+  Found 1 song/video candidates in 0.0s
+  Artist [song #1]: ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º = ╫¿╫æ╫Ö╫ô ╫ñ╫£╫ò╫ÿ╫á╫Ö╫º (transliterate)
+  Checked 1 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  SELECTED [song #1] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+  Searching once: First Artist Song Name
+  Found 2 song/video candidates in 0.0s
+  WARNING [song #1]: extra title words outside brackets: wrong
+  Checked 2 candidates; 1 eligible
+  Match: accepted by metadata rules; AI not needed
+  REJECTED [song #1] Wrong: extra_title_words:wrong; title_mismatch
+  SELECTED [video #1] Song Name: version_allowed; title_match; artist_match; duration_match; duration_allowed; title_has_no_extra_words; selected_by_artist_duration_title
+----------------------------------------------------------------------
+Ran 91 tests in 0.965s
+
+OK

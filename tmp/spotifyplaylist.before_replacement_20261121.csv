@@ -1,0 +1,588 @@
+﻿Track URI,ISRC,Track Name,Album Name,Artist Name(s),Release Date,Duration (ms),Popularity,Explicit,Added By,Added At,Genres,Record Label,Danceability,Energy,Key,Loudness,Mode,Speechiness,Acousticness,Instrumentalness,Liveness,Valence,Tempo,Time Signature
+spotify:track:4wHPAjfaek5doKp5cqjp0Z,IL1041904604,"כנפיים","ועכשיו לחלק האינטרגלקטי","Tuna",2019-12-13,333256,42,true,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:03Z,"mizrahi","NaNa Disc",0.6,0.562,2,-7.644,0,0.0903,0.383,0.00000256,0.349,0.182,170.074,4
+spotify:track:2XS3I5zFW2P6hQljCWMhq9,IL1041904606,"עד הבוקר","ועכשיו לחלק האינטרגלקטי","Tuna",2019-12-13,164588,41,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:03Z,"mizrahi","NaNa Disc",0.836,0.59,0,-5.354,0,0.142,0.568,0,0.131,0.849,140.016,4
+spotify:track:4EDb9V5LJMVJ9rJ4uEcNh6,IL1041904607,"מליון דולר","ועכשיו לחלק האינטרגלקטי","Tuna",2019-12-13,173660,30,true,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:03Z,"mizrahi","NaNa Disc",0.638,0.532,7,-8.916,0,0.0708,0.291,0.000058,0.119,0.179,133.942,4
+spotify:track:4i1CimvtkjvjkGyoWViGD1,IL1041904610,"מטאור בסלואו מושן","ועכשיו לחלק האינטרגלקטי","Tuna",2019-12-13,238360,27,true,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:03Z,"mizrahi","NaNa Disc",0.558,0.669,5,-8.116,0,0.0747,0.264,0.0000217,0.148,0.227,140.814,4
+spotify:track:1PG42Xr0amyQvMJbTKErXX,FR2X41960141,"אנרגיה","ועכשיו לחלק האינטרגלקטי","Tuna",2019-12-13,193285,38,true,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:03Z,"mizrahi","NaNa Disc",0.591,0.633,2,-7.469,1,0.0933,0.43,0,0.12,0.791,86.857,4
+spotify:track:6TSK5f1MEzajrowxJeIXVH,IL2991708001,"אבודים בחלל","טונהפארק","Tuna;A-WA",2017-09-07,292173,46,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:05Z,"mizrahi","Anana Ltd.",0.688,0.819,1,-8.827,1,0.0775,0.111,0.0000516,0.101,0.688,89.985,4
+spotify:track:5tZvEaWo4JLyngorI6KfNU,IL2991708002,"גלגל ענק","טונהפארק","Tuna",2017-09-07,296026,40,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:05Z,"mizrahi","Anana Ltd.",0.488,0.792,1,-7.406,1,0.105,0.0439,0,0.616,0.718,175.172,4
+spotify:track:6X3majcvIHPSpcxhBoNrz2,IL2991708003,"קאובוי","טונהפארק","Tuna;Miki Gavrielov",2017-09-07,275520,42,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:05Z,"mizrahi","Anana Ltd.",0.629,0.676,9,-6.636,0,0.118,0.213,0.0000922,0.389,0.417,138.063,4
+spotify:track:5CCxCzPB3HMh595Y1MNIm5,IL2991707001,"סחרחורת","טונהפארק","Tuna",2017-09-07,253853,50,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:05Z,"mizrahi","Anana Ltd.",0.602,0.755,2,-4.901,0,0.0873,0.0905,0,0.68,0.449,92.88,3
+spotify:track:5RnhWaP5VD3eJN3J0chPmh,IL2991708004,"בסיבוב","טונהפארק","Tuna;Tzlil Danin",2017-09-07,313253,52,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:05Z,"mizrahi,tribal house","Anana Ltd.",0.633,0.81,11,-6.819,0,0.0486,0.0997,0.00000191,0.12,0.665,94.009,4
+spotify:track:2PpTUW96jjJYr8ib8RUnUu,IL2991704001,"י'א 2","טונהפארק","Tuna",2017-09-07,176440,50,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:05Z,"mizrahi","Anana Ltd.",0.69,0.689,1,-7.37,1,0.0719,0.781,0.0000039,0.084,0.584,95.019,4
+spotify:track:0tFpgObKdUnoV8r5InU9HC,IL2991708005,"דברים הולכים להשתנות","טונהפארק","Tuna;Ortega",2017-09-07,325346,42,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:05Z,"mizrahi","Anana Ltd.",0.717,0.65,9,-6.824,1,0.0795,0.232,0.00000181,0.271,0.705,91.961,4
+spotify:track:1BqV3QVTZb7VESXXgsClrA,IL2991708006,"יום קיץ","טונהפארק","Tuna;Lukach;Casper;Harel Dahary",2017-09-07,355973,33,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:05Z,"mizrahi","Anana Ltd.",0.582,0.57,11,-9.379,0,0.0691,0.63,0,0.116,0.747,153.907,4
+spotify:track:4hNU4fASpj7U5LknMNjbdD,IL2991708007,"על הרכבת","טונהפארק","Tuna",2017-09-07,287813,39,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:05Z,"mizrahi","Anana Ltd.",0.579,0.669,9,-8.448,0,0.0451,0.394,0.00000549,0.187,0.485,97.051,4
+spotify:track:1vTVrYErMEixGuPZFZGg6C,IL2991599002,"רוק 30","גם זה יעבור","Tuna",2015-08-06,277241,50,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:07Z,"mizrahi","Anana",0.515,0.841,3,-7.014,0,0.192,0.167,0.0000082,0.0768,0.608,86.85,4
+spotify:track:6aszJQcdJFZCaWd1fAGeR4,IL2991599005,"בון וויאג'","גם זה יעבור","Tuna;סול ג'יי;Ortega;Shi 360",2015-08-06,346434,30,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:07Z,"mizrahi,turkish hip hop","Anana",0.279,0.872,11,-6.533,0,0.335,0.122,0,0.141,0.406,164.006,4
+spotify:track:4JmmjsGmOED0sn0Le3r84u,IL2991599007,"עולם משוגע","גם זה יעבור","Tuna;Ravid Plotnik",2015-08-06,355483,53,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:07Z,"mizrahi","Anana",0.569,0.633,1,-8.26,1,0.0965,0.363,0.00155,0.123,0.568,149.904,4
+spotify:track:3VPf0gvHl9CbaN0a1ghzWu,IL2991599008,"שניצלים","גם זה יעבור","Tuna",2015-08-06,224144,39,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:07Z,"mizrahi","Anana",0.363,0.714,4,-5.743,0,0.19,0.195,0,0.184,0.631,75.155,4
+spotify:track:0RuoJzpa9q8RB5FGR1vld2,IL2991599010,"נשאר בחיים - לייב","גם זה יעבור","Tuna",2015-08-06,304196,33,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:07Z,"mizrahi","Anana",0.389,0.878,7,-6.245,1,0.279,0.119,0,0.105,0.388,146.433,4
+spotify:track:3b4QaOcYEHfNcAeDmDi8en,IL1042106212,"אפטרפארק","מזרח פרוע","Tuna",2021-12-17,274010,34,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:01Z,"mizrahi","NaNa Disc",0.371,0.752,6,-7.945,1,0.281,0.298,0,0.343,0.695,160.254,4
+spotify:track:1ZQ29jG01dCtiNfkW1sy72,il5842237114,"לך תביא ת'וויסקי","דירת שותפים","HELEM TARBUT;CHEN PORATI;אנדרדוג;STILLA",2022-07-07,275500,36,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:23Z,"mizrahi","2022 Helem Tarbut Records BY PIL LTD",0.621,0.699,3,-4.994,0,0.243,0.35,0,0.154,0.474,92.043,4
+spotify:track:0j4I450D7jXNbjsgmU9RUc,il5842237115,"גראס","דירת שותפים","HELEM TARBUT;Shreki;CHEN PORATI;אנדרדוג;STILLA",2022-07-07,165750,41,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:23Z,"mizrahi","2022 Helem Tarbut Records BY PIL LTD",0.765,0.751,8,-9.069,1,0.245,0.379,0,0.126,0.607,99.882,4
+spotify:track:4WagRhRbyZW7dRLU6XdEHl,il5842237116,"גריינדר (סקיט)","דירת שותפים","HELEM TARBUT;CHEN PORATI;אנדרדוג;STILLA",2022-07-07,174285,37,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:23Z,"mizrahi","2022 Helem Tarbut Records BY PIL LTD",0.71,0.786,9,-4.973,0,0.235,0.238,0,0.289,0.92,168.038,4
+spotify:track:4mWCua2R1UdJecT3D8Lw4B,il5842237121,"כפיות בכיור","דירת שותפים","HELEM TARBUT;CHEN PORATI;אנדרדוג;STILLA",2022-07-07,304000,26,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:37:23Z,"mizrahi","2022 Helem Tarbut Records BY PIL LTD",0.788,0.487,7,-9.771,1,0.041,0.0814,0,0.177,0.57,120.007,4
+spotify:track:14E0fPijhRbA3mY0Tq96VP,IL4291002215,"שווארמה","ועכשיו לחלק האומנותי","Ravid Plotnik",2019-06-30,230480,46,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:47:53Z,"mizrahi","NaNa Disc",0.344,0.422,0,-10.245,0,0.0495,0.36,0.00000135,0.456,0.522,73.021,4
+spotify:track:3Ov4J4HgpQjH4gly5MaddT,IL4291002218,"אלעד","ועכשיו לחלק האומנותי","Ravid Plotnik",2019-06-30,204400,42,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:48:28Z,"mizrahi","NaNa Disc",0.633,0.5,10,-10.359,0,0.051,0.151,0,0.71,0.881,145.708,4
+spotify:track:1saT4tObMScARIwT4wTv0W,IL4291002221,"נתראה בגלגול הבא","ועכשיו לחלק האומנותי","Ravid Plotnik",2019-06-30,213720,54,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:49:11Z,"mizrahi","NaNa Disc",0.511,0.396,6,-13.945,0,0.0389,0.184,0.51,0.68,0.197,111.506,3
+spotify:track:17CkDrcs82pIYo25VtIlSh,IL4291002224,"נענע","ועכשיו לחלק האומנותי","Ravid Plotnik",2019-06-30,320333,44,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:49:44Z,"mizrahi","NaNa Disc",0.709,0.337,7,-13.14,1,0.176,0.447,0.000162,0.846,0.371,68,4
+spotify:track:7mBGGsJwx4o8NiqWfmAJ96,IL4071400142,"כפרה שלי","שפל וגאות","Ravid Plotnik",2017-06-19,261906,49,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:50:54Z,"mizrahi","NaNa Disc",0.67,0.331,4,-13.178,0,0.195,0.73,0,0.104,0.853,160.018,4
+spotify:track:4mRreSUqP7waa2jT5ul41T,QMFME1599573,"יום חדש","ברוכים הבאים לפתח תקוה","Ravid Plotnik",2015-07-01,208653,49,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:51:51Z,"mizrahi","NaNa Disc",0.633,0.59,7,-5.626,1,0.304,0.0363,0,0.16,0.32,85.015,4
+spotify:track:06RR5ewHedBUC9GRgWLwkK,QMFME1599018,"מוזיקה טובה","בור ועם הארץ","Ravid Plotnik",2013-05-12,201173,51,false,tteg245vfp7528wjhpufg3bu2,2022-07-29T16:53:12Z,"mizrahi","NaNa Disc",0.647,0.559,0,-6.751,1,0.181,0.128,0,0.167,0.651,85.409,4
+spotify:track:0WS3pHso7moPHG8W2pbqPB,QMFME1599022,"קפה וסיגריה","בור ועם הארץ","Ravid Plotnik;ניר דנן",2013-05-12,248093,53,false,tteg245vfp7528wjhpufg3bu2,2022-09-09T20:11:37Z,"mizrahi","NaNa Disc",0.634,0.699,1,-5.085,0,0.0895,0.0694,0,0.209,0.313,82.036,4
+spotify:track:1bFSitBqVkOrZ5geYAHEKX,IL1021810599,"פרפר","עטר מיינר","ATAR MAYNER;Dor3;Eden Derso",2018-11-05,251720,41,true,tteg245vfp7528wjhpufg3bu2,2022-09-09T20:13:23Z,"mizrahi","Helicon Music",0.625,0.732,2,-5.345,1,0.18,0.0126,0,0.352,0.198,160.118,4
+spotify:track:5FKqdspNSkkMI8QBnzCMwQ,IL2991107030,"Psycholog (The Psychologist)","Psycholog / Kacha","Tunaman Jones",2011-11-09,214789,24,false,tteg245vfp7528wjhpufg3bu2,2022-09-09T20:14:33Z,"","Anana",0.679,0.86,6,-3.243,0,0.0635,0.301,0,0.0617,0.898,120.026,4
+spotify:track:7hw5xPm5lXsGwvxCc5pdZa,IL1021910832,"לא כזה עמוק","גלישה בסתר","Cohen;Michael Swissa",2019-04-05,125077,40,false,tteg245vfp7528wjhpufg3bu2,2022-09-09T20:17:21Z,"","Helicon Music",0.682,0.426,6,-8.791,1,0.177,0.438,0,0.148,0.482,155.926,4
+spotify:track:3SUhjPgmcQrl27FCbCPskx,QZDA71994493,"השמש תזרח","השמש תזרח","HELEM TARBUT;אנדרדוג;STILLA;CHEN PORATI",2020-09-01,280079,17,false,tteg245vfp7528wjhpufg3bu2,2022-09-09T20:20:10Z,"mizrahi","2017 Helem Tarbut Records BY PIL LTD",0.806,0.523,0,-7.355,0,0.152,0.465,0,0.207,0.567,129.042,4
+spotify:track:4V3sgcaTWij74idywgARQt,QZHN71939369,"חשבון נפש","חשבון נפש","אנדרדוג;STILLA",2020-09-01,260022,33,false,tteg245vfp7528wjhpufg3bu2,2022-09-09T20:24:25Z,"mizrahi","2019 Orel Shamailov BY PIL LTD",0.422,0.631,6,-7.311,0,0.137,0.273,0,0.0879,0.471,70.402,3
+spotify:track:32O4BHRHIefRf4g33ZtM5Y,QZDA41868887,"כמובן","מלא בעצמי","Michael Swissa",2018-05-12,166285,40,true,tteg245vfp7528wjhpufg3bu2,2022-09-21T18:31:17Z,"","Shnorkel",0.826,0.445,4,-8.051,0,0.27,0.0323,0.000264,0.148,0.891,138.081,4
+spotify:track:7a7OTjpKXdeK5TAPmCrVMN,il5842133309,"מיינדסט","מיינדסט","STILLA;אניס נקש",2021-07-11,203636,43,false,tteg245vfp7528wjhpufg3bu2,2022-10-23T21:36:40Z,"mizrahi","2021 Va’ad Ha Bait Records BY PIL LTD",0.65,0.542,9,-8.11,0,0.0873,0.718,0,0.0686,0.599,131.63,4
+spotify:track:5vte3cKRMDmN0E4Aq5oEjs,IL1022011330,"מה עשית","העלייה","Vibe Ish;Cohen",2020-03-04,156047,30,false,tteg245vfp7528wjhpufg3bu2,2022-11-30T22:43:52Z,"mizrahi","Helicon Music",0.781,0.734,5,-5.92,0,0.0425,0.0373,0,0.326,0.646,100.061,4
+spotify:track:12dq9MMPhj7wMNfXSyUXDf,IL1022011333,"ג'ולי","העלייה","Vibe Ish",2020-03-04,174654,40,false,tteg245vfp7528wjhpufg3bu2,2022-11-30T22:59:00Z,"mizrahi","Helicon Music",0.676,0.682,8,-6.388,0,0.312,0.00904,0.0000338,0.203,0.649,177.836,4
+spotify:track:3hNYsgGhoITdGCRyyTokRF,IL1022011327,"אניס","העלייה","Vibe Ish",2020-03-04,145922,25,false,tteg245vfp7528wjhpufg3bu2,2022-11-30T23:03:28Z,"mizrahi","Helicon Music",0.667,0.818,1,-6.005,1,0.509,0.0961,0,0.0859,0.876,89.635,4
+spotify:track:7F6LZWzA3S7iFtHmQQrasT,IL1022011332,"בלעדייך","העלייה","Vibe Ish",2020-03-04,213405,29,false,tteg245vfp7528wjhpufg3bu2,2022-11-30T23:08:56Z,"mizrahi","Helicon Music",0.696,0.672,10,-6.976,0,0.356,0.488,0,0.12,0.469,87.461,4
+spotify:track:0ovfn7y4Lf0ouJh1vtaikI,QZFYY2074871,"פלקסים בימית2000","יום לא, יום למה לא","ננח קלאסי",2020-01-19,210000,17,true,tteg245vfp7528wjhpufg3bu2,2023-03-06T18:27:00Z,"","1715252 Records DK",0.827,0.497,8,-12.532,1,0.0654,0.654,0.0000104,0.253,0.357,127.977,4
+spotify:track:1d83zcTZSVhf3IHFddyT3N,IL7192300281,"דעת","א י ז ה מ ז ל","Vibe Ish;Shir David Gadasi",2023-03-16,119117,35,false,tteg245vfp7528wjhpufg3bu2,2023-03-16T05:42:12Z,"mizrahi","Mobile1 Music",0.773,0.55,10,-8.087,0,0.214,0.782,0,0.169,0.466,135.901,4
+spotify:track:6ZTJDm4zxKcaoIZk332ttu,IL7192300284,"עשרים וארבעה בינואר","א י ז ה מ ז ל","Vibe Ish",2023-03-16,165168,33,false,tteg245vfp7528wjhpufg3bu2,2023-03-16T05:44:33Z,"mizrahi","Mobile1 Music",0.592,0.435,10,-12.325,0,0.382,0.812,0,0.161,0.487,178.105,4
+spotify:track:6mqyQBeXBda5JNYQ7muNJM,IL7192300285,"משנה","א י ז ה מ ז ל","Vibe Ish",2023-03-16,220000,30,false,tteg245vfp7528wjhpufg3bu2,2023-03-16T06:12:42Z,"mizrahi","Mobile1 Music",0.757,0.478,10,-11.703,0,0.0951,0.379,0.0000103,0.103,0.298,107.921,4
+spotify:track:6FjNzE8JzBiQCNcvUL1iCE,IL7192300279,"גשם","א י ז ה מ ז ל","Vibe Ish",2023-03-16,198620,46,false,tteg245vfp7528wjhpufg3bu2,2023-03-16T06:22:29Z,"mizrahi","Mobile1 Music",0.621,0.427,4,-9.971,0,0.118,0.696,0,0.114,0.446,86.965,4
+spotify:track:42yDuoZN8Kr7IFOeSpIxQb,IL7192300277,"תשע","א י ז ה מ ז ל","Vibe Ish",2023-03-16,224000,43,false,tteg245vfp7528wjhpufg3bu2,2023-03-22T13:19:16Z,"mizrahi","Mobile1 Music",0.831,0.581,5,-10.421,0,0.0726,0.658,0,0.155,0.571,119.989,4
+spotify:track:34TfFR65Z5DTE3kmQNkmKD,IL7192300280,"את לא את","א י ז ה מ ז ל","נתיב;Vibe Ish",2023-03-16,185060,37,false,tteg245vfp7528wjhpufg3bu2,2023-03-27T21:32:30Z,"mizrahi","Mobile1 Music",0.77,0.6,6,-9.674,0,0.323,0.147,0,0.105,0.692,82.992,4
+spotify:track:0z69aaTV90Iug4fxKG2y38,il5842341002,"הנה אמרתי את זה (אנאלוג)","הנה אמרתי את זה (אנאלוג)","Tzukush;Mish Bejerano",2023-04-24,221625,21,false,tteg245vfp7528wjhpufg3bu2,2023-04-29T21:03:33Z,"mizrahi","2023 Slim Buddha By PIL LTD",0.656,0.666,1,-6.992,1,0.228,0.277,0,0.0719,0.756,133.029,4
+spotify:track:7kEg0eqj1cNRQzzQX9Wb0A,QZFYY2320395,"סממנים","אומנות מודרנית שברה לי את הלב","Shae",2023-01-06,119603,0,true,tteg245vfp7528wjhpufg3bu2,2023-05-03T13:20:28Z,"","Valley",0.789,0.543,5,-8.126,0,0.433,0.275,0,0.0994,0.845,93.866,4
+spotify:track:6PTG6Ez6N2wIusaKM3J9GV,IL1042104608,"גברת טיקטוק","תוך כדי תנועה","Ravid Plotnik",2021-09-24,278196,41,false,tteg245vfp7528wjhpufg3bu2,2023-05-21T11:07:44Z,"mizrahi","NaNa Disc",0.696,0.537,9,-7.815,0,0.188,0.102,0.00000453,0.161,0.516,83.025,4
+spotify:track:0BFWxLsnMjQt37TQpwB0x7,QZMEN2202598,"פאק על אנשים","פאק על אנשים","Balulu - בלולו;Shae/Anti",2022-07-22,179200,28,true,tteg245vfp7528wjhpufg3bu2,2023-06-21T11:54:30Z,"","Valley",0.648,0.923,11,-2.638,0,0.0474,0.000554,0,0.446,0.517,74.996,4
+spotify:track:3zzTSgREGC3k7D8JTpMRUd,QZTB82220566,"תנטוספליפ_79_בונוס","Valley Flip Tape","VALLEY CORP;Argov;Shae",2022-12-23,85063,23,true,tteg245vfp7528wjhpufg3bu2,2023-06-21T12:07:32Z,"experimental hip hop","Valley",0.766,0.516,10,-8.632,0,0.393,0.732,0.00743,0.366,0.857,78.983,4
+spotify:track:0j6yrqq0X8hwy7c0XxVvdn,QZFYY2320405,"ברבור","אומנות מודרנית שברה לי את הלב","Shae",2023-01-06,119689,0,true,tteg245vfp7528wjhpufg3bu2,2023-06-21T12:07:44Z,"","Valley",0.57,0.741,2,-4.957,1,0.213,0.571,0.00000239,0.208,0.254,162.168,4
+spotify:track:1CgWeLFuI8FgnhKnjKVmnt,QZMEM2280976,"תנטוס","ימים נוראים","Shae",2022-07-20,86903,0,true,tteg245vfp7528wjhpufg3bu2,2023-06-21T12:08:00Z,"","Valley",0.657,0.42,6,-12.316,1,0.273,0.856,0.000132,0.108,0.19,80,4
+spotify:track:3eaj5dz02qrhwaDRkALkSX,QZFYY2320398,"לאנסר/גיג","אומנות מודרנית שברה לי את הלב","Shae",2023-01-06,113932,0,true,tteg245vfp7528wjhpufg3bu2,2023-06-21T12:18:04Z,"","Valley",0.522,0.446,1,-9.974,0,0.175,0.164,0.00000286,0.0824,0.816,84.033,4
+spotify:track:3WS0NtzrU9KHOgVjTKpan5,QZFYY2320402,"ליפול","אומנות מודרנית שברה לי את הלב","Shae",2023-01-06,152342,0,true,tteg245vfp7528wjhpufg3bu2,2023-06-21T12:24:36Z,"","Valley",0.775,0.736,0,-6.191,1,0.0815,0.25,0,0.573,0.631,93.026,4
+spotify:track:4phZnyZtoggzoJlLQIS6sP,QZFYY2320401,"2019","אומנות מודרנית שברה לי את הלב","Shae",2023-01-06,158768,0,true,tteg245vfp7528wjhpufg3bu2,2023-06-21T12:40:26Z,"","Valley",0.753,0.537,4,-9.722,0,0.208,0.828,0,0.142,0.549,125.931,4
+spotify:track:3VaieM2PSEKuEUGf5499In,QZMEM2280970,"ברגיל","ימים נוראים","Shae;Fass;Tahini Prince",2022-07-20,141176,0,true,tteg245vfp7528wjhpufg3bu2,2023-06-21T12:42:41Z,"","Valley",0.704,0.539,1,-12.27,0,0.35,0.424,0,0.654,0.407,135.907,4
+spotify:track:19MBdABwJ1SYPy3Mld5uRG,QZFYY2320399,"ערום","אומנות מודרנית שברה לי את הלב","Shae",2023-01-06,150952,0,true,tteg245vfp7528wjhpufg3bu2,2023-06-21T12:48:01Z,"","Valley",0.621,0.477,1,-9.384,0,0.106,0.286,0.152,0.0753,0.396,126.235,3
+spotify:track:5oVr381ZS1I8fu0LAeGMW7,QZK6P2321809,"מכאן לשם","מכאן לשם","Shae;Lava Dome",2023-05-03,156923,23,true,tteg245vfp7528wjhpufg3bu2,2023-06-21T12:51:11Z,"","Valley",0.661,0.519,8,-10.871,0,0.27,0.498,0.00000204,0.108,0.457,103.627,4
+spotify:track:1cmBxXQlSIu9pBePNk4bkH,QZMEM2280977,"עשן","ימים נוראים","Shae;Tahini Prince",2022-07-20,166588,0,true,tteg245vfp7528wjhpufg3bu2,2023-06-22T11:25:21Z,"","Valley",0.509,0.474,6,-10.768,1,0.157,0.542,0,0.243,0.577,137.349,4
+spotify:track:05VVx0FTRSHOY2gEvbIp2E,QZHNB2118096,"מאזניים","מאזניים","Guy Ackerman;Shae",2021-06-16,175956,7,true,tteg245vfp7528wjhpufg3bu2,2023-06-25T18:13:30Z,"","Cloudyguy47",0.728,0.555,10,-8.505,0,0.0409,0.0698,0,0.107,0.885,131.006,4
+spotify:track:25Xuao8yvgHV8WwOxboEfx,QZFYY2320394,"דמו/עולם","אומנות מודרנית שברה לי את הלב","Shae",2023-01-06,130396,0,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:39:47Z,"","Valley",0.622,0.46,5,-8.165,0,0.4,0.291,0.0000392,0.447,0.848,133.361,4
+spotify:track:5aDS8vHXJfxb9y1vx2vIcw,QZFYY2320396,"וואלי פרי ג'אז","אומנות מודרנית שברה לי את הלב","Shae",2023-01-06,272375,0,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:40:33Z,"","Valley",0.443,0.746,9,-8.174,1,0.195,0.497,0.000103,0.477,0.365,88.958,4
+spotify:track:4RxuBKZH8Ss64Zsl2FpC7H,QZFYY2320397,"בישופ","אומנות מודרנית שברה לי את הלב","Shae",2023-01-06,114218,0,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:40:46Z,"","Valley",0.829,0.546,1,-7.694,1,0.318,0.221,0,0.218,0.392,154.235,4
+spotify:track:1MyCUEer0DzX2ibLdgmSdE,QZK6M2283006,"רעש","אומנות מודרנית שברה לי את הלב","Shae",2023-01-06,161142,0,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:40:50Z,"","Valley",0.783,0.459,2,-9.739,1,0.0832,0.181,0.000156,0.147,0.424,139.961,4
+spotify:track:4SYmbDg7XIPlJicTCfugMX,QZFYY2320404,"להיאבד","אומנות מודרנית שברה לי את הלב","Shae",2023-01-06,222185,0,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:41:00Z,"","Valley",0.407,0.33,5,-10.049,1,0.0742,0.804,0.000127,0.165,0.0392,96.192,4
+spotify:track:4sOYzCV06cOzDI78s1A5eW,QZMEM2280973,"גוף","ימים נוראים","Shae;אוחנה",2022-07-20,200000,0,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:41:05Z,"","Valley",0.736,0.587,4,-9.495,0,0.326,0.312,0.00000386,0.408,0.485,120.052,4
+spotify:track:6ExS6KcNQAxPY0WG2I9Icu,QZMEM2280975,"מישהו שומע אותי","ימים נוראים","Shae;Tahini Prince",2022-07-20,132546,0,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:41:08Z,"","Valley",0.571,0.414,4,-10.64,0,0.0604,0.833,0,0.154,0.154,74.049,4
+spotify:track:4PZGIfavWsfRUMGv2BQivb,QZDA82320991,"ימין ושמאל 2","גלובלי","Balulu - בלולו;פייק אביב",2023-02-24,117551,27,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:41:15Z,"","Valley",0.736,0.638,1,-8.214,1,0.341,0.056,0,0.096,0.933,146.837,4
+spotify:track:47rBqbxtHOOV5p1GIJjqR1,QZNWT2228823,"REKET 11","REKET","Balulu - בלולו;ŞPITZER",2022-08-29,160000,16,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:41:17Z,"","Valley",0.649,0.571,0,-10.397,1,0.0518,0.21,0.00000135,0.225,0.274,99.02,4
+spotify:track:7awckqTmxudrG2c8fTc7bX,QZK6M2219855,"לילה","לילה","Balulu - בלולו",2022-06-12,186321,6,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:41:20Z,"","Valley",0.538,0.485,2,-11.243,1,0.154,0.587,0,0.115,0.346,111.119,1
+spotify:track:58b5BEHm4A1CLNFw7wQeDY,QZMEM2280969,"סליחה שלא גמרתי, נהייתי עצוב","ימים נוראים","Shae",2022-07-20,404472,0,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:41:28Z,"","Valley",0.564,0.473,1,-12.625,0,0.349,0.719,0.000264,0.166,0.327,141.291,4
+spotify:track:4b5WZ4uw45U7Fsq5hOa0kb,QZMEM2280971,"לילית","ימים נוראים","Shae;Argov",2022-07-20,120000,0,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:41:31Z,"experimental hip hop","Valley",0.612,0.692,6,-9.384,0,0.221,0.433,0.00000796,0.445,0.505,155.94,4
+spotify:track:2lffqsH1ptFac2nr0oF2jz,QZMEM2280972,"נעמה","ימים נוראים","Shae;Argov",2022-07-20,168610,0,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:41:33Z,"experimental hip hop","Valley",0.374,0.684,5,-9.45,0,0.22,0.565,0,0.158,0.717,140.002,4
+spotify:track:4Acbex1fgrmLn6KQOeituD,QZDA82320988,"די אנד בלולו","גלובלי","Balulu - בלולו;פייק אביב",2023-02-24,160000,27,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:41:41Z,"","Valley",0.765,0.71,9,-6.922,1,0.239,0.0798,0.0000286,0.228,0.543,159.104,4
+spotify:track:3Sv1Qr4jBZIF4jhV9Csudo,QZRP52281205,"אייפשיט","וואלי טייפ א","VALLEY CORP;Shaya;Balulu - בלולו;Shae",2022-10-20,167175,27,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:41:44Z,"","Valley",0.963,0.675,10,-6.819,0,0.175,0.0672,0,0.369,0.508,129.959,4
+spotify:track:5sv6Qr1jeQMGEmPTj9n89o,QZMEQ2334182,"סנוקרת לגרוגרת","ספין לפנים","Fass;Tahini Prince;ג׳יגליפאף;Argov",2023-06-29,128500,0,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:41:51Z,"experimental hip hop","321 Records",0.59,0.65,11,-6.328,1,0.317,0.206,0.00000894,0.128,0.615,78.262,4
+spotify:track:6Cv8LRi7VKhPUZtsznlvFB,QZ8LD1945970,"בת שרמוטה!","לא יכול להיות, מיקסטייפ..","Shipi",2019-01-09,161733,0,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:41:54Z,"","Kfar Shalem Records",0.8,0.813,11,-3.566,1,0.285,0.0379,0.000008,0.215,0.571,141.885,4
+spotify:track:313uTzs5nwSxijJFCY96cL,QZHNA2353311,"על הפנים","על הפנים","Balulu - בלולו;Shipi",2023-04-21,74805,25,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:41:57Z,"","Valley",0.584,0.539,2,-8.58,1,0.359,0.127,0,0.231,0.213,76.764,4
+spotify:track:3043uTksaiExXUBvveZkyX,QZK6F2266047,"מגרש מלא","אורי","Balulu - בלולו;ŞPITZER",2022-07-16,142372,18,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:42:00Z,"","Valley",0.768,0.509,1,-13.591,1,0.0847,0.804,0,0.0929,0.863,118.118,4
+spotify:track:3ETTxnflFEETejrbCDTUyF,QZHNA2094024,"תקופות","תקופות","Balulu - בלולו",2020-07-10,179966,0,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:42:03Z,"","Balulu",0.663,0.57,11,-8.738,0,0.308,0.342,0,0.112,0.543,76.498,4
+spotify:track:05dGZbPlMIJX8lv3tYpZDh,QZK6F2266046,"רק אני","אורי","Balulu - בלולו",2022-07-16,144905,15,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:42:05Z,"","Valley",0.85,0.706,7,-8.432,1,0.261,0.00229,0,0.277,0.578,158.996,4
+spotify:track:0b7M7J6IJctByolYzXjOkX,QZTB82220562,"שש//צדשלי_130//81","Valley Flip Tape","VALLEY CORP;Argov;Shae",2022-12-23,142956,20,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:42:08Z,"experimental hip hop","Valley",0.539,0.509,10,-10.93,0,0.39,0.161,0.0000163,0.257,0.516,129.961,4
+spotify:track:5FHDEdnehBu0psaf9GJhg2,QZNWT2368500,"ראשון לחודש","גלגלים גדולים","Fass;Shae",2023-07-21,120836,0,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:42:11Z,"","321 Records",0.736,0.498,8,-7.263,1,0.335,0.2,0.00000398,0.168,0.643,146.111,4
+spotify:track:4tt6uc25XIwfht6QnAe7Mn,QZTB82220561,"בייבי/בום_77_82","Valley Flip Tape","VALLEY CORP;Argov;Balulu - בלולו;Shae",2022-12-23,142748,17,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:42:53Z,"experimental hip hop","Valley",0.525,0.594,4,-7.67,0,0.439,0.374,0,0.199,0.556,81.652,4
+spotify:track:4HXZnNHyzVwgJ9QD8IfXsN,QZTB82220563,"סטריטשלי_עוזיאל_130","Valley Flip Tape","VALLEY CORP;Argov;Shae;Balulu - בלולו;שעיה",2022-12-23,169863,15,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:47:54Z,"experimental hip hop","Valley",0.812,0.49,0,-9.099,1,0.398,0.192,0,0.119,0.361,130.065,4
+spotify:track:41gY1VUxQ2CUEZphdEHMTh,QZTB82220565,"שוב_78_שוב","Valley Flip Tape","VALLEY CORP;Argov;Shae;Rewire",2022-12-23,172332,17,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T02:51:52Z,"experimental hip hop","Valley",0.622,0.412,2,-9.982,0,0.0571,0.325,0.00338,0.116,0.0791,78.031,4
+spotify:track:0u7qNGf9JhCROsS65gqBvA,QZRP52281201,"החאמסטה וויליאמס","וואלי טייפ א","VALLEY CORP;Shae",2022-10-20,179530,21,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T03:01:47Z,"","Valley",0.689,0.51,1,-9.594,1,0.291,0.079,0.0000111,0.203,0.437,159.989,4
+spotify:track:4YF8OBXUR9lA1cPKRG7qOr,QZRP52281202,"וואלי","וואלי טייפ א","VALLEY CORP;Balulu - בלולו",2022-10-20,117111,19,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T03:03:14Z,"","Valley",0.879,0.775,5,-7.509,0,0.366,0.136,0,0.178,0.939,159.895,4
+spotify:track:5b31wZVpabYKnxQCMMo30V,QZRP52281207,"זאקום","וואלי טייפ א","VALLEY CORP;Shae",2022-10-20,133558,21,true,tteg245vfp7528wjhpufg3bu2,2023-07-29T03:13:00Z,"","Valley",0.626,0.491,10,-7.899,0,0.508,0.385,0,0.0823,0.693,78.146,4
+spotify:track:4W81WU0qQmThYGl3lcVlEN,IL7532313545,"רוסי שיכור","לופ הסבל האינסופי","Slimfim;Unreleased Cobra",2023-07-31,176968,24,true,tteg245vfp7528wjhpufg3bu2,2023-07-31T07:54:01Z,"","Helicon Music",0.316,0.726,11,-8.502,1,0.227,0.518,0,0.198,0.877,77.738,4
+spotify:track:5CkagnykIgnpOEorVEHgCF,IL4071400145,"בדיוק כמו שאני","שפל וגאות","Ravid Plotnik",2017-06-19,211720,49,false,tteg245vfp7528wjhpufg3bu2,2023-08-02T11:45:13Z,"mizrahi","NaNa Disc",0.567,0.278,11,-15.01,0,0.0857,0.84,0.0000296,0.141,0.609,82.057,4
+spotify:track:3NZQVIVY90jP9iJEfnOtuE,QZTB22215608,"מספיק","מגמגם 2","Mayor;Mish Bejerano",2022-12-09,165809,22,true,tteg245vfp7528wjhpufg3bu2,2023-08-02T19:44:45Z,"","321 Records",0.52,0.511,1,-9.771,0,0.306,0.689,0.0000398,0.383,0.816,78.493,4
+spotify:track:4oVWaTSQCHAbGzqxAXf5aT,QZMEM2280974,"נזק","ימים נוראים","Shae",2022-07-20,246374,0,true,tteg245vfp7528wjhpufg3bu2,2023-08-13T12:01:44Z,"","Valley",0.552,0.403,4,-11.65,0,0.0633,0.881,0.000002,0.131,0.349,108.912,4
+spotify:track:4iwAw53gkuUe0xtceIV9PD,QZNWW2330275,"רותם חטואל - בונוס","כהנא לובש סיסו 8","BAYOTIII;XOLONIII",2023-07-28,108000,19,true,tteg245vfp7528wjhpufg3bu2,2023-08-22T18:17:49Z,"","SHIIIBUSH DERECH ERETZ",0.838,0.504,6,-7.667,1,0.33,0.345,0,0.338,0.865,90.046,4
+spotify:track:2DCltjAcUP5MjHOznWnWwp,QZHNA2094023,"לי לא אכפת","תקופות","Balulu - בלולו",2020-07-10,150933,0,true,tteg245vfp7528wjhpufg3bu2,2023-08-26T05:59:44Z,"","Balulu",0.788,0.515,4,-8.544,0,0.0645,0.336,0,0.327,0.246,140.012,4
+spotify:track:5Fy6dTzG4GJr9rOAEsuJQS,QZHNA2094021,"כבד19","תקופות","Balulu - בלולו",2020-07-10,97000,0,true,tteg245vfp7528wjhpufg3bu2,2023-08-26T18:09:08Z,"","Balulu",0.866,0.453,1,-7.889,1,0.1,0.517,0,0.107,0.18,109.985,4
+spotify:track:40gJ8wi5TL4kT17Xziv9Ei,QZHNA2094020,"חופשי","תקופות","Balulu - בלולו",2020-07-10,164575,0,true,tteg245vfp7528wjhpufg3bu2,2023-08-26T18:12:09Z,"","Balulu",0.775,0.533,6,-9.885,1,0.12,0.154,0,0.106,0.248,89.993,4
+spotify:track:42KuU1i9EoJNG5U4gyiG5w,QZHNA2094019,"רצונות","תקופות","Balulu - בלולו",2020-07-10,94357,0,true,tteg245vfp7528wjhpufg3bu2,2023-08-26T18:23:51Z,"","Balulu",0.356,0.254,5,-11.295,1,0.0388,0.807,0,0.172,0.38,78.579,4
+spotify:track:3QEuuy6UHrb7AM7wq2rDLK,QZDA82320993,"לבד","גלובלי","Balulu - בלולו",2023-02-24,151392,31,true,tteg245vfp7528wjhpufg3bu2,2023-08-29T19:45:11Z,"","Valley",0.756,0.526,2,-7.913,0,0.155,0.29,0,0.136,0.39,139.856,4
+spotify:track:0Yucn5dkhA99zK1PSqUps9,QZMEQ2334181,"ג׳קי צ׳אן שיט","ספין לפנים","Fass;פייק אביב;Tahini Prince",2023-06-29,125455,0,true,tteg245vfp7528wjhpufg3bu2,2023-09-17T19:58:48Z,"","321 Records",0.694,0.817,7,-6.121,1,0.0607,0.0301,0.00000151,0.13,0.707,156.99,4
+spotify:track:2s7hzGyRdv5JW9wMLgrUda,QZES82296037,"חבר חדש","הצוויץ צוויץ","גיאגיא",2022-04-02,129787,9,false,tteg245vfp7528wjhpufg3bu2,2023-09-21T05:26:50Z,"egg punk","bab records",0.73,0.5,7,-11.373,1,0.521,0.0543,0,0.66,0.888,187.766,4
+spotify:track:1SOs0jJ4j9kmJdq0BjLUwG,QZK6H2039716,"הכי אחי","הקלטות ראשונות","גיאגיא",2020-09-12,185349,16,false,tteg245vfp7528wjhpufg3bu2,2023-09-21T05:28:31Z,"egg punk","banani records",0.638,0.47,1,-10.887,1,0.105,0.411,0,0.156,0.825,141.601,4
+spotify:track:3fsl0jhDB9kPKi1JwPDJNz,QZK6H2039718,"פלופ","הקלטות ראשונות","גיאגיא",2020-09-12,170172,8,false,tteg245vfp7528wjhpufg3bu2,2023-09-21T05:46:06Z,"egg punk","banani records",0.599,0.558,10,-11.372,1,0.0514,0.0673,0.00000182,0.221,0.87,87.106,4
+spotify:track:38a0TOTjFi6qTkqSmqjuP2,IL6192101555,"הרגלים רעים","!!?!?למה מי מת","רון עשהאל;Bubble Wrap Trap",2022-01-13,179749,0,true,tteg245vfp7528wjhpufg3bu2,2023-10-05T08:15:31Z,"mizrahi,experimental jazz,free jazz","Kame'a",0.659,0.596,6,-7.61,0,0.277,0.3,0,0.106,0.781,82.709,4
+spotify:track:2BvC3s5xUyju5ae07xo1cO,QZFYY2074874,"ג׳ף בזוס","יום לא, יום למה לא","ננח קלאסי",2020-01-19,137045,6,true,tteg245vfp7528wjhpufg3bu2,2023-10-14T10:42:40Z,"","1715252 Records DK",0.818,0.495,9,-9.707,0,0.394,0.254,0,0.098,0.353,175.988,4
+spotify:track:2ikIGCiN7x3ioprJmMzPlY,QZFYY2074872,"יד ימין","יום לא, יום למה לא","ננח קלאסי",2020-01-19,109811,14,true,tteg245vfp7528wjhpufg3bu2,2023-10-14T10:46:58Z,"","1715252 Records DK",0.873,0.277,1,-10.665,0,0.0443,0.855,0.000149,0.222,0.694,106.001,4
+spotify:track:6dux79oYgKpZaZAAKvrX6e,QZNWU2025793,"האנה מונטנה","אריק תותים דמו טייפ","ננח קלאסי",2020-11-22,128000,8,true,tteg245vfp7528wjhpufg3bu2,2023-10-14T11:14:00Z,"","1715252 Records DK",0.842,0.38,3,-11.902,0,0.452,0.79,0.00000292,0.717,0.761,119.948,4
+spotify:track:5Jl8aeZrKWz7uyBTap8yVK,QZNWU2025792,"גל לוגסי","אריק תותים דמו טייפ","ננח קלאסי",2020-11-22,188000,14,true,tteg245vfp7528wjhpufg3bu2,2023-10-14T11:17:15Z,"","1715252 Records DK",0.886,0.514,6,-10.548,0,0.221,0.622,0.00000456,0.211,0.735,129.982,4
+spotify:track:5toX7C2Je1gTZaxrqfgnnu,QZFYZ2023028,"זסלבסקי מודלז","זסלבסקי מודלז","ננח קלאסי",2020-01-26,151898,11,true,tteg245vfp7528wjhpufg3bu2,2023-10-14T13:41:51Z,"","1715252 Records DK",0.83,0.592,10,-11.053,0,0.222,0.599,0,0.11,0.866,158.044,4
+spotify:track:0Qbqa5WZwLeb0dPoL4cQ9G,QZNWU2025790,"גרוניך","אריק תותים דמו טייפ","ננח קלאסי",2020-11-22,153043,10,true,tteg245vfp7528wjhpufg3bu2,2023-10-14T13:43:25Z,"","1715252 Records DK",0.822,0.465,8,-10.43,1,0.553,0.534,0,0.231,0.396,138.136,4
+spotify:track:4IN7PJUCAoE5QU3sbAXy7c,QZFYY2074876,"ננח","יום לא, יום למה לא","ננח קלאסי",2020-01-19,141686,6,true,tteg245vfp7528wjhpufg3bu2,2023-10-14T13:46:06Z,"","1715252 Records DK",0.53,0.449,8,-12.975,1,0.132,0.603,0.000201,0.193,0.231,112.3,3
+spotify:track:47eF4WrvNZgn5mmulFwSuJ,QZFYY2074869,"לא חבר","יום לא, יום למה לא","ננח קלאסי",2020-01-19,170666,7,true,tteg245vfp7528wjhpufg3bu2,2023-10-14T17:13:50Z,"","1715252 Records DK",0.72,0.691,9,-10.45,0,0.112,0.321,0.00109,0.238,0.77,90.064,4
+spotify:track:7rSdVRRCo4PDykpydCmUmR,QZFZ42095871,"5 בבוקר פריסטייל","5 בבוקר פריסטייל","Shipi",2020-01-30,119841,12,false,tteg245vfp7528wjhpufg3bu2,2023-10-18T11:17:07Z,"","Kfar Shalem Records",0.68,0.428,5,-17.101,1,0.13,0.272,0,0.303,0.637,144.321,4
+spotify:track:2OaGb8ekpCGyljTlnJwZXV,IL6192101562,"ילד רע, ילד טוב","!!?!?למה מי מת","רון עשהאל;Bubble Wrap Trap",2022-01-13,217752,0,true,tteg245vfp7528wjhpufg3bu2,2023-10-21T13:11:07Z,"mizrahi,experimental jazz,free jazz","Kame'a",0.637,0.619,2,-10.109,1,0.276,0.655,0.000382,0.204,0.283,89.064,4
+spotify:track:6j6ZlVlFSYK6lOhwpZ05fQ,QZNWT2228821,"REKET 2","REKET","Balulu - בלולו",2022-08-29,116869,19,true,tteg245vfp7528wjhpufg3bu2,2023-10-22T09:41:14Z,"","Valley",0.752,0.356,10,-12.824,0,0.0719,0.244,0,0.127,0.228,115.058,4
+spotify:track:6WxEcohOyZgDpfnqLREdD6,QZNWX2357361,"קאמאפ","ביז׳ו","Maor",2023-08-15,141030,36,true,tteg245vfp7528wjhpufg3bu2,2023-10-26T09:20:31Z,"mizrahi","- UZIN RECORDS -",0.699,0.705,10,-6.209,0,0.209,0.376,0,0.122,0.789,96.89,4
+spotify:track:0Ml4nAH6ZyW4o1qURpLUhp,QZNWU2025789,"גראנד פרי","אריק תותים דמו טייפ","ננח קלאסי",2020-11-22,128955,15,true,tteg245vfp7528wjhpufg3bu2,2023-10-26T10:35:41Z,"","1715252 Records DK",0.727,0.492,5,-13.658,0,0.174,0.708,0,0.548,0.477,134.091,4
+spotify:track:3hamQAKnM7s9sZCGXKKcV2,QZFYY2074873,"אישה שטן","יום לא, יום למה לא","ננח קלאסי",2020-01-19,134375,8,true,tteg245vfp7528wjhpufg3bu2,2023-10-30T09:38:02Z,"","1715252 Records DK",0.656,0.713,2,-10.736,0,0.0405,0.0785,0.0000028,0.189,0.786,98,4
+spotify:track:7LRIU6iGScC1zsrUbXC9i6,QZNWX2357362,"אמריקנו","ביז׳ו","Maor;Fass",2023-08-15,185361,29,false,tteg245vfp7528wjhpufg3bu2,2023-10-30T10:32:10Z,"mizrahi","- UZIN RECORDS -",0.654,0.741,10,-9.771,0,0.227,0.685,0.000832,0.119,0.607,99.034,4
+spotify:track:2b5r27Yqz1hNsO91R0MWEL,QZNWX2357367,"שלג","ביז׳ו","Maor",2023-08-15,170000,35,false,tteg245vfp7528wjhpufg3bu2,2023-10-30T10:39:03Z,"mizrahi","- UZIN RECORDS -",0.632,0.458,9,-11.731,0,0.045,0.955,0,0.102,0.367,119.934,4
+spotify:track:1AoWW8UGwxbB3KqIayBUIl,QZHNB2238309,"כדור שירים","שירים לשים ברקע","נועם דורון;Shae/Anti;Tahini Prince",2022-05-22,135235,19,true,tteg245vfp7528wjhpufg3bu2,2023-11-04T21:23:45Z,"","ahshelibadam",0.571,0.534,2,-7.556,0,0.177,0.323,0.00388,0.102,0.822,132.425,4
+spotify:track:6lrXRHPAOwjFleTkHbChJg,QZK6P2371845,"לבגדול_67","אקסנט07","Argov;Shipi",2023-05-16,72490,15,true,tteg245vfp7528wjhpufg3bu2,2023-11-04T21:31:55Z,"experimental hip hop","No Clue",0.775,0.837,2,-6.464,0,0.109,0.331,0.00957,0.0746,0.468,134.053,4
+spotify:track:3UbYi42m9Sl24KJKzTObh7,QZDA72371034,"ממך","ממך","Shipi",2023-02-19,165015,22,true,tteg245vfp7528wjhpufg3bu2,2023-11-05T19:24:15Z,"","Kfar Shalem Records",0.731,0.735,9,-7.798,0,0.109,0.425,0.0000223,0.498,0.731,123.968,4
+spotify:track:2wNq0F0c0yEMJoiQh387dl,QZK6H2318744,"צד לצד","צד לצד","Fass;Balulu - בלולו",2023-06-02,176073,26,true,tteg245vfp7528wjhpufg3bu2,2023-11-05T19:35:39Z,"","321 Records",0.771,0.619,11,-5.229,1,0.151,0.177,0,0.275,0.519,142.07,4
+spotify:track:2Ub7jQz5bZyeXaUjt1Gnzf,QZFZ22398507,"לילה בחיפה","לילה בחיפה","פייק אביב;Tohar",2023-01-31,133187,8,true,tteg245vfp7528wjhpufg3bu2,2023-11-05T19:40:59Z,"","Fake Records",0.79,0.486,2,-7.929,1,0.278,0.088,0,0.268,0.446,108.966,4
+spotify:track:5YY4I2UkqZbr2vS5dUGeHp,QZES82296042,"טמבל","הצוויץ צוויץ","גיאגיא",2022-04-02,233318,8,false,tteg245vfp7528wjhpufg3bu2,2023-11-10T09:14:59Z,"egg punk","bab records",0.608,0.418,9,-11.985,0,0.0582,0.435,0.000407,0.145,0.358,161.876,4
+spotify:track:7aRy3gqDYyR9GqfMJGafkv,QZPLS2291283,"ארבע שלוש","גנגסטה רגיש","Lava Dome",2022-10-14,140487,17,false,tteg245vfp7528wjhpufg3bu2,2023-11-11T17:22:37Z,"","Lava Dome",0.764,0.466,10,-7.739,0,0.0914,0.188,0,0.0954,0.407,82.008,4
+spotify:track:4OikXiCOmnO7FirqgWOVZc,IL6192101553,"משהו לנגן בגהנום","!!?!?למה מי מת","רון עשהאל;Bubble Wrap Trap",2022-01-13,139800,0,true,tteg245vfp7528wjhpufg3bu2,2023-11-12T06:20:16Z,"mizrahi,experimental jazz,free jazz","Kame'a",0.632,0.483,11,-9.349,0,0.058,0.55,0.000304,0.164,0.0849,104.911,3
+spotify:track:1v7FqsiXIMA8ISBxJuwRoI,IL1021810608,"אין אחד כמוני","עטר מיינר","ATAR MAYNER;Dor3;אלמוג",2018-11-05,268626,32,true,tteg245vfp7528wjhpufg3bu2,2023-11-12T13:54:47Z,"mizrahi","Helicon Music",0.695,0.629,7,-4.888,1,0.0648,0.375,0,0.0849,0.506,114.909,4
+spotify:track:4D9aSiCog3FSg2gTS5IVDw,QZHN72394109,"בייבי בוי","בייבי בוי","Lava Dome",2023-04-13,152013,13,false,tteg245vfp7528wjhpufg3bu2,2023-11-23T19:25:07Z,"","Lava Dome",0.577,0.52,7,-10.447,0,0.353,0.561,0,0.237,0.254,90.836,4
+spotify:track:0DIZrE2047EPrY1r9tEEjj,QZNWX2357363,"צדדים","ביז׳ו","Maor",2023-08-15,142222,34,true,tteg245vfp7528wjhpufg3bu2,2023-11-28T14:03:35Z,"mizrahi","- UZIN RECORDS -",0.507,0.743,1,-9.575,1,0.102,0.397,0,0.287,0.432,134.904,4
+spotify:track:6Ww8grukqZGQfWuEsa6Q9e,QZTB22215609,"חדשות רעות","מגמגם 2","Mayor;אוחנה וברקת;Fass",2022-12-09,114140,16,true,tteg245vfp7528wjhpufg3bu2,2023-12-02T10:53:55Z,"","321 Records",0.706,0.518,9,-8.513,1,0.353,0.353,0,0.266,0.772,137.997,4
+spotify:track:7HqSsLXISgPD81PwvhKOsp,QZTB22215614,"מכונית מילוט","מגמגם 2","Mayor;גיאגיא",2022-12-09,130716,13,true,tteg245vfp7528wjhpufg3bu2,2023-12-02T11:07:34Z,"egg punk","321 Records",0.737,0.643,1,-8.314,0,0.186,0.26,0,0.0858,0.578,74.005,4
+spotify:track:0bq0qHwHakai7Xd1cugtAt,QZTB22215618,"משונה","מגמגם 2","Mayor;Michael Swissa",2022-12-09,149623,26,true,tteg245vfp7528wjhpufg3bu2,2023-12-02T11:12:10Z,"","321 Records",0.53,0.512,7,-8.297,0,0.298,0.208,0.000204,0.28,0.524,78.556,4
+spotify:track:0M9q8e3RuVEPuwpIGdkSdH,QZNWR2222219,"בריזה","מצב טיסה","Fass;אוחנה",2022-08-26,215672,0,true,tteg245vfp7528wjhpufg3bu2,2023-12-09T20:09:34Z,"","321 Records",0.724,0.546,9,-8.896,1,0.212,0.146,0.0000218,0.0886,0.441,147.981,4
+spotify:track:4Y0vJSpN2a62yeO8E1SbBW,QZDA82320986,"פינת עישון","גלובלי","Balulu - בלולו",2023-02-24,140908,28,true,tteg245vfp7528wjhpufg3bu2,2023-12-13T06:51:47Z,"","Valley",0.927,0.334,2,-9.444,0,0.125,0.125,0.0000851,0.0989,0.724,138.065,4
+spotify:track:3UWyMp1IsME6SIRNSWgQQK,QZFYY2320406,"לילה","אומנות מודרנית שברה לי את הלב","Shae",2023-01-06,187240,0,true,tteg245vfp7528wjhpufg3bu2,2023-12-18T17:03:32Z,"","Valley",0.366,0.422,5,-10.634,0,0.0408,0.234,0.0159,0.1,0.158,64.951,4
+spotify:track:1kTwqEQkW3B0Kgwj7Dxa4a,QZNWU2357845,"מזל דגים/מרפי באגו טריפ","חוסר איזון מושלם","Shalev Josseph;Argov",2023-08-18,179927,9,true,tteg245vfp7528wjhpufg3bu2,2023-12-22T10:40:39Z,"experimental hip hop","gardens of hope.",0.461,0.674,9,-7.432,1,0.275,0.692,0,0.424,0.586,131.764,3
+spotify:track:7zqKGWWUkOwAkXlkWfiukR,QZNWU2357853,"אפטר פארטי","חוסר איזון מושלם","Shalev Josseph",2023-08-18,271413,6,true,tteg245vfp7528wjhpufg3bu2,2023-12-22T10:55:19Z,"","gardens of hope.",0.527,0.689,8,-7.613,0,0.314,0.264,0.0000763,0.0333,0.966,83.844,4
+spotify:track:1mJqaTyXLvCSxfx4uo5c9B,QZNWU2357852,"ירח","חוסר איזון מושלם","Shalev Josseph;Tahini Prince",2023-08-18,182238,13,true,tteg245vfp7528wjhpufg3bu2,2023-12-22T11:07:44Z,"","gardens of hope.",0.507,0.608,6,-8.656,0,0.222,0.283,0.00000984,0.146,0.704,160.008,4
+spotify:track:2rRiNLitgcKPaUF9TkAc48,QZNWU2357848,"תמיכה נפשית","חוסר איזון מושלם","Shalev Josseph;Mayor",2023-08-18,152447,6,true,tteg245vfp7528wjhpufg3bu2,2023-12-22T21:33:29Z,"","gardens of hope.",0.458,0.597,1,-8.457,1,0.254,0.0376,0,0.147,0.329,72.642,4
+spotify:track:7vQdtN5htIvpi2nEkzaCiU,QZTB82220567,"13.2_65_בונוס","Valley Flip Tape","VALLEY CORP;Argov;Balulu - בלולו;Rewire",2022-12-23,118153,18,true,tteg245vfp7528wjhpufg3bu2,2023-12-30T08:24:24Z,"experimental hip hop","Valley",0.728,0.525,5,-11.597,0,0.0893,0.12,0.0000465,0.368,0.533,130.06,4
+spotify:track:3aFpa6AxAcyb2KccDjajYl,IL6192101556,"חרא ברדיו","!!?!?למה מי מת","רון עשהאל;Bubble Wrap Trap;גיאגיא",2022-01-13,133400,0,true,tteg245vfp7528wjhpufg3bu2,2023-12-30T09:04:33Z,"mizrahi,experimental jazz,free jazz,egg punk","Kame'a",0.661,0.593,3,-7.041,0,0.329,0.0207,0,0.114,0.654,92.113,4
+spotify:track:2Fz364Nc11hGqB8QZm9H2L,QZTB22215613,"זוזי","מגמגם 2","Mayor;רון עשהאל",2022-12-09,169047,30,true,tteg245vfp7528wjhpufg3bu2,2023-12-30T09:18:07Z,"mizrahi","321 Records",0.632,0.499,11,-7.621,0,0.431,0.408,0,0.112,0.606,82.225,4
+spotify:track:1X85M95UkF2WOV7xAyEPSI,QZFZ32255179,"בטריות","מטושטש","אוחנה וברקת;Mish Bejerano",2022-02-06,166000,9,true,tteg245vfp7528wjhpufg3bu2,2023-12-30T10:19:09Z,"","MishuMakomRecords",0.658,0.637,7,-8.68,1,0.136,0.0555,0,0.311,0.541,125.155,4
+spotify:track:3iSuHy1CAEaGxUjibhOc0N,IL6192101561,"אפריל","!!?!?למה מי מת","רון עשהאל;Bubble Wrap Trap",2022-01-13,222204,0,true,tteg245vfp7528wjhpufg3bu2,2023-12-30T10:46:38Z,"mizrahi,experimental jazz,free jazz","Kame'a",0.649,0.351,3,-11.531,1,0.0622,0.842,0.00000696,0.374,0.329,98.692,4
+spotify:track:1EuZcGJV690w1e1Fj3iqzs,QZTB52348250,"חלומות/מכשפה","חלומות/מכשפה","אוחנה",2023-12-28,201028,27,true,tteg245vfp7528wjhpufg3bu2,2024-01-02T19:31:54Z,"","HasahberetRecords",0.431,0.829,3,-4.913,0,0.205,0.501,0.00323,0.119,0.56,107.024,4
+spotify:track:0ceOVrJOr3VtJGMIlxEkzV,FRX762231597,"דופק ת׳ראש","דופק ת׳ראש","אוחנה",2022-09-29,132706,0,false,tteg245vfp7528wjhpufg3bu2,2024-01-02T19:42:19Z,"","Mybe Tmrw",0.724,0.527,6,-9.945,0,0.0932,0.597,0,0.11,0.397,84.997,4
+spotify:track:54vb9QPb9CDELDrA1fQaHd,FR2X42362408,"נייטרוס","ספידים","אוחנה;Ziv Shachar",2023-02-17,178075,15,false,tteg245vfp7528wjhpufg3bu2,2024-01-02T19:52:01Z,"","Mybe Tmrw",0.862,0.49,1,-5.154,1,0.174,0.0707,0,0.0656,0.201,86.007,4
+spotify:track:4he60YJSIXYc9cAbBC6qv7,FR2X42362415,"כליוםנשארפחות","ספידים","אוחנה",2023-02-17,146000,19,false,tteg245vfp7528wjhpufg3bu2,2024-01-02T19:57:27Z,"","Mybe Tmrw",0.608,0.799,5,-5.632,0,0.128,0.27,0,0.183,0.61,145.009,4
+spotify:track:4gFKznAOtoOudTeFEOo4Tk,QZNWX2357365,"מזרחית","ביז׳ו","Maor;Dor3",2023-08-15,178548,32,true,tteg245vfp7528wjhpufg3bu2,2024-01-05T11:02:21Z,"mizrahi","- UZIN RECORDS -",0.684,0.562,1,-9.516,1,0.141,0.199,0.00000223,0.156,0.74,186.031,4
+spotify:track:3BL7DZUOHqwjMvFOSyipRB,IL6192101554,"דם","!!?!?למה מי מת","רון עשהאל;Bubble Wrap Trap",2022-01-13,183670,0,true,tteg245vfp7528wjhpufg3bu2,2024-01-15T15:20:45Z,"mizrahi,experimental jazz,free jazz","Kame'a",0.784,0.46,5,-7.795,1,0.237,0.224,0.00000292,0.108,0.47,124.389,4
+spotify:track:3868XxW82vC6Jqkw6W13PW,QZDA82320990,"שיבוש גלובלי","גלובלי","Balulu - בלולו;XOLONIII;BAYOTIII",2023-02-24,80000,22,true,tteg245vfp7528wjhpufg3bu2,2024-01-25T22:02:46Z,"","Valley",0.771,0.838,1,-4.985,0,0.193,0.0277,0,0.245,0.878,155.941,4
+spotify:track:2cxiDuRkYPHicoNAhumL0U,QZTB22215612,"טויוטה","מגמגם 2","Mayor;Shae",2022-12-09,179238,17,true,tteg245vfp7528wjhpufg3bu2,2024-01-27T16:06:21Z,"","321 Records",0.578,0.444,5,-11.261,1,0.186,0.148,0.00243,0.228,0.475,76.087,4
+spotify:track:57vCZklKOwVGJjlVJCSIWo,QZFZ72421369,"מועקה","2","גיאגיא ואיילו;גיאגיא",2024-01-28,173210,4,false,tteg245vfp7528wjhpufg3bu2,2024-01-27T22:46:17Z,"egg punk","bab records",0.484,0.895,9,-4.073,1,0.064,0.0807,0,0.842,0.27,89.818,4
+spotify:track:4RkKGX1y3xtE6KRk1erNsr,QZFZ72421374,"טלויזיה","2","גיאגיא ואיילו;גיאגיא",2024-01-28,127372,12,false,tteg245vfp7528wjhpufg3bu2,2024-01-28T05:58:06Z,"egg punk","bab records",0.779,0.726,0,-5.731,1,0.08,0.501,0,0.0647,0.925,112.044,4
+spotify:track:6yCEGUmi0flCCCv7qspbHO,QZFZ72421376,"סתם","2","גיאגיא ואיילו;גיאגיא",2024-01-28,145803,6,false,tteg245vfp7528wjhpufg3bu2,2024-01-28T06:06:01Z,"egg punk","bab records",0.805,0.82,5,-6.684,1,0.0472,0.197,0.000108,0.213,0.653,109.992,4
+spotify:track:7kR3EiaKxexzyjwJA0buax,QZFZ72421378,"צוק","2","גיאגיא ואיילו;גיאגיא",2024-01-28,192371,11,false,tteg245vfp7528wjhpufg3bu2,2024-01-28T06:10:06Z,"egg punk","bab records",0.641,0.872,2,-4.737,1,0.0294,0.368,0.00000127,0.0923,0.945,129.969,4
+spotify:track:0u8MBdUEkta7Pc5iPTUMJi,QZFZ72421379,"רכיכה קטנה","2","גיאגיא ואיילו;גיאגיא",2024-01-28,210271,3,false,tteg245vfp7528wjhpufg3bu2,2024-01-28T06:15:28Z,"egg punk","bab records",0.584,0.891,11,-5.792,0,0.0391,0.199,0.0123,0.205,0.576,99.969,4
+spotify:track:4hicpiidwQ5SzT6H56Fw16,QZFZ72421373,"יש לי מזל","2","גיאגיא ואיילו;גיאגיא",2024-01-28,210590,4,false,tteg245vfp7528wjhpufg3bu2,2024-01-29T21:02:06Z,"egg punk","bab records",0.546,0.801,5,-6.393,0,0.167,0.291,0.426,0.112,0.671,187.01,4
+spotify:track:29XISatsskLTMIbJ8u1ZNJ,QZDA82320983,"אולי זה לא היום שלי","גלובלי","Balulu - בלולו",2023-02-24,129425,15,true,tteg245vfp7528wjhpufg3bu2,2024-01-29T22:27:42Z,"","Valley",0.586,0.627,2,-10.355,1,0.081,0.462,0.00955,0.0718,0.194,119.594,3
+spotify:track:3Te66nZQPXRvvOthaJAA0e,QZNWT2228825,"REKET 13","REKET","Balulu - בלולו",2022-08-29,164307,18,true,tteg245vfp7528wjhpufg3bu2,2024-02-05T18:58:58Z,"","Valley",0.696,0.442,6,-10.525,1,0.146,0.784,0.0000482,0.107,0.519,130.091,4
+spotify:track:5k7NcdF1SKzTSbkDTEO5tb,QZK6J2137665,"שמיים","שמיים","Balulu - בלולו",2021-08-05,207093,0,true,tteg245vfp7528wjhpufg3bu2,2024-02-05T19:13:06Z,"","Balulu",0.806,0.492,8,-13.474,0,0.179,0.0461,0,0.136,0.713,129.962,4
+spotify:track:0OWQuslHNrUcPOwZDHCWQw,QZHNA2094016,"משאלה","תקופות","Balulu - בלולו",2020-07-10,157470,0,true,tteg245vfp7528wjhpufg3bu2,2024-02-05T19:44:59Z,"","Balulu",0.546,0.293,5,-9.938,0,0.0766,0.221,0.00000588,0.112,0.102,122.935,4
+spotify:track:0OR8BtOJpfxK2e7BK4DeL4,QZFZ72421362,"שעון חול","2","גיאגיא ואיילו;גיאגיא",2024-01-28,100514,7,false,tteg245vfp7528wjhpufg3bu2,2024-02-09T06:48:46Z,"egg punk","bab records",0.484,0.99,7,-3.758,0,0.265,0.0489,0,0.12,0.318,164.229,4
+spotify:track:6C4AC0s7VDFRCvcLfoDlma,QZNWW2330267,"לק בציפורניים","כהנא לובש סיסו 8","BAYOTIII;XOLONIII;פייק אביב",2023-07-28,173259,24,true,tteg245vfp7528wjhpufg3bu2,2024-02-27T10:54:08Z,"","SHIIIBUSH DERECH ERETZ",0.61,0.525,10,-9.06,0,0.341,0.279,0,0.399,0.725,139.809,4
+spotify:track:5MtykSVZi9qEoRqOR5TrTQ,QZNWW2330270,"כסף","כהנא לובש סיסו 8","BAYOTIII;XOLONIII",2023-07-28,154947,12,true,tteg245vfp7528wjhpufg3bu2,2024-02-27T13:43:39Z,"","SHIIIBUSH DERECH ERETZ",0.758,0.523,2,-10.308,1,0.322,0.324,0,0.244,0.4,137.98,4
+spotify:track:4Ir9jXcZe6AsY0Ofka8xSh,QZES91930685,"ילד פח מספר אחת","לא אלבום אבל הנה","גיאגיא ואיילו;גיאגיא",2019-04-01,138853,19,false,tteg245vfp7528wjhpufg3bu2,2024-02-29T19:21:17Z,"egg punk","banani records",0.549,0.587,3,-8.063,1,0.0395,0.153,0,0.0931,0.521,151.726,4
+spotify:track:67ufcnSpZpzIMsOesCTrsg,IL7192400928,"אופוריה","ב ח ו ץ","Vibe Ish",2024-03-13,165818,29,false,tteg245vfp7528wjhpufg3bu2,2024-03-13T13:04:41Z,"mizrahi","Mobile1 Music",0.653,0.413,5,-11.579,1,0.0852,0.113,0.0000404,0.0661,0.404,82.505,4
+spotify:track:0Y8FPi8xGQGC0aEG2AJada,IL7532413149,"קורטז","אגואיזם","Shae",2024-03-14,228000,26,false,tteg245vfp7528wjhpufg3bu2,2024-03-13T22:39:03Z,"","Helicon Music",0.592,0.62,11,-9.719,1,0.0884,0.0208,0.000113,0.154,0.229,159.952,4
+spotify:track:3NjV6KGgFDZFIvlFztLvez,IL7532413150,"נשיאים","אגואיזם","Shae",2024-03-14,52375,19,false,tteg245vfp7528wjhpufg3bu2,2024-03-13T22:39:06Z,"","Helicon Music",0.519,0.424,2,-15.159,1,0.841,0.424,0,0.107,0.0397,88.694,5
+spotify:track:4f8tcqdowqUf6nOZW2GEL1,IL7532413151,"דולפין לאב","אגואיזם","Shae",2024-03-14,121812,30,false,tteg245vfp7528wjhpufg3bu2,2024-03-13T22:39:11Z,"","Helicon Music",0.664,0.857,11,-9.652,0,0.0768,0.0371,0.368,0.082,0.125,145.976,4
+spotify:track:1dnlwlfdij101Nbj8YEpSP,IL7532413152,"סיבובים","אגואיזם","Shae",2024-03-14,193812,26,false,tteg245vfp7528wjhpufg3bu2,2024-03-13T22:39:15Z,"","Helicon Music",0.447,0.398,7,-11.744,0,0.357,0.696,0.000102,0.0842,0.199,87.618,4
+spotify:track:4IUoI7luVl9DPHWAmScS6p,IL7532413153,"במה","אגואיזם","Shae",2024-03-14,72000,24,false,tteg245vfp7528wjhpufg3bu2,2024-03-13T22:39:20Z,"","Helicon Music",0.354,0.427,5,-12.242,1,0.07,0.837,0.0000117,0.65,0.0391,80.102,3
+spotify:track:1a3H7WQYzsDTylUqixryh1,IL7532413155,"חורף","אגואיזם","Shae",2024-03-14,438518,34,false,tteg245vfp7528wjhpufg3bu2,2024-03-13T22:39:28Z,"","Helicon Music",0.394,0.291,4,-16.011,0,0.0538,0.588,0.0000826,0.11,0.14,161.248,4
+spotify:track:6ZSduw7TGG5A1DZ1UK9RPc,IL7532413154,"מקלחות קרות","אגואיזם","Shae",2024-03-14,192015,27,false,tteg245vfp7528wjhpufg3bu2,2024-03-13T22:39:41Z,"","Helicon Music",0.724,0.416,0,-12.332,0,0.191,0.0699,0.0414,0.183,0.263,100.002,4
+spotify:track:3yUBz7hzwp9cpjdzyttLTe,QZNWW2330271,"כיוון","כהנא לובש סיסו 8","BAYOTIII;XOLONIII",2023-07-28,106816,19,true,tteg245vfp7528wjhpufg3bu2,2024-03-16T16:41:52Z,"","SHIIIBUSH DERECH ERETZ",0.574,0.494,0,-11.166,1,0.336,0.751,0.000011,0.0867,0.557,139.359,4
+spotify:track:5RSoNLEaG4j7jof1TAl3T3,QZHN62497811,"ילד רגיש","דמעות במועדון","Soul Special",2024-03-21,178166,19,false,tteg245vfp7528wjhpufg3bu2,2024-03-21T09:46:42Z,"","Nevermind Music",0.741,0.665,10,-11.837,0,0.0842,0.146,0.183,0.133,0.326,97.969,4
+spotify:track:3VbJ54wgIRA5l0tAPXZTxS,QZHN62497812,"חולה","דמעות במועדון","Soul Special",2024-03-21,125833,19,false,tteg245vfp7528wjhpufg3bu2,2024-03-21T09:48:01Z,"","Nevermind Music",0.795,0.297,6,-13.474,1,0.0852,0.705,0.38,0.0774,0.891,94.996,4
+spotify:track:7qL28iQKIxUrFteb1NRbJM,QZHN62497813,"אני לא רוצה","דמעות במועדון","Soul Special",2024-03-21,211000,6,false,tteg245vfp7528wjhpufg3bu2,2024-03-21T12:45:29Z,"","Nevermind Music",0.545,0.604,7,-10.106,0,0.0336,0.0105,0.0706,0.13,0.109,77.98,4
+spotify:track:4b8z6gWujZNU5Jqejcm8qp,QZHN72460407,"לילה ארוך","לילה ארוך","Balulu - בלולו",2024-03-28,233009,24,true,tteg245vfp7528wjhpufg3bu2,2024-03-28T12:03:58Z,"","GLOBALI",0.785,0.371,10,-10.947,0,0.126,0.804,0,0.11,0.236,102.944,4
+spotify:track:3NVP4Spi3HerHUxocKdMbM,QZRP52281206,"מוסוליני מסניף חגי","וואלי טייפ א","VALLEY CORP;Balulu - בלולו;Shae",2022-10-20,226457,17,true,tteg245vfp7528wjhpufg3bu2,2024-03-30T07:12:19Z,"","Valley",0.606,0.426,2,-11.626,1,0.342,0.369,0.00000222,0.142,0.275,77.636,4
+spotify:track:7xhbg6tr4XB159THS2AaTo,QZDA62308779,"ילדים חרא","ילדים חרא","XOLONIII;BAYOTIII;Boi Ecchi;Michael Swissa",2023-01-30,122256,9,true,tteg245vfp7528wjhpufg3bu2,2024-03-30T09:15:43Z,"","SHIIIBUSH KAKI SHILSHOOL",0.843,0.676,11,-4.742,1,0.427,0.00932,0,0.343,0.795,159.934,4
+spotify:track:6CwIfnrVlmDIGRgayFL8r5,QZNWW2330273,"להשלים","כהנא לובש סיסו 8","BAYOTIII;XOLONIII",2023-07-28,118220,15,true,tteg245vfp7528wjhpufg3bu2,2024-03-30T09:17:16Z,"","SHIIIBUSH DERECH ERETZ",0.502,0.583,4,-9.259,1,0.269,0.395,0,0.135,0.697,72.474,4
+spotify:track:7ditxG9VM1Hs2owJRFuOD9,QZNWW2330268,"לא נחמד","כהנא לובש סיסו 8","BAYOTIII;XOLONIII",2023-07-28,106655,16,true,tteg245vfp7528wjhpufg3bu2,2024-03-30T09:43:28Z,"","SHIIIBUSH DERECH ERETZ",0.546,0.536,11,-9.27,0,0.208,0.583,0,0.491,0.814,78.44,4
+spotify:track:0GPiLO5QqOMWL3fR29Ob04,QZDA52402074,"זזה ביתה / בלאגן","אוי ואבוי: שובו של אסולין","XOLONIII;BAYOTIII",2024-02-02,58847,6,true,tteg245vfp7528wjhpufg3bu2,2024-03-30T10:18:28Z,"","SHIIIBUSH RECORDS",0.87,0.838,1,-3.945,1,0.3,0.168,0,0.367,0.831,129.986,4
+spotify:track:3rxCkaR1GbDPX0R6q1Vaaf,QZHNA2416558,"סקאמים","סקאמים","פייק אביב;General Shepherd",2024-04-01,172800,20,true,tteg245vfp7528wjhpufg3bu2,2024-04-01T08:51:05Z,"","Fake Records",0.845,0.451,8,-13.197,1,0.277,0.664,0.00000303,0.0898,0.382,99.924,4
+spotify:track:6u9dstcHJJQDfTbUAdVgec,QZK6F2266048,"נופל וקם","אורי","Balulu - בלולו",2022-07-16,136708,30,false,tteg245vfp7528wjhpufg3bu2,2024-04-06T06:07:56Z,"","Valley",0.837,0.503,7,-11.637,0,0.176,0.432,0.000066,0.0839,0.829,79.021,4
+spotify:track:0Itdl9JicSldCKzb16kSaW,QZNWX2357369,"סכיפהול / עוד לא התעוררתי","ביז׳ו","Maor",2023-08-15,187402,28,false,tteg245vfp7528wjhpufg3bu2,2024-04-06T07:56:27Z,"mizrahi","- UZIN RECORDS -",0.651,0.636,0,-6.939,0,0.31,0.634,0.00000215,0.0975,0.258,97.937,4
+spotify:track:59Oy3Edzd2CiDILBPhWUIi,QZNWX2357371,"קראוזה","ביז׳ו","Maor",2023-08-15,144475,21,false,tteg245vfp7528wjhpufg3bu2,2024-04-06T08:01:54Z,"mizrahi","- UZIN RECORDS -",0.448,0.739,9,-8.022,0,0.327,0.114,0,0.116,0.263,63.093,4
+spotify:track:20isA8Hv5fqnWChT4MwNa1,QZK6F2266045,"נעילה","אורי","Balulu - בלולו",2022-07-16,149333,23,false,tteg245vfp7528wjhpufg3bu2,2024-04-13T19:14:59Z,"","Valley",0.622,0.722,7,-7.498,0,0.055,0.546,0.0000464,0.13,0.527,89.944,4
+spotify:track:1iRZLlwXbwsPXzDsIsV5Nw,QZFZ72421365,"מפלצת מיפן","2","גיאגיא ואיילו;גיאגיא",2024-01-28,107240,6,false,tteg245vfp7528wjhpufg3bu2,2024-04-14T17:44:37Z,"egg punk","bab records",0.738,0.636,2,-5.596,1,0.318,0.197,0.00000251,0.0566,0.623,134.199,4
+spotify:track:3PIwWGRehAAXwKjtgHRBlH,QZK6Q2496645,"מיסטר ביסט","מיסטר ביסט","אביה",2024-04-14,142124,3,false,tteg245vfp7528wjhpufg3bu2,2024-04-14T18:25:51Z,"","12138",0.613,0.719,1,-7.322,1,0.121,0.0565,0.0056,0.358,0.406,119.904,4
+spotify:track:1TnHonGrIGU4Vah87fZeY3,QZES62475701,"בכל זאת","זהב שוקע חרא צף","ŞPITZER",2024-03-11,85421,5,true,tteg245vfp7528wjhpufg3bu2,2024-04-15T15:28:05Z,"","PARLAMENT RECORDS",0.552,0.854,2,-3.892,1,0.164,0.261,0.0043,0.0661,0.819,145.367,4
+spotify:track:4eG5TkluSL1IN6V8xXSu45,il5842341588,"טום וג'רי","כוכבים בחוץ","KALIFI;אופק עבוד;אפה",2023-06-08,216500,15,false,tteg245vfp7528wjhpufg3bu2,2024-04-16T19:21:55Z,"mizrahi","2023 404 Records By PIL LTD",0.612,0.322,8,-13.767,0,0.12,0.867,0.0459,0.167,0.142,137.804,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-04-17T10:00:29Z,"","undefined",0.461,0.215,1,-12.772,0,0.0465,0.606,0.0000416,0.0922,0.406,50.645,3
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-04-17T10:00:36Z,"","undefined",0.518,0.202,7,-9.592,0,0.0491,0.943,0.000927,0.26,0.208,117.352,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-04-24T21:09:23Z,"","undefined",0.607,0.252,4,-14.931,0,0.0998,0.901,0.000312,0.0813,0.564,147.766,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-04-29T11:27:10Z,"","undefined",0.346,0.276,11,-14.67,1,0.0367,0.732,0.569,0.173,0.0704,139.346,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-04-29T12:24:24Z,"","undefined",0.412,0.522,5,-13.417,0,0.175,0.115,0,0.0988,0.624,118.763,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-04-29T13:04:36Z,"","undefined",0.411,0.577,0,-11.8,1,0.298,0.639,0,0.133,0.473,88.813,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-05-07T17:50:22Z,"","undefined",0.664,0.59,0,-11.536,0,0.0484,0.647,0.00000759,0.125,0.862,114.986,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-05-07T17:53:30Z,"","undefined",0.618,0.503,1,-12.714,1,0.327,0.0274,0.00000393,0.0807,0.697,151.947,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-05-16T18:00:21Z,"","undefined",0.66,0.672,0,-4.59,0,0.22,0.59,0,0.139,0.61,120.168,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-05-19T11:31:47Z,"","undefined",0.397,0.681,5,-7.92,1,0.132,0.657,0.0000365,0.748,0.841,93.249,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-05-22T08:38:10Z,"","undefined",0.828,0.774,9,-6.525,0,0.193,0.275,0,0.232,0.876,109.974,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-05-22T08:39:15Z,"","undefined",0.382,0.65,11,-6.856,0,0.34,0.148,0,0.666,0.722,150.153,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-05-22T08:47:10Z,"","undefined",0.639,0.796,8,-12.611,1,0.53,0.643,0,0.151,0.741,95.708,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-05-24T07:28:24Z,"","undefined",0.446,0.297,9,-8.254,0,0.146,0.28,0,0.0434,0.326,68.868,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-05-24T07:38:39Z,"","undefined",0.448,0.369,10,-11.903,1,0.172,0.586,0,0.129,0.54,132.107,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-05-24T07:40:18Z,"","undefined",0.697,0.663,11,-7.992,0,0.138,0.775,0.0138,0.0886,0.662,135.211,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-05-28T12:44:57Z,"","undefined",0.842,0.794,5,-7.975,0,0.297,0.0509,0.00000548,0.0496,0.826,139.177,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-06-20T21:12:58Z,"","undefined",0.558,0.661,6,-9.941,0,0.182,0.65,0.00000157,0.12,0.724,80.028,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-06-20T21:15:24Z,"","undefined",0.497,0.698,2,-5.105,1,0.039,0.00199,0,0.0699,0.334,159.196,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-06-20T21:18:46Z,"","undefined",0.406,0.804,8,-5.814,1,0.354,0.00287,0,0.182,0.388,171.288,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-06T07:27:27Z,"","undefined",0.658,0.652,4,-7.024,1,0.0332,0.0789,0,0.178,0.584,123.959,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-06T07:33:56Z,"","undefined",0.573,0.854,7,-6.153,1,0.0369,0.00246,0,0.42,0.599,129.049,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-06T07:40:51Z,"","undefined",0.383,0.318,3,-10.918,1,0.0631,0.303,0.000618,0.115,0.0468,133.084,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-06T08:07:07Z,"","undefined",0.612,0.548,6,-5.154,0,0.0308,0.556,0,0.0673,0.378,129.63,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-06T08:12:40Z,"","undefined",0.734,0.494,1,-9.91,0,0.277,0.169,0.0682,0.158,0.572,147.997,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-06T08:15:23Z,"","undefined",0.654,0.677,7,-8.25,0,0.118,0.187,0,0.0998,0.201,94.536,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-06T08:44:10Z,"","undefined",0.621,0.683,11,-5.269,0,0.0325,0.495,0,0.293,0.195,115.001,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-06T08:49:48Z,"","undefined",0.712,0.551,6,-6.519,0,0.259,0.504,0.00000108,0.273,0.603,99.995,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-06T12:27:37Z,"","undefined",0.421,0.469,3,-9.356,0,0.0661,0.892,0,0.0825,0.444,84.169,3
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-06T12:30:59Z,"","undefined",0.554,0.751,1,-7.103,1,0.271,0.46,0,0.165,0.83,84.812,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-09T12:42:33Z,"","undefined",0.561,0.525,9,-9.182,0,0.107,0.706,0,0.279,0.566,140.228,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-09T19:23:40Z,"","undefined",0.571,0.75,6,-7.829,1,0.091,0.357,0,0.0965,0.591,129.909,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-09T19:24:37Z,"","undefined",0.715,0.618,6,-10.843,1,0.279,0.186,0,0.122,0.721,129.099,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-09T19:29:34Z,"","undefined",0.604,0.671,7,-9.535,0,0.171,0.577,0,0.0668,0.424,144,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-09T19:31:10Z,"","undefined",0.67,0.648,2,-6.852,1,0.305,0.0691,0,0.148,0.297,155.858,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-09T19:38:10Z,"","undefined",0.63,0.523,4,-9.712,0,0.0563,0.000132,0.552,0.219,0.35,151.999,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-09T19:45:38Z,"","undefined",0.907,0.296,10,-11.09,0,0.161,0.0482,0.0000457,0.106,0.385,124.024,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-13T20:27:31Z,"","undefined",0.592,0.661,7,-5.305,1,0.0517,0.0776,0,0.174,0.27,125.038,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-07-25T09:07:37Z,"","undefined",0.837,0.548,9,-7.289,0,0.0939,0.172,0.0000025,0.298,0.832,106.066,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-08-07T13:40:53Z,"","undefined",0.431,0.561,9,-7.04,1,0.117,0.182,0,0.0695,0.397,105.349,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-08-17T21:51:04Z,"","undefined",0.537,0.487,4,-6.139,0,0.052,0.495,0.000867,0.325,0.225,107.85,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-08-17T21:53:24Z,"","undefined",0.572,0.469,4,-9.815,0,0.0392,0.515,0.00000748,0.116,0.149,92.87,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-08-17T21:55:03Z,"","undefined",0.432,0.734,0,-7.809,1,0.341,0.154,0,0.392,0.306,168.895,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-08-17T21:57:27Z,"","undefined",0.529,0.612,11,-6.444,1,0.106,0.00404,0,0.258,0.596,82.636,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-08-17T22:04:30Z,"","undefined",0.632,0.774,6,-7.172,0,0.308,0.336,0,0.405,0.644,154.259,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-08-17T22:08:56Z,"","undefined",0.617,0.798,10,-7.211,0,0.269,0.206,0,0.248,0.771,76.461,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-08-17T22:19:31Z,"","undefined",0.509,0.799,5,-7.899,0,0.2,0.375,0.00000914,0.444,0.658,104.14,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-08-17T22:21:13Z,"","undefined",0.324,0.883,0,-4.488,1,0.21,0.53,0.00000986,0.323,0.402,160.321,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-08-19T10:11:27Z,"","undefined",0.684,0.552,8,-9.531,0,0.202,0.437,0.0000102,0.0726,0.517,100.088,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-11-16T08:35:21Z,"","undefined",0.365,0.754,0,-5.472,0,0.117,0.384,0,0.87,0.54,148.163,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-11-18T06:47:49Z,"","undefined",0.603,0.457,4,-9.528,0,0.0282,0.241,0.0000029,0.101,0.689,80.013,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-11-18T08:03:45Z,"","undefined",0.675,0.596,10,-6.63,0,0.109,0.0176,0.0000349,0.264,0.373,162.073,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-12-22T20:42:08Z,"","undefined",0.574,0.63,1,-8.566,1,0.335,0.247,0,0.383,0.716,88.18,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-12-22T20:43:58Z,"","undefined",0.573,0.741,11,-6.371,1,0.113,0.174,0,0.102,0.576,72.011,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-12-22T20:52:30Z,"","undefined",0.625,0.429,9,-10.081,0,0.048,0.0965,0,0.132,0.257,124.006,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-12-22T20:53:45Z,"","undefined",0.357,0.256,3,-12.341,1,0.0565,0.904,0,0.65,0.309,150.539,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-12-25T11:01:59Z,"","undefined",0.461,0.456,6,-9.119,1,0.166,0.296,0,0.112,0.482,76.923,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-12-26T08:19:31Z,"","undefined",0.537,0.468,6,-10.625,1,0.0821,0.697,0.00000495,0.138,0.218,122.381,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-12-28T17:51:33Z,"","undefined",0.692,0.518,6,-8.682,1,0.405,0.29,0,0.0761,0.676,79.628,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2024-12-30T16:46:55Z,"","undefined",0.771,0.249,9,-14.623,0,0.0463,0.899,0,0.114,0.391,119.918,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-01-04T08:27:42Z,"","undefined",0.515,0.578,7,-11.205,1,0.478,0.146,0,0.18,0.298,86.418,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-01-04T08:31:40Z,"","undefined",0.546,0.5,9,-9.141,0,0.269,0.527,0.0000956,0.145,0.434,190.23,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-01-04T08:36:26Z,"","undefined",0.606,0.665,8,-5.477,0,0.19,0.228,0,0.182,0.749,122.008,5
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-01-04T08:48:15Z,"","undefined",0.561,0.515,6,-11.304,0,0.0599,0.0363,0.0000151,0.118,0.178,85.328,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-01-04T08:53:11Z,"","undefined",0.493,0.557,1,-8.43,1,0.298,0.208,0,0.168,0.541,164.384,3
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-01-04T08:56:03Z,"","undefined",0.353,0.646,0,-9.014,1,0.208,0.163,0.00000764,0.314,0.413,82.23,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-01-10T18:37:50Z,"","undefined",0.723,0.814,8,-10.512,0,0.0897,0.51,0,0.23,0.7,100.01,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-01-10T18:41:27Z,"","undefined",0.516,0.54,9,-9.366,0,0.183,0.471,0.00000299,0.318,0.103,122.684,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-01-10T18:42:29Z,"","undefined",0.411,0.621,2,-7.042,0,0.0587,0.674,0.000184,0.162,0.267,127.742,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-01-14T13:35:37Z,"","undefined",0.957,0.605,0,-7.619,0,0.349,0.335,0,0.0855,0.73,104.021,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-01-16T11:31:23Z,"","undefined",0.357,0.519,8,-10.993,1,0.133,0.268,0.000699,0.301,0.558,120.485,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-01-16T11:33:56Z,"","undefined",0.727,0.649,7,-6.188,0,0.0883,0.262,0.0000164,0.0839,0.343,112.15,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-03T16:57:06Z,"","undefined",0.556,0.488,9,-10.06,1,0.0773,0.185,0,0.141,0.248,130.023,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-03T16:57:57Z,"","undefined",0.441,0.564,6,-8.833,1,0.0545,0.539,0,0.0701,0.257,160.226,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-03T16:58:56Z,"","undefined",0.462,0.769,8,-5.187,0,0.0979,0.266,0,0.0556,0.583,174.071,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-03T17:03:07Z,"","undefined",0.522,0.791,1,-4.544,0,0.138,0.686,0.00000427,0.288,0.574,89.555,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-03T17:05:06Z,"","undefined",0.809,0.834,2,-6.148,1,0.0738,0.22,0,0.397,0.796,105.02,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-03T17:09:08Z,"","undefined",0.486,0.536,5,-11.54,0,0.0501,0.39,0.0000558,0.153,0.211,140.089,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-03T17:29:29Z,"","undefined",0.627,0.512,0,-9.569,0,0.0796,0.322,0,0.114,0.413,156.029,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-04T05:53:27Z,"","undefined",0.609,0.731,9,-9.197,1,0.0719,0.28,0,0.488,0.515,159.981,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-04T06:07:05Z,"","undefined",0.708,0.656,1,-9.094,1,0.0487,0.142,0,0.163,0.519,140.994,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-15T13:48:21Z,"","undefined",0.301,0.373,5,-12.696,1,0.0446,0.653,0,0.0987,0.304,86.693,5
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-16T11:08:24Z,"","undefined",0.525,0.343,6,-13.91,0,0.141,0.794,0,0.12,0.0702,72.388,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-18T18:38:27Z,"","undefined",0.624,0.68,8,-8.948,1,0.0761,0.777,0.00000914,0.134,0.15,89.947,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-18T18:39:32Z,"","undefined",0.558,0.737,7,-7.337,0,0.196,0.856,0,0.288,0.31,79.976,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-18T18:41:33Z,"","undefined",0.543,0.486,6,-11.166,0,0.0546,0.629,0.0000202,0.125,0.139,140.073,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-18T18:42:19Z,"","undefined",0.545,0.769,3,-8.935,0,0.135,0.441,0.00000464,0.374,0.759,85.351,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-18T18:44:08Z,"","undefined",0.403,0.526,6,-8.326,0,0.0368,0.499,0.00000179,0.213,0.464,82.762,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-18T18:44:17Z,"","undefined",0.452,0.802,5,-9.017,0,0.38,0.308,0.00000231,0.0475,0.855,187.025,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-18T18:52:31Z,"","undefined",0.578,0.41,6,-15.436,0,0.0571,0.183,0.00106,0.239,0.439,149.883,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-18T18:53:50Z,"","undefined",0.542,0.589,5,-5.805,0,0.0456,0.518,0.0471,0.171,0.285,77.988,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-22T10:04:47Z,"","undefined",0.533,0.592,11,-9.216,0,0.0532,0.474,0.000347,0.619,0.295,150.854,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-22T10:58:23Z,"","undefined",0.425,0.631,1,-7.201,1,0.124,0.169,0.0294,0.0906,0.752,129.983,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-24T15:24:06Z,"","undefined",0.721,0.547,3,-9.948,0,0.0823,0.274,0.00000194,0.117,0.78,119.859,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-02-27T08:00:33Z,"","undefined",0.349,0.734,3,-7.476,1,0.0914,0.466,0.000343,0.46,0.134,129.929,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-03-01T08:41:46Z,"","undefined",0.603,0.556,10,-5.319,1,0.0611,0.0601,0,0.129,0.103,150.075,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-03-01T08:53:10Z,"","undefined",0.639,0.53,0,-13.463,0,0.166,0.772,0.00000244,0.0707,0.679,81.025,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-03-01T08:59:10Z,"","undefined",0.461,0.564,6,-7.994,0,0.049,0.0657,0,0.563,0.643,156.206,4
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-03-01T09:04:14Z,"","undefined",0.363,0.131,6,-17.809,0,0.0413,0.953,0,0.113,0.0629,142.961,1
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-03-01T09:05:35Z,"","undefined",0.669,0.761,11,-7.042,1,0.0507,0.179,0.00166,0.6,0.479,127.97,4
+spotify:track:4XqO2IS0qInVZgmImmLT7v,il5842443969,"את הכי יפה בארץ","undefined","Liam Hachmon",0000,156923,0,false,tteg245vfp7528wjhpufg3bu2,2025-03-01T09:18:27Z,"","undefined",0.672,0.808,2,-6.218,1,0.259,0.232,0,0.245,0.626,91.469,4
+spotify:track:65nL569bBKfpy1ToIvShqa,il5842448416,"כתם של יין","undefined","Liam Hachmon",0000,139040,0,false,tteg245vfp7528wjhpufg3bu2,2025-03-01T09:20:07Z,"","undefined",0.554,0.75,2,-7.048,1,0.176,0.323,0,0.613,0.459,156.054,4
+spotify:track:1YkXHmkCIGFhms8tNrSs8W,QZFYY2074875,"בחורה של לאפה","undefined","ננח קלאסי",0000,136000,5,true,tteg245vfp7528wjhpufg3bu2,2025-03-01T09:36:58Z,"","undefined",0.655,0.645,1,-9.294,1,0.0994,0.318,0,0.195,0.251,79.328,4
+spotify:track:5FtW6x5Ubu5eLkTg6xuvHj,QZHN62497814,"שקט","undefined","Soul Special",0000,169714,6,false,tteg245vfp7528wjhpufg3bu2,2025-03-01T10:27:53Z,"","undefined",0.705,0.731,3,-6.33,0,0.249,0.563,0,0.119,0.434,117.77,4
+spotify:track:20c67GlTFBYrObJDYRy1eo,QZHN42509679,"לקחת אוויר","undefined","עופרי בר;אביה",0000,202597,10,true,tteg245vfp7528wjhpufg3bu2,2025-03-01T19:22:43Z,"","undefined",0.616,0.791,9,-7.184,1,0.217,0.677,0,0.282,0.358,77.037,4
+spotify:track:542aYGdz7SROFF8ga7Di1M,QZHN42509680,"קוצר נשימה/רוח","undefined","עופרי בר;אביה",0000,286728,11,true,tteg245vfp7528wjhpufg3bu2,2025-03-01T19:26:35Z,"","undefined",0.385,0.509,4,-8.446,0,0.0853,0.676,0.000143,0.212,0.302,118.157,4
+spotify:track:1POlPKRwx55ODCkVRIzYLr,QZHN42509681,"את לא עושה לי טוב","undefined","עופרי בר;אביה",0000,137735,13,true,tteg245vfp7528wjhpufg3bu2,2025-03-01T19:31:28Z,"","undefined",0.423,0.558,5,-11.085,0,0.11,0.101,0.00000918,0.0905,0.407,170.274,4
+spotify:track:0VyWpDn2XrtW8xdB6nav3t,QZHN42509682,"דפוקיבר","undefined","עופרי בר;אביה",0000,167370,15,true,tteg245vfp7528wjhpufg3bu2,2025-03-01T19:35:18Z,"","undefined",0.351,0.597,9,-8.454,0,0.0917,0.567,0.00000536,0.106,0.649,78.483,4
+spotify:track:5VZYNUxye6Ofjd9fAXIxH6,QZHN42509685,"בוםבום","undefined","עופרי בר;אביה",0000,166420,15,true,tteg245vfp7528wjhpufg3bu2,2025-03-01T19:41:52Z,"","undefined",0.568,0.352,5,-15.417,0,0.177,0.0623,0.00000485,0.0951,0.172,143.698,4
+spotify:track:7xPyrsHiwR5GU2PPv4z3oC,QZHN42509686,"יין לבן","undefined","עופרי בר;אביה",0000,164253,19,true,tteg245vfp7528wjhpufg3bu2,2025-03-01T19:43:15Z,"","undefined",0.477,0.391,2,-11.392,0,0.0482,0.489,0,0.583,0.177,84.478,4
+spotify:track:3fZVOUKNxi7fzM6laLukQN,QZHN42509687,"אני עושה לי טוב","undefined","עופרי בר;אביה",0000,161452,16,true,tteg245vfp7528wjhpufg3bu2,2025-03-01T20:11:24Z,"","undefined",0.566,0.804,11,-7.635,0,0.271,0.125,0.000206,0.271,0.504,146.968,4
+spotify:track:2V0l8qv1q6pLvg2pbz1kJB,QZHN42509690,"משנה - בונוס","undefined","עופרי בר;אביה",0000,105600,9,true,tteg245vfp7528wjhpufg3bu2,2025-03-01T20:41:59Z,"","undefined",0.538,0.349,11,-12.591,1,0.171,0.341,0.000501,0.309,0.266,170.036,4
+spotify:track:22uy6DgwkQI14d2otXbPOV,QZHN42509691,"פסטה - בונוס","undefined","עופרי בר;אביה",0000,82930,7,true,tteg245vfp7528wjhpufg3bu2,2025-03-01T20:43:03Z,"","undefined",0.531,0.553,0,-7.862,0,0.093,0.512,0.00152,0.121,0.36,147.737,4
+spotify:track:6lRPNVqC3ImembIineoNEd,IL2DY2500067,"עולם","undefined","Balulu - בלולו",0000,148000,18,false,tteg245vfp7528wjhpufg3bu2,2025-03-06T22:10:36Z,"","undefined",0.658,0.374,7,-9.342,1,0.0646,0.125,0.0000013,0.135,0.353,85.028,4
+spotify:track:1e9lwawCjQ94r51qtdA9TG,QZHN42509689,"יהיה טוב","undefined","עופרי בר;אביה",0000,295219,10,true,tteg245vfp7528wjhpufg3bu2,2025-03-08T11:05:13Z,"","undefined",0.664,0.615,2,-7.633,1,0.0505,0.131,0,0.131,0.267,100.024,4
+spotify:track:4xzmDA60pYrwuFB90WDLBd,QZWFM2483262,"מינימאל מאד מאן","undefined","Soul Special",0000,101629,23,true,tteg245vfp7528wjhpufg3bu2,2025-03-08T20:15:07Z,"","undefined",0.625,0.565,0,-8.714,1,0.0408,0.282,0.0216,0.185,0.586,138.012,4
+spotify:track:3Q40IAwBK5rIX43MUAjRCl,IL2DY2500062,"איך שאת מושכת אותי איתך","undefined","Balulu - בלולו",0000,113956,24,false,tteg245vfp7528wjhpufg3bu2,2025-03-09T09:58:08Z,"","undefined",0.547,0.565,2,-10.073,1,0.0433,0.172,0.0178,0.315,0.165,169.85,4
+spotify:track:6Gvr6rBAOUNVx09fkc66fZ,QZWFF2454088,"אינסוף","undefined","Soul Special;Slimfim;דרעי",0000,123000,21,false,tteg245vfp7528wjhpufg3bu2,2025-03-12T14:13:45Z,"","undefined",0.53,0.119,10,-15.176,0,0.0456,0.992,0.0000246,0.134,0.322,72.353,4
+spotify:track:5CRJOazLu2KYQElNbcuQ8v,QZNWZ2360242,"לא טוב","undefined","הלל סנדר;רון עשהאל",0000,149433,16,false,tteg245vfp7528wjhpufg3bu2,2025-03-30T16:38:02Z,"mizrahi","undefined",0.672,0.393,1,-7.511,1,0.0697,0.854,0,0.0794,0.688,159.685,4
+spotify:track:3xbS9aE4Etk5gbIZvupaLu,QZTB72454940,"לא חושב עלייך כשאני עצוב","undefined","הלל סנדר",0000,134736,10,false,tteg245vfp7528wjhpufg3bu2,2025-03-30T16:40:31Z,"","undefined",0.746,0.411,6,-9.34,0,0.178,0.737,0,0.12,0.784,80.908,4
+spotify:track:21oPyUjbQPiZJcKBHLa5lR,QZTB72454941,"מאמי","undefined","הלל סנדר",0000,158709,10,true,tteg245vfp7528wjhpufg3bu2,2025-03-30T16:42:56Z,"","undefined",0.574,0.578,9,-8.639,1,0.0493,0.0191,0.0000203,0.122,0.174,157.932,4
+spotify:track:4eaWmn0phubZYkfBCrsWwe,QZTB72454943,"היום","undefined","הלל סנדר",0000,163302,6,false,tteg245vfp7528wjhpufg3bu2,2025-03-30T16:52:20Z,"","undefined",0.622,0.712,9,-7.667,1,0.0827,0.149,0.000237,0.092,0.124,118.131,4
+spotify:track:3GhvnGrlJgeB44PWDtaAfP,QZTB72454939,"אם את תלכי","undefined","הלל סנדר",0000,168989,11,false,tteg245vfp7528wjhpufg3bu2,2025-03-30T17:05:04Z,"","undefined",0.548,0.67,2,-8.708,1,0.0372,0.72,0.00061,0.23,0.267,83.364,4
+spotify:track:2MKf0tpaFqOMnGf1xm1cvD,il5842448408,"הולך אחרי הלב","undefined","Liam Hachmon",0000,114369,0,false,tteg245vfp7528wjhpufg3bu2,2025-04-02T05:37:49Z,"","undefined",0.519,0.602,0,-7.473,0,0.0674,0.748,0,0.141,0.452,159.803,4
+spotify:track:1OtLlpUNyDLp9RIGNl3Csi,QZK6H2551384,"פוזות","undefined","Fass",0000,157297,0,true,tteg245vfp7528wjhpufg3bu2,2025-04-05T17:29:50Z,"","undefined",0.613,0.406,6,-13.205,1,0.0588,0.474,0,0.142,0.637,119.942,4
+spotify:track:4vg0T151Uf8FtADEmGXgvm,il5842448411,"בלילות","undefined","Liam Hachmon;ATAR MAYNER",0000,159940,0,false,tteg245vfp7528wjhpufg3bu2,2025-04-12T07:27:49Z,"mizrahi","undefined",0.633,0.391,8,-9.653,1,0.0293,0.898,0.00101,0.0838,0.111,94.424,3
+spotify:track:63pkdtuaegsv5kydcCEbgn,IL7532421614,"פינה לאהוב","undefined","ATAR MAYNER;Liam Hachmon;Nofar Salman",0000,203476,35,false,tteg245vfp7528wjhpufg3bu2,2025-04-12T07:40:35Z,"mizrahi","undefined",0.538,0.562,0,-9.517,0,0.0914,0.267,0.0000217,0.0714,0.224,171.945,4
+spotify:track:7nHuPcFPbtdLyLdLtyBn49,il5842446930,"נסיכה קומפלט","undefined","Liam Hachmon",0000,163200,0,false,tteg245vfp7528wjhpufg3bu2,2025-04-12T07:55:52Z,"","undefined",0.56,0.674,5,-5.794,0,0.201,0.295,0,0.16,0.509,99.13,4
+spotify:track:3V9GAVhCchvPxV18UuKab9,IL7192500180,"מדי פעם","undefined","Vibe Ish",0000,154451,34,true,tteg245vfp7528wjhpufg3bu2,2025-04-19T07:55:54Z,"mizrahi","undefined",0.503,0.289,10,-10.995,0,0.0579,0.809,0,0.108,0.396,140.203,4
+spotify:track:3y6Qg35jlJrgSRgNWcvgDX,QZMEN2552325,"לסבית","undefined","הנדין;Sifra",0000,138147,16,true,tteg245vfp7528wjhpufg3bu2,2025-04-20T18:00:04Z,"","undefined",0.731,0.701,1,-7.695,0,0.244,0.45,0,0.153,0.826,82.997,4
+spotify:track:4vsVZXbbES1iFmaaktJk39,QZMEN2552326,"לא נשאר כלום בסוף","undefined","הנדין;Sifra",0000,132133,15,true,tteg245vfp7528wjhpufg3bu2,2025-04-20T18:00:08Z,"","undefined",0.522,0.656,1,-9.404,1,0.0883,0.123,0,0.295,0.411,153.798,4
+spotify:track:6wn1Vqq68002RdAmZ3DVsb,QZHN72561651,"מלמטה","undefined","Sifra;הנדין",0000,147653,21,true,tteg245vfp7528wjhpufg3bu2,2025-04-20T18:08:48Z,"","undefined",0.595,0.695,7,-9.362,0,0.167,0.387,0,0.14,0.162,78.071,4
+spotify:track:2Qs6srML7ySEQHTXgXhBQS,QZNWX2486113,"צוקו","undefined","Sifra",0000,134883,7,false,tteg245vfp7528wjhpufg3bu2,2025-04-20T18:12:44Z,"","undefined",0.772,0.478,0,-8.287,1,0.0346,0.338,0.000104,0.0988,0.312,110.034,4
+spotify:track:6deFze4tCVNo368dozDb4J,QZMEN2552327,"יותר מדי","undefined","הנדין;Sifra",0000,200815,10,true,tteg245vfp7528wjhpufg3bu2,2025-04-20T19:48:25Z,"","undefined",0.77,0.498,9,-7.563,1,0.129,0.389,0.0694,0.0946,0.22,140.022,4
+spotify:track:7pDRcs9Ubp5WSvC7MBMadj,QZNWX2486114,"עשר מעשר","undefined","Sifra;מינקו",0000,206922,29,false,tteg245vfp7528wjhpufg3bu2,2025-04-20T19:54:30Z,"","undefined",0.594,0.475,7,-8.059,0,0.0255,0.785,0,0.129,0.147,127.065,4
+spotify:track:6W7XZIsS7rPwiGztxofcqa,QZMEN2544918,"בואי נתאבד","undefined","Stevie סטיבי",0000,124488,7,true,tteg245vfp7528wjhpufg3bu2,2025-04-21T09:25:07Z,"","undefined",0.486,0.407,1,-11.243,0,0.137,0.456,0.00000157,0.105,0.279,144.537,4
+spotify:track:2VdUVC0WI6bP0sifRUFKzs,IL2DY2500059,"וויץ'","undefined","Balulu - בלולו",0000,133548,24,true,tteg245vfp7528wjhpufg3bu2,2025-04-23T12:42:13Z,"","undefined",0.786,0.716,10,-7.577,0,0.369,0.196,0,0.103,0.682,103.922,4
+spotify:track:24QA4CfyXrjqqBQdFWVV1v,QZK6P2371847,"ברגיםעלהפנים_125","undefined","Argov;Balulu - בלולו",0000,127504,17,true,tteg245vfp7528wjhpufg3bu2,2025-04-26T12:52:57Z,"experimental hip hop","undefined",0.703,0.633,8,-10.459,0,0.195,0.745,0.000319,0.0752,0.388,94.986,4
+spotify:track:7JqIFWeOwRn89yQzhdvbxS,QZNWT2228822,"REKET 5","undefined","Balulu - בלולו;ŞPITZER",0000,144905,11,true,tteg245vfp7528wjhpufg3bu2,2025-04-26T13:17:22Z,"","undefined",0.734,0.54,7,-8.946,1,0.0657,0.694,0.00000556,0.445,0.485,132.992,4
+spotify:track:0h9LiujEPvLyLlz8IoCRTH,IL7192500516,"לילה","undefined","SUED",0000,268860,24,true,tteg245vfp7528wjhpufg3bu2,2025-05-08T19:22:06Z,"","undefined",0.679,0.656,7,-7.814,1,0.519,0.0259,0.0000401,0.142,0.653,169.801,4
+spotify:track:6MFqKYDrYgBq31rdgBCdk5,IL7192400923,"יצירה/גיהנום","undefined","SUED",0000,219685,6,false,tteg245vfp7528wjhpufg3bu2,2025-05-08T19:53:05Z,"","undefined",0.774,0.658,8,-5.84,0,0.158,0.397,0,0.235,0.221,102.006,4
+spotify:track:2cz4pAvbid5Ab37WsHseVq,IL7192500524,"קירות","undefined","SUED",0000,232258,16,true,tteg245vfp7528wjhpufg3bu2,2025-05-08T19:53:30Z,"","undefined",0.397,0.66,6,-9.429,1,0.162,0.119,0.0115,0.121,0.125,167.821,4
+spotify:track:6jPgkUIPhoNuklVtb7npHL,IL7192500518,"מזהים אותי בעיר","undefined","SUED",0000,213693,6,true,tteg245vfp7528wjhpufg3bu2,2025-05-08T20:00:32Z,"","undefined",0.472,0.758,0,-5.453,1,0.304,0.505,0,0.388,0.639,87.056,4
+spotify:track:4iQJyDP4avc1gMxBHbxeGB,IL7192401249,"ברקודות","undefined","SUED",0000,145000,6,false,tteg245vfp7528wjhpufg3bu2,2025-05-24T08:30:49Z,"","undefined",0.363,0.718,8,-5.415,1,0.0489,0.00477,0,0.267,0.581,146.51,4
+spotify:track:0lXvvU8RA6stcpY0li3aCE,IL7192500519,"בשביל הסאמפל","undefined","SUED",0000,115907,5,true,tteg245vfp7528wjhpufg3bu2,2025-05-24T08:32:43Z,"","undefined",0.893,0.379,10,-8.003,1,0.0664,0.333,0.0000169,0.109,0.487,123.988,4
+spotify:track:1dyq62rL8uFPNDStgkvrMH,IL7192500520,"בונדסליג","undefined","SUED",0000,132387,5,true,tteg245vfp7528wjhpufg3bu2,2025-05-24T08:34:54Z,"","undefined",0.555,0.504,7,-8.904,1,0.0867,0.388,0.000231,0.191,0.0674,159.914,4
+spotify:track:5R61bfORBiTPw2OSpWhXxn,IL7192500521,"קים ג׳ונג און","undefined","SUED",0000,168000,14,true,tteg245vfp7528wjhpufg3bu2,2025-05-24T08:44:59Z,"","undefined",0.59,0.529,6,-11.814,0,0.121,0.552,0,0.101,0.336,115.074,1
+spotify:track:1gFofgZUvLDzpt2JlhpXvU,IL7192500523,"ריקודעםהשטן","undefined","SUED",0000,250500,8,true,tteg245vfp7528wjhpufg3bu2,2025-05-24T08:52:26Z,"","undefined",0.764,0.629,1,-9.473,1,0.183,0.0309,0.0000364,0.177,0.281,99.928,4
+spotify:track:6WB1xZqac5FdPI3HsAKYDI,IL7192401570,"עבודה זרה","undefined","SUED;אור לוין",0000,184800,3,true,tteg245vfp7528wjhpufg3bu2,2025-05-24T09:04:26Z,"","undefined",0.652,0.61,6,-9.277,1,0.255,0.173,0,0.59,0.657,92.91,4
+spotify:track:6qqVPlqCMS0wd4r5vu9brJ,QZNWT2543658,"ראש טוב // עם שמואל","undefined","OSHRIKO-אושריקו;שמואל",0000,222124,2,false,tteg245vfp7528wjhpufg3bu2,2025-05-24T09:36:49Z,"","undefined",0.55,0.704,1,-7.1,1,0.237,0.502,0.0000212,0.102,0.665,150.108,4
+spotify:track:3XSSUNQJHy7GTWtSHHITq5,IL1042503907,"השם ירחם","undefined","Tuna",0000,233232,56,true,tteg245vfp7528wjhpufg3bu2,2025-05-30T07:50:56Z,"mizrahi","undefined",0.482,0.679,1,-6.42,1,0.171,0.0232,0.00618,0.558,0.582,94.026,4
+spotify:track:4Jg1GQZ5nS2JEBAgEfntby,IL7532513481,"ערק וזוהר","undefined","אוחנה;Shae",0000,148172,35,false,tteg245vfp7528wjhpufg3bu2,2025-06-03T08:44:38Z,"","undefined",0.781,0.66,2,-8.116,1,0.25,0.224,0.000138,0.645,0.289,137.108,4
+spotify:track:3mwdcgubebfv9WEOgfW1J3,IL7532513482,"כוחות","undefined","אוחנה",0000,130750,33,false,tteg245vfp7528wjhpufg3bu2,2025-06-03T08:46:07Z,"","undefined",0.523,0.37,2,-16.59,1,0.147,0.861,0,0.132,0.523,124.003,4
+spotify:track:1fTyHnqtYPrZTXGXYM4xC3,IL7532513483,"מסביב","undefined","אוחנה",0000,150125,32,false,tteg245vfp7528wjhpufg3bu2,2025-06-03T08:48:27Z,"","undefined",0.31,0.52,8,-9.364,1,0.0805,0.654,0.00000138,0.155,0.157,177.632,4
+spotify:track:0qhVXDJlgkjdmEINm7eeov,IL7532413166,"גשם","undefined","אוחנה",0000,194567,29,false,tteg245vfp7528wjhpufg3bu2,2025-06-03T08:50:25Z,"","undefined",0.583,0.745,6,-6.794,1,0.33,0.411,0.0000363,0.289,0.552,102.398,1
+spotify:track:1JcSJ6XZg6EFysRZkEEqMh,IL7532513485,"ילדימתים","undefined","אוחנה",0000,150390,27,false,tteg245vfp7528wjhpufg3bu2,2025-06-03T08:52:30Z,"","undefined",0.617,0.483,5,-10.717,1,0.183,0.424,0.0000672,0.119,0.871,144.829,4
+spotify:track:2G2QHOGuwySHFl6anwGhpw,IL7532513486,"מולוטוב","undefined","אוחנה",0000,124665,25,false,tteg245vfp7528wjhpufg3bu2,2025-06-03T08:55:10Z,"","undefined",0.696,0.619,11,-6.613,0,0.0657,0.689,0,0.11,0.375,125.044,4
+spotify:track:6z6Dr5MIxV3RmNdhZ2lZGJ,IL7532513488,"קומה 60","undefined","אוחנה;Ziv Shachar;Shipi",0000,208704,37,false,tteg245vfp7528wjhpufg3bu2,2025-06-03T08:57:43Z,"","undefined",0.568,0.618,9,-7.661,0,0.09,0.471,0.0000899,0.102,0.741,158.336,4
+spotify:track:4K3egWIVyB4e0fNxQVb3uF,IL7532513489,"צדיק","undefined","אוחנה;Michael Swissa",0000,145926,31,false,tteg245vfp7528wjhpufg3bu2,2025-06-03T09:09:07Z,"","undefined",0.638,0.386,9,-10.19,0,0.026,0.725,0,0.135,0.383,130.232,4
+spotify:track:5oVFwiLZmThsy60S23Drd0,IL7532513490,"לילות לבנים","undefined","אוחנה;אופק עבוד",0000,136833,37,false,tteg245vfp7528wjhpufg3bu2,2025-06-03T09:11:00Z,"","undefined",0.659,0.668,1,-7.183,1,0.035,0.022,0,0.084,0.654,119.959,4
+spotify:track:0lFY3Grd6MBS6HPX67h4UW,IL7532513491,"אל תפחדי מכלום","undefined","אוחנה",0000,213913,37,false,tteg245vfp7528wjhpufg3bu2,2025-06-03T09:12:00Z,"","undefined",0.442,0.859,1,-4.856,0,0.362,0.378,0,0.14,0.243,175.449,4
+spotify:track:72IbWrzPhkB1YGGY9mufnr,IL7192500173,"תופסת","undefined","Vibe Ish;יונתן זלצברג",0000,186822,36,true,tteg245vfp7528wjhpufg3bu2,2025-06-15T19:24:32Z,"mizrahi","undefined",0.807,0.536,0,-8.13,1,0.0757,0.324,0.0000231,0.078,0.352,120.971,4
+spotify:track:5xfHZ6WaHIx8Sjg3K8EMqn,QZRP52516948,"כזה אני","undefined","Eden Manaiov;ניר אברה;סמוקי",0000,220000,36,true,tteg245vfp7528wjhpufg3bu2,2025-06-21T06:54:07Z,"mizrahi","undefined",0.766,0.688,8,-6.215,0,0.156,0.0394,0.000305,0.106,0.32,159.907,4
+spotify:track:5u1oMQpAybxbgGCXmK0pwa,QZTB42511991,"HIGHER LIVIN","undefined","Shafrir;Shae;Maor",0000,201840,26,true,tteg245vfp7528wjhpufg3bu2,2025-07-05T21:35:57Z,"mizrahi","undefined",0.78,0.502,1,-9.565,1,0.286,0.378,0,0.106,0.412,136.114,4
+spotify:track:3FLxjy5HI7jiZAfS0Oxvzy,IL7532513480,"קללה","undefined","אוחנה",0000,128828,35,false,tteg245vfp7528wjhpufg3bu2,2025-07-27T13:00:39Z,"","undefined",0.862,0.569,0,-10.322,0,0.147,0.45,0,0.539,0.31,103.017,4
+spotify:track:66ryvEoWNYbKzUaXxtQ4dY,IL7192401326,"מישהו מתפלל עליי","undefined","SUED",0000,178887,5,false,tteg245vfp7528wjhpufg3bu2,2025-08-06T07:45:38Z,"","undefined",0.633,0.735,10,-5.557,0,0.281,0.13,0.0000106,0.363,0.435,160.027,4
+spotify:track:6Gk74ITCeCW6OiO5TrPDm1,QZZ782545544,"'טו מאצ","undefined","הנדין;יעלי",0000,134086,30,true,tteg245vfp7528wjhpufg3bu2,2025-08-21T15:19:00Z,"","undefined",0.674,0.662,2,-7.268,0,0.125,0.237,0.0000189,0.134,0.666,150.09,4
+spotify:track:6Q99zQKoS6jew6WjNVjyGb,FR2X42362418,"חכם בחדר","undefined","אוחנה",0000,416000,8,false,tteg245vfp7528wjhpufg3bu2,2025-10-04T06:50:38Z,"","undefined",0.659,0.684,6,-7.061,0,0.106,0.351,0,0.231,0.468,93.104,4
+spotify:track:18NZYdFOXJCbYF8vN80B67,FR2X42362413,"לא בטוח פה 2","undefined","אוחנה",0000,65481,6,false,tteg245vfp7528wjhpufg3bu2,2025-10-04T07:03:34Z,"","undefined",0.441,0.569,11,-7.147,0,0.15,0.869,0.00000219,0.0899,0.382,76.637,4
+spotify:track:6efnbRyL7CiVew30KiCrVJ,FR2X42362409,"סלינה גומז","undefined","אוחנה;KALIFI",0000,144971,17,false,tteg245vfp7528wjhpufg3bu2,2025-10-04T07:16:11Z,"mizrahi","undefined",0.622,0.402,0,-10.331,1,0.186,0.658,0.00000501,0.172,0.593,84.88,4
+spotify:track:3tOF7YVld9mN1jyOjEbGnV,QZNWU2411136,"פירורים","undefined","Mayor;Argov;אוחנה",0000,163812,19,true,tteg245vfp7528wjhpufg3bu2,2025-10-04T07:26:07Z,"experimental hip hop","undefined",0.53,0.739,0,-10.405,1,0.0416,0.0302,0,0.172,0.848,178.973,4
+spotify:track:6WbCj9Nm71zWDhwK2rdjps,QZNWX2253470,"7 בבוקר פריסטייל","undefined","Shipi",0000,120006,20,false,tteg245vfp7528wjhpufg3bu2,2025-10-07T19:11:16Z,"","undefined",0.613,0.46,9,-12.656,0,0.0815,0.123,0,0.68,0.626,86.965,4
+spotify:track:35KRuRk3keQkKwyqNUTZFB,QZWFX2487119,"ביי ראשון","undefined","הנדין",0000,153860,11,true,tteg245vfp7528wjhpufg3bu2,2025-10-10T11:19:14Z,"","undefined",0.423,0.516,7,-12.651,1,0.116,0.0708,0,0.47,0.24,113.982,4
+spotify:track:3wldBRxFAFPfQKwLKQkDD2,QZES92585056,"ילד לבונטין","undefined","הנדין",0000,156648,0,true,tteg245vfp7528wjhpufg3bu2,2025-10-10T11:21:47Z,"","undefined",0.822,0.49,8,-8.784,0,0.0394,0.0915,0.0000032,0.129,0.461,120.035,4
+spotify:track:0M0OFHwQfswyjoJmCvcaRK,QT3EZ2546619,"באת עם הקיץ","undefined","שחר הלל;אוחנה",0000,155529,23,true,tteg245vfp7528wjhpufg3bu2,2025-10-11T07:06:52Z,"","undefined",0.716,0.748,3,-7.391,1,0.0544,0.215,0,0.0914,0.687,89.98,4
+spotify:track:0beXKaQNz9hqIYtVjXXbEZ,QT3F42541114,"אינטרו // מאיפה אני יודע?","undefined","Sifra",0000,72937,11,true,tteg245vfp7528wjhpufg3bu2,2025-10-15T10:22:38Z,"","undefined",0.716,0.655,2,-7.577,0,0.13,0.393,0,0.603,0.674,101.007,4
+spotify:track:08m0IjPsUTkUucXHkv5OBf,QT3F42541120,"לאב יורז","undefined","Sifra;Ishay Ilan",0000,150857,21,true,tteg245vfp7528wjhpufg3bu2,2025-10-15T12:05:56Z,"mizrahi","undefined",0.634,0.565,10,-6.182,0,0.0488,0.329,0,0.252,0.247,71.979,4
+spotify:track:44BGmdD4DJQ1Qe1XjB17kt,QT3FG2552246,"בית בוער","undefined","הנדין;יעלי",0000,110163,29,false,tteg245vfp7528wjhpufg3bu2,2025-10-25T06:55:00Z,"","undefined",0.811,0.633,0,-6.872,1,0.231,0.374,0,0.128,0.707,148.044,4
+spotify:track:3iOtjtCUS66FRQzCgGlQhE,QT3FG2552247,"עוד","undefined","הנדין;מלמד",0000,123108,24,false,tteg245vfp7528wjhpufg3bu2,2025-10-25T06:56:48Z,"","undefined",0.53,0.662,5,-7.116,0,0.306,0.131,0,0.249,0.775,139.588,4
+spotify:track:3mnpDEbnLWXXkWEbbCAUpe,QT3FG2552249,"אני מקווה שאתה מאושר","undefined","הנדין;ישי אילן",0000,141024,18,false,tteg245vfp7528wjhpufg3bu2,2025-10-25T07:02:25Z,"","undefined",0.529,0.564,1,-8.075,1,0.11,0.211,0.00000702,0.472,0.26,180.247,4
+spotify:track:1cHAlcT54NEHAevZGt9ad1,QT3FG2552250,"כל הגיבורים שלי","undefined","הנדין;מלמד",0000,142535,10,false,tteg245vfp7528wjhpufg3bu2,2025-10-25T07:03:43Z,"","undefined",0.716,0.433,10,-8.978,0,0.0511,0.891,0.0000142,0.215,0.71,93.06,4
+spotify:track:6hRvcVSGiXOLFD3tbVlTTJ,QT3FG2552251,"חנות תקליטים בדיזנגוף","undefined","הנדין",0000,188110,21,false,tteg245vfp7528wjhpufg3bu2,2025-10-25T07:22:00Z,"","undefined",0.66,0.67,11,-8.974,0,0.175,0.146,0.0000802,0.537,0.284,102.008,4
+spotify:track:0u4osbTeHHDNcy8XIWwsSR,QT3FG2552252,"שלוח רסן","undefined","הנדין;ניצ",0000,178013,16,false,tteg245vfp7528wjhpufg3bu2,2025-10-25T07:23:50Z,"","undefined",0.59,0.675,7,-7.48,0,0.0816,0.218,0.00000963,0.458,0.361,76.866,1
+spotify:track:4YpaDJMq5Mc0ctnVuiAQe7,QZWFT2508793,"בלב שלי","undefined","הנדין",0000,127528,10,true,tteg245vfp7528wjhpufg3bu2,2025-10-25T08:03:28Z,"","undefined",0.719,0.676,1,-5.18,0,0.0619,0.631,0.000424,0.102,0.717,125.96,4
+spotify:track:4Mkzr6Kc5inUSdgvGleQdb,QZWFT2508796,"מתי מצאו אותו מת?","undefined","הנדין",0000,134841,24,true,tteg245vfp7528wjhpufg3bu2,2025-10-25T12:02:38Z,"","undefined",0.591,0.538,1,-8.973,1,0.0657,0.238,0.000088,0.104,0.209,140.049,4
+spotify:track:137KVm1rMXXJEawjFhJUy7,QZRP52481029,"אסימונים","undefined","הנדין",0000,124294,0,true,tteg245vfp7528wjhpufg3bu2,2025-10-25T12:07:07Z,"","undefined",0.721,0.672,8,-6.674,0,0.0432,0.0416,0.000355,0.142,0.687,113.99,4
+spotify:track:6BiOD5dpnBInxcVHYOt3cE,QZTB32494774,"יהונתן הקטן","undefined","הנדין",0000,181183,0,true,tteg245vfp7528wjhpufg3bu2,2025-10-25T12:11:32Z,"","undefined",0.648,0.71,5,-7.843,0,0.0893,0.434,0,0.0844,0.358,138.065,4
+spotify:track:6Mh0ZDSbfdEqjTEqMKFAn2,QT3F42415792,"חוף הרצליה בלילה","undefined","הנדין",0000,145654,4,false,tteg245vfp7528wjhpufg3bu2,2025-10-25T12:27:53Z,"","undefined"
+spotify:track:43wkn3Z6YphbUp5RfuQSkh,QZES92585050,"שילמתי ביוקר","undefined","הנדין",0000,127035,0,true,tteg245vfp7528wjhpufg3bu2,2025-10-25T12:39:08Z,"","undefined"
+spotify:track:7D8Y4uRdMm4MTw88b7vxWR,QZDA52477444,"זוז","undefined","הנדין",0000,172241,0,true,tteg245vfp7528wjhpufg3bu2,2025-10-25T12:50:53Z,"","undefined"
+spotify:track:2LV6Rl2u95BF5erAg9mh4I,QZTAU2581281,"איך נקום מזה ?","undefined","הנדין",0000,124168,7,true,tteg245vfp7528wjhpufg3bu2,2025-10-25T13:25:21Z,"","undefined"
+spotify:track:2GlP8RAoLenxdlHlRATPIO,QZTAU2581276,"פדרו","undefined","הנדין",0000,126826,6,true,tteg245vfp7528wjhpufg3bu2,2025-10-25T13:26:45Z,"","undefined"
+spotify:track:4RO8VHqGnrpmKZYDUlGHUQ,QT3F42415791,"? מי פגע בך ככה","undefined","הנדין",0000,119240,5,false,tteg245vfp7528wjhpufg3bu2,2025-10-25T13:30:45Z,"","undefined"
+spotify:track:4tyJOR6VfqSOhXZqYK4c58,QZES92585052,"בידיים שלך","undefined","הנדין",0000,117140,0,true,tteg245vfp7528wjhpufg3bu2,2025-10-25T13:35:52Z,"","undefined"
+spotify:track:6D0WgMY1DDVoBmK7uIQIGu,QZWFT2508791,"אוגוסט","undefined","הנדין",0000,118149,7,true,tteg245vfp7528wjhpufg3bu2,2025-11-05T06:27:17Z,"","undefined"
+spotify:track:6d8IlNYceMJTWHuEXjCj1a,IL7192501647,"בעייתית","undefined","Guy Ackerman;SUED",0000,129600,7,false,tteg245vfp7528wjhpufg3bu2,2025-11-07T19:36:18Z,"","undefined"
+spotify:track:3vauI9WFMUWTCzIhHTUTnl,QT3F32570593,"סיבובים","undefined","MELAMED",0000,234074,4,true,tteg245vfp7528wjhpufg3bu2,2025-11-12T16:17:31Z,"","undefined"
+spotify:track:4eIZzGGAkTbqf4nEymLCdS,QT6EU2509558,"שותה ומעשן","undefined","MELAMED",0000,101546,6,true,tteg245vfp7528wjhpufg3bu2,2025-11-12T16:21:56Z,"","undefined"
+spotify:track:0nufmZdFjkhAuNm2UwgOQl,QT6EU2509562,"שחייה לילית","undefined","MELAMED",0000,240006,6,true,tteg245vfp7528wjhpufg3bu2,2025-11-12T16:35:30Z,"","undefined"
+spotify:track:412n62lN8YvnmfON10QtxM,QT6EE2584233,"חי וקיים","undefined","בןבן;Soul Special;Shae",0000,127500,24,true,tteg245vfp7528wjhpufg3bu2,2025-11-16T07:40:37Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-16T07:43:10Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-16T07:43:56Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-16T07:45:36Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-16T07:48:08Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-16T07:51:41Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-16T08:01:26Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-16T08:03:27Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T19:49:16Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T19:49:37Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T19:49:48Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T19:50:02Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T19:52:11Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T19:55:31Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:09:17Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:11:45Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:14:00Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:18:45Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:23:50Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:25:45Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:29:00Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:32:10Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:34:50Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:38:21Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:39:21Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:41:39Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:46:49Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:49:10Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:57:05Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T20:58:02Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T21:03:46Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T21:07:42Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T21:12:06Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T21:15:58Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T21:16:15Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T21:34:38Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T21:43:12Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-17T21:48:05Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-18T06:03:57Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-11-28T08:58:35Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-02T12:41:48Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-02T12:45:51Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-02T12:51:04Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-02T12:52:25Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-02T13:02:52Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-04T23:14:43Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-04T23:27:43Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-04T23:35:40Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-04T23:35:44Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-04T23:39:39Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-04T23:57:37Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-04T23:59:39Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T00:02:45Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T00:11:08Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T00:13:14Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T00:14:59Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T00:17:44Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T00:21:50Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T00:23:08Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T00:24:50Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T00:29:27Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T00:55:09Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T00:57:32Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T01:01:01Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T01:02:03Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T01:03:01Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T01:08:13Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T01:10:48Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2025-12-05T20:10:20Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-01-16T12:20:48Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-01-18T18:55:23Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-01-18T19:04:47Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-01-27T16:50:35Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-01-29T06:03:25Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-02-04T06:22:00Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-02-04T06:25:28Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-02-04T06:25:34Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-02-04T06:28:28Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-02-04T06:29:48Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-02-04T06:33:29Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-02-04T06:35:46Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-02-04T06:38:35Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-02-07T16:04:55Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-02-10T06:36:25Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-02-10T06:38:49Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-02-17T06:22:55Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-03-21T07:40:19Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-03-21T07:43:09Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-03-22T07:28:09Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-03-26T10:47:52Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-03-29T18:59:17Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-04-14T12:35:26Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-04-14T13:32:37Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-04-29T07:13:50Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-04-29T07:16:44Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-04-30T06:56:19Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-05-06T21:37:48Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-05-06T21:37:53Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-05-07T19:09:05Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-05-09T07:46:18Z,"","undefined"
+,,"undefined","undefined","undefined",,,,,tteg245vfp7528wjhpufg3bu2,2026-05-09T07:58:25Z,"","undefined"
+spotify:track:23qvHOnqhKgCBQFLTmD2gA,IL1042602311,"עד אינסוף","דרך ארץ אחרת","Maor",2026-05-07,195165,36,true,tteg245vfp7528wjhpufg3bu2,2026-05-09T08:04:09Z,"mizrahi","NaNa Disc"
+spotify:track:3j3Tg6n5OgrE3hfKTujLii,IL1042602310,"נחשים","דרך ארץ אחרת","Maor;Michael Swissa",2026-05-07,135392,38,true,tteg245vfp7528wjhpufg3bu2,2026-05-09T08:04:33Z,"mizrahi","NaNa Disc"
+spotify:track:2WzwYLmr48AtdlP0r3JRkG,IL1042602312,"חצי עשור","דרך ארץ אחרת","Maor;Liam Hachmon",2026-05-07,208254,36,true,tteg245vfp7528wjhpufg3bu2,2026-05-09T08:08:36Z,"mizrahi","NaNa Disc"
+spotify:track:2Wowjd7C6RDrMYlkkw5bFI,IL1042602313,"מלך","דרך ארץ אחרת","Maor",2026-05-07,248049,42,true,tteg245vfp7528wjhpufg3bu2,2026-05-09T08:12:25Z,"mizrahi","NaNa Disc"
+spotify:track:1kmpEohY0hFlL1eS845JY5,IL1042602304,"כוכב","דרך ארץ אחרת","Maor;ילד.",2026-05-07,202575,41,true,tteg245vfp7528wjhpufg3bu2,2026-05-09T08:57:27Z,"mizrahi","NaNa Disc"
+spotify:track:5OMgpGsvWGABZ8Is8cPCow,QZWFX2603090,"נשמה להשכיר","נשמה להשכיר","MELAMED",2026-05-13,68289,3,true,tteg245vfp7528wjhpufg3bu2,2026-05-14T10:34:43Z,"","MELAMED"
+spotify:track:5avUAYuVq0oGqQ8gqTikbj,QZNWQ2699480,"מרוב נשמות","נשמה להשכיר","MELAMED;הנדין",2026-05-13,128006,7,true,tteg245vfp7528wjhpufg3bu2,2026-05-14T10:37:21Z,"","MELAMED"
+spotify:track:42Eu6HwXnPjMVXgpYTkUEk,QZWFX2603092,"ביום שישי אבוא","נשמה להשכיר","MELAMED;Omri Haliva",2026-05-13,151849,7,true,tteg245vfp7528wjhpufg3bu2,2026-05-14T10:41:51Z,"","MELAMED"
+spotify:track:5BVbpwfUfgoCgDhpqpg05R,QZTB32608157,"יוני בלוך","נשמה להשכיר","MELAMED",2026-05-13,139261,3,true,tteg245vfp7528wjhpufg3bu2,2026-05-14T10:44:19Z,"","MELAMED"
+spotify:track:1NMPk4cGoNEiKnH1B7pUGy,QZWFX2603096,"רועה צאן","נשמה להשכיר","MELAMED;יעלי",2026-05-13,161470,4,true,tteg245vfp7528wjhpufg3bu2,2026-05-14T10:51:35Z,"","MELAMED"
+spotify:track:1UjfvaeRvzAeLtxIyDxCaC,IL7532613426,"סוף היום","צפון ישן","הילל;עולמי",2026-06-04,192660,24,false,tteg245vfp7528wjhpufg3bu2,2026-06-04T08:24:40Z,"","Helicon Ltd."
+spotify:track:3KXWwTh2w2YVoilHB96HTw,IL7532613427,"דמעות","צפון ישן","הילל",2026-06-04,95999,16,false,tteg245vfp7528wjhpufg3bu2,2026-06-04T08:24:53Z,"","Helicon Ltd."
+spotify:track:2txtR4ePoSvnmHINZDuQAU,IL7532613428,"לב שבור","צפון ישן","הילל",2026-06-04,161902,21,false,tteg245vfp7528wjhpufg3bu2,2026-06-04T08:27:23Z,"","Helicon Ltd."
+spotify:track:0c2L5I2DFt8hDN14h6lp4Y,IL7532613429,"פוינט נימו","צפון ישן","הילל;Shae;אדמ",2026-06-04,126656,21,false,tteg245vfp7528wjhpufg3bu2,2026-06-04T08:28:22Z,"","Helicon Ltd."
+spotify:track:2Al7aGUYMR0T3VKyfn0API,IL7532613430,"מ ש ו ג ע","צפון ישן","הילל;אוחנה",2026-06-04,186781,21,false,tteg245vfp7528wjhpufg3bu2,2026-06-04T08:34:28Z,"","Helicon Ltd."
+spotify:track:2GbVMkHpXwPNrugw29geXE,IL7532613433,"משהו לאחוז בו","צפון ישן","הילל",2026-06-04,204700,19,false,tteg245vfp7528wjhpufg3bu2,2026-06-04T10:17:09Z,"","Helicon Ltd."
+spotify:track:74CEOZChltKEPDpWDO3zWC,IL7532613435,"בושה","צפון ישן","הילל",2026-06-04,200635,18,false,tteg245vfp7528wjhpufg3bu2,2026-06-04T10:26:23Z,"","Helicon Ltd."
+spotify:track:3fo3ouw7PTrl5XomXGZX6f,IL7532613432,"לב פועם","צפון ישן","הילל",2026-06-04,79450,14,false,tteg245vfp7528wjhpufg3bu2,2026-06-06T09:41:13Z,"","Helicon Ltd."
+spotify:track:2msgGqZUPhftV5j2zaOhvn,IL7532613431,"נשמה שלי","צפון ישן","הילל",2026-06-04,133849,20,false,tteg245vfp7528wjhpufg3bu2,2026-06-11T16:00:35Z,"","Helicon Ltd."
+spotify:track:2NcUHDzVqeqzqwDkvHVMBp,IL7532613434,"אפילו לא אני","צפון ישן","הילל",2026-06-04,177624,20,false,tteg245vfp7528wjhpufg3bu2,2026-06-11T16:00:40Z,"","Helicon Ltd."
+spotify:track:5i1o69JhMXPgcgXvEKRuKh,QT3F82611498,"קאניו","ליצן עם איפור לא יכול לבכות","הנדין;גיאצ'וק",2026-06-07,192961,22,true,tteg245vfp7528wjhpufg3bu2,2026-06-13T07:19:30Z,"","Hendinworld"
+spotify:track:707qehPQI19Baq5QzclMYT,QT3F82611499,"פיירו","ליצן עם איפור לא יכול לבכות","הנדין",2026-06-07,111864,12,true,tteg245vfp7528wjhpufg3bu2,2026-06-13T07:19:38Z,"","Hendinworld"
+spotify:track:09LTaUcREyNN08fDOimJ3n,QT3F82611500,"פיירט","ליצן עם איפור לא יכול לבכות","הנדין",2026-06-07,113280,10,true,tteg245vfp7528wjhpufg3bu2,2026-06-13T07:19:41Z,"","Hendinworld"
+spotify:track:7BgSXywMlIJDCL98BM2loy,QT3F82611501,"יוריק","ליצן עם איפור לא יכול לבכות","הנדין",2026-06-07,144000,19,true,tteg245vfp7528wjhpufg3bu2,2026-06-13T07:19:45Z,"","Hendinworld"
+spotify:track:2KUJuxhPuiVK72FGMn60PZ,QT3F82611502,"הארלי","ליצן עם איפור לא יכול לבכות","הנדין",2026-06-07,144000,12,true,tteg245vfp7528wjhpufg3bu2,2026-06-13T07:19:49Z,"","Hendinworld"
+spotify:track:2a99CnyJWXOHiqsBuE19Mx,QT3F82611503,"קולומבינה","ליצן עם איפור לא יכול לבכות","הנדין;יעלי",2026-06-07,144761,17,true,tteg245vfp7528wjhpufg3bu2,2026-06-13T07:19:52Z,"","Hendinworld"
+spotify:track:5brU21pqNLRc7SeW9H4YyT,QT3F82611504,"גרוק","ליצן עם איפור לא יכול לבכות","הנדין",2026-06-07,198139,14,true,tteg245vfp7528wjhpufg3bu2,2026-06-13T07:19:55Z,"","Hendinworld"
+spotify:track:6K5uNPmKutxc0CWQBy8rO1,IL1042602301,"לשחרר","דרך ארץ אחרת","Maor",2026-05-07,136640,32,true,tteg245vfp7528wjhpufg3bu2,2026-06-13T07:38:22Z,"mizrahi","NaNa Disc"
+spotify:track:2KGEOyZm7Cs3A4xWfr6iYb,IL1012500129,"בור","עוד שניה","הילל",2025-02-07,169446,5,false,tteg245vfp7528wjhpufg3bu2,2026-06-13T08:53:09Z,"","Helicon Ltd."
+spotify:track:789BzPUl3HHxNO4cKoqHtu,QZHNA2494387,"וויסקי קולה","חיימשלי","הילל;Mo.Huv",2024-04-08,150641,3,true,tteg245vfp7528wjhpufg3bu2,2026-06-21T18:49:08Z,"","ANIYODEA Records"
+spotify:track:61SUHhcG8sqVRvdKdikIsM,QT6FF2623511,"למות חופשי","למות חופשי","Shipi;אוחנה",2026-07-23,124675,28,true,tteg245vfp7528wjhpufg3bu2,2026-07-22T10:18:11Z,"","Kfar Shalem Records"
+spotify:track:7JHZzqIoF9JfuSEbNw42Jq,QT3FG2552248,"30","מהלב שלי ללב שלך","הנדין;אלונה שאול",2025-10-20,135416,9,false,tteg245vfp7528wjhpufg3bu2,2026-07-26T18:14:06Z,"","Hendinworld"
+spotify:track:6XoZfMJTV1hdCfvQbBX2lc,QT6F82689945,"מאי","מאי","הנדין",2026-07-21,165818,9,false,tteg245vfp7528wjhpufg3bu2,2026-07-26T18:15:59Z,"","Hendinworld"
+spotify:track:2b46VFPTjYSuGmS0RVMqKs,IL1012600415,"חשבתי שנמאס לך","חשבתי שנמאס לך","Benno;Shae",2026-02-16,164571,20,false,tteg245vfp7528wjhpufg3bu2,2026-07-29T09:05:05Z,"lo-fi beats,lo-fi hip hop,lo-fi","Benno under exclusive license to D-Music"
+spotify:track:59sJg0u2FR9SoOMVcYUGZe,QT6EB2503472,"עינית","עינית","Shipi",2025-10-30,181417,21,false,tteg245vfp7528wjhpufg3bu2,2026-07-29T15:02:42Z,"","Kfar Shalem Records"
+spotify:track:4dolltKe0NRtIWkKBEvm6t,IL1012402030,"שנתיים","כוכבים / שנתיים","הילל",2024-11-01,193268,7,false,tteg245vfp7528wjhpufg3bu2,2026-07-30T19:07:57Z,"","Helicon Ltd."
+spotify:track:1IAlghRhtfrChGXpnmLQ4K,QT6F22629242,"לבוש להרשים","לבוש להרשים","פייק אביב",2026-07-20,156923,21,true,tteg245vfp7528wjhpufg3bu2,2026-08-01T08:23:34Z,"","Fake Records"
+spotify:track:1iR8Dqt5c0NMWbOqLmEiVO,FRX872001138,"1997","הכל על הבית","KALIFI",2021-01-11,141486,20,false,tteg245vfp7528wjhpufg3bu2,2026-08-01T19:22:11Z,"mizrahi","2021 404 Records BY PIL LTD"
+spotify:track:0oQLI9MIyzdckwi6ygjjTR,il5842341410,"שני ילדים","כוכבים בחוץ","KALIFI",2023-06-08,200704,24,false,tteg245vfp7528wjhpufg3bu2,2026-08-01T19:23:33Z,"mizrahi","2023 404 Records By PIL LTD"
+spotify:track:7C6D02h60d2UJ58QonGOZS,IL1012500130,"שקט","עוד שניה","הילל",2025-02-07,108705,5,false,tteg245vfp7528wjhpufg3bu2,2026-08-04T16:16:31Z,"","Helicon Ltd."
+spotify:track:0GwnoEMOx7UCypoi8hd13j,IL1012500081,"✧ יהלומים ✧","עוד שניה","הילל",2025-02-07,144117,23,false,tteg245vfp7528wjhpufg3bu2,2026-08-04T16:16:35Z,"","Helicon Ltd."
+spotify:track:6EcwdYh6PaaY9hWmDjuu2K,IL1012402029,"כוכבים","כוכבים / שנתיים","הילל",2024-11-01,186071,8,false,tteg245vfp7528wjhpufg3bu2,2026-08-04T18:56:46Z,"","Helicon Ltd."
+spotify:track:3ck1qGqAjnPfbbQRJ6ZItp,IL7532613555,"סרט אחר","מוזיקת קניונים","BAYOTIII;XOLONIII",2026-08-07,168726,19,true,tteg245vfp7528wjhpufg3bu2,2026-08-07T11:39:08Z,"","Helicon Ltd."
+spotify:track:7BCcBdGk2hYs0Dvc7mtYye,QT3EZ2546614,"ניסים","הלכות מלחמה","שחר הלל",2025-09-28,208831,21,true,tteg245vfp7528wjhpufg3bu2,2026-08-07T12:52:25Z,"","עמך גאנג"
+spotify:track:2p4XwWudaRsJ2iigdyhNze,IL5842661430,"גולבריא","גולבריא","ניצ",2026-07-30,178064,15,false,tteg245vfp7528wjhpufg3bu2,2026-08-08T18:35:41Z,"","2026 S.B.E Music BY PIL LTD"
+spotify:track:6YGQ5RwZQGVMQzTnz0p3XZ,QT6EE2584244,"לא כוחות","תכלת","בןבן;Liam Hachmon;שחר אדמוני",2025-11-16,144750,26,true,tteg245vfp7528wjhpufg3bu2,2026-08-12T15:25:51Z,"mizrahi,tribal house","HASHEM MUSIC"
+spotify:track:5v37VKKfk5iZnlRyvL6jjc,QZZ7V2651002,"מאפיין של תיכון","מאפיין של תיכון","ג'ונו",2026-05-24,147600,4,true,tteg245vfp7528wjhpufg3bu2,2026-08-19T06:34:01Z,"","Jonosbd"
+spotify:track:58VNhaNOrHPC1oRJ1xSqqE,QT6FF2635814,"תחת","תחת","פייק אביב",2026-07-28,134400,19,true,tteg245vfp7528wjhpufg3bu2,2026-08-19T06:37:58Z,"","Fake Records"
+spotify:track:1LVzugcT7vy8XhV6dhxlV7,QT6HR2661640,"זז עם הלב","זז עם הלב","ג'ונו",2026-08-24,165806,7,true,tteg245vfp7528wjhpufg3bu2,2026-08-24T09:17:42Z,"","Jonosbd"
+spotify:track:2WwwVTGVOd4NgNbIXSKzJD,IL5842661864,"גיבור ישראל","יש חיים אחרי","KALIFI",2026-08-27,145188,19,false,tteg245vfp7528wjhpufg3bu2,2026-08-27T09:22:54Z,"mizrahi","2026 404 Records BY PIL LTD"
+spotify:track:4M1lhMf7MuQVjShmA4TpOr,IL5842661866,"מנורה!","יש חיים אחרי","KALIFI",2026-08-27,112340,13,false,tteg245vfp7528wjhpufg3bu2,2026-08-27T09:25:44Z,"mizrahi","2026 404 Records BY PIL LTD"
+spotify:track:6tXRTeHwKBIFXVcv7zdKk3,IL5842661859,"זהב","יש חיים אחרי","KALIFI",2026-08-27,139936,18,false,tteg245vfp7528wjhpufg3bu2,2026-08-28T07:21:31Z,"mizrahi","2026 404 Records BY PIL LTD"
+spotify:track:4YYeEMFFxJEQMoFZr54drl,USL4R2614076,"Feigin","Feigin","OgerAL",2026-02-13,207795,0,false,tteg245vfp7528wjhpufg3bu2,2026-08-30T09:20:30Z,"","OgerAL"
+spotify:track:4Ep2u1gDWefrzOZvPzer6l,QT6HX2626425,"כלה בלבן","כלה בלבן","הנדין",2026-08-30,151523,17,true,tteg245vfp7528wjhpufg3bu2,2026-08-31T14:10:49Z,"","Hendinworld"
+spotify:track:6fTWDl5zFTMmt2QAnFnu1K,il5842449318,"ריצה קלה","קעקועים על גבי מרחב-זמן","Avri G;Fass",2025-01-05,153302,11,false,tteg245vfp7528wjhpufg3bu2,2026-09-08T05:11:19Z,"","2024 Pele Rekordz by PIL ltd"
+spotify:track:29RYNFQkbJepxchlvSKI7o,SE6I32679320,"תסמיני גמילה","סוער בחוץ","גילוס",2026-05-17,320000,29,false,tteg245vfp7528wjhpufg3bu2,2026-09-13T11:06:34Z,"","גילוס"
+spotify:track:4Ts2SYueAEQWjgOtq7IiQB,il5842552575,"את היית","הכל בסדר","גילוס",2025-05-30,216960,14,false,tteg245vfp7528wjhpufg3bu2,2026-09-13T11:14:57Z,"","2025 S.B.E Music by PIL ltd"
+spotify:track:6LsDtg9ozMat9WI36hUnuQ,SE6QE2428907,"עוד עשן","עוד עשן","גילוס;תום;A-SAF",2024-09-02,218734,13,false,tteg245vfp7528wjhpufg3bu2,2026-09-13T11:22:56Z,"melodic rap","SIGNON CORP"
+spotify:track:1T7TSRc6saBgcJmoalNVAu,IL1000002544,"צליל מכוון","צליל מכוון","Tuned Tone;Itzhak Klepter;Shem-Tov Levy;Shlomo Ydov",1979-01-01,254826,51,false,tteg245vfp7528wjhpufg3bu2,2026-09-16T07:18:54Z,"","Hed Arzi Ltd."
+spotify:track:47zYQwHSm6Hty8NWZmDAbA,QZNWU2316901,"שירה","שירה","עידו רחמים",2023-08-04,182000,11,false,tteg245vfp7528wjhpufg3bu2,2026-09-30T16:39:16Z,"","Rad Star Management"
+spotify:track:0LMIbOd8A5vuuEdyDQ3WwY,il5842658363,"הולכת איתי","קול הצבעים","ניצ",2026-02-25,215172,4,false,tteg245vfp7528wjhpufg3bu2,2026-10-07T20:16:54Z,"","2026 S.B.E Music by PIL ltd"
+spotify:track:1cR8RJt48cPqqiP4VCiQOE,IL1042401808,"טוב","זהו","Netta Andorn;Liam Hachmon;Mish Bejerano;SUED",2024-04-06,119919,19,true,tteg245vfp7528wjhpufg3bu2,2026-10-12T09:53:56Z,"","NaNa Disc"
+spotify:track:4wZiMDGM6zmcYZblGstJog,il5842657709,"סליים ( אינטרו)","יוביסיזן","יובי",2026-01-18,109835,36,false,tteg245vfp7528wjhpufg3bu2,2026-10-13T09:21:13Z,"","2026 FAME MUSIC by PIL ltd"
+spotify:track:1tVauUveIeMPkNFp3cqR2Y,il5842657715,"מני ויובי","יוביסיזן","יובי;Eden Manaiov",2026-01-18,160588,38,true,tteg245vfp7528wjhpufg3bu2,2026-10-13T09:23:41Z,"mizrahi","2026 FAME MUSIC by PIL ltd"
+spotify:track:1pwY6GXfMPgpxsvY6CNozQ,il5842445999,"Yuvi Szn","Yuvi Szn","יובי",2024-06-11,121165,36,false,tteg245vfp7528wjhpufg3bu2,2026-10-13T09:41:45Z,"","2024 FAME MUSIC by PIL ltd"
+spotify:track:0AsK2dg2349rIBZRhTowpM,IL7532613541,"מוזיקת קניונים","מוזיקת קניונים","BAYOTIII;XOLONIII;גיאגיא",2026-08-07,194250,22,true,tteg245vfp7528wjhpufg3bu2,2026-10-28T07:01:44Z,"egg punk","Helicon Ltd."
+spotify:track:7tAdXwIVPJ1ng2Volpecdt,IL7192601831,"מי מתגעגע","יחסינו לאן","Vibe Ish;Nakar;אור לוין",2026-11-01,206400,43,true,tteg245vfp7528wjhpufg3bu2,2026-11-01T02:56:51Z,"mizrahi","Mobile1 Music"
+spotify:track:4ZeaLg3JDQm9QoZ2hmZia1,IL7192601826,"עשר שיחות","יחסינו לאן","Vibe Ish",2026-11-01,213303,49,true,tteg245vfp7528wjhpufg3bu2,2026-11-01T11:41:51Z,"mizrahi","Mobile1 Music"
+spotify:track:5jNFDmhniev949wRPHORXJ,QT3F42541122,"לא חשבתי כששברתי לך ת׳לב","הכל בגללי","Sifra;איתמר גרומן",2025-10-15,176416,22,true,tteg245vfp7528wjhpufg3bu2,2026-11-01T14:54:55Z,"","7359541 Records DK2"
+spotify:track:0i8glgCcOr3LHUxP28cdcl,GB2DY2608678,"פנים יפות","על מדרכה שלא נגמרת","רון עשהאל",2026-11-02,171000,37,false,tteg245vfp7528wjhpufg3bu2,2026-11-04T12:46:33Z,"mizrahi","Universal Music Israel Distributed Labels"
+spotify:track:6nZdeznOlvl9sRI1Q3YqGV,DGA052640365,"רוקסטאר","על תענוג תענש","Shay TRA Litman;אוחנה",2026-11-09,124980,30,false,tteg245vfp7528wjhpufg3bu2,2026-11-09T07:21:22Z,"","Mybe Tmrw"
+spotify:track:68msITBMY0emPsyFn41vQq,DGA052640370,"מספיק יפה","על תענוג תענש","Shay TRA Litman;גיאגיא;עולמי",2026-11-09,194188,30,false,tteg245vfp7528wjhpufg3bu2,2026-11-09T07:57:48Z,"egg punk","Mybe Tmrw"
+spotify:track:0RIaMtCde9SGFr33OBOUPC,DGA052640360,"נרקוטיקה","על תענוג תענש","Shay TRA Litman;ליהיא דזנט",2026-11-09,234210,28,true,tteg245vfp7528wjhpufg3bu2,2026-11-09T09:37:34Z,"","Mybe Tmrw"
+spotify:track:3TnawP7t1EymBMrMNz3zqo,IL2DY2500060,"הומיז","ילד טוב ירושלים","Balulu - בלולו;Michael Swissa",2025-03-06,185000,29,true,tteg245vfp7528wjhpufg3bu2,2026-11-09T10:36:44Z,"","Universal Music Israel Distributed Labels"
+spotify:track:5rUwXVXVoSGZxFyaC7LFrh,QTAF32662875,"זיו","זיו","הנדין",2026-11-12,192000,17,true,tteg245vfp7528wjhpufg3bu2,2026-11-12T10:13:08Z,"","Hendinworld"
+spotify:track:6obSaTTmSiQXRrLVI3Yp0b,IL7532613799,"שש רגל מטה","איך אני יוצא מזה","Fass;Shae;הילל",2026-11-19,154458,9,false,tteg245vfp7528wjhpufg3bu2,2026-11-18T22:05:30Z,"","Helicon Ltd."
+spotify:track:0VzMZRVNEu6ZNJ38UmNuRB,IL7532613791,"בעיר הישנה","איך אני יוצא מזה","Fass",2026-11-19,173369,9,false,tteg245vfp7528wjhpufg3bu2,2026-11-19T04:41:53Z,"","Helicon Ltd."
+spotify:track:0JMtMXffo9E90Y8uaD4b5k,IL7532613792,"חוזר הביתה","איך אני יוצא מזה","Fass;אוחנה",2026-11-19,131252,9,false,tteg245vfp7528wjhpufg3bu2,2026-11-19T04:44:53Z,"","Helicon Ltd."
+spotify:track:3SICT49ZlxLPWU9ZSUdb91,IL7532613793,"שם קוד","איך אני יוצא מזה","Fass;יובי",2026-11-19,142382,11,false,tteg245vfp7528wjhpufg3bu2,2026-11-19T04:50:07Z,"","Helicon Ltd."
+spotify:track:2uarezrlvydBXAlnMD8ypI,IL7532613800,"מי ישמור עלי","איך אני יוצא מזה","Fass",2026-11-19,191999,6,false,tteg245vfp7528wjhpufg3bu2,2026-11-19T05:23:39Z,"","Helicon Ltd."
+spotify:track:0iK4CSNzRxeEGrcKShjD0w,IL7532613802,"שום דבר","איך אני יוצא מזה","Fass",2026-11-19,127937,5,false,tteg245vfp7528wjhpufg3bu2,2026-11-19T05:25:58Z,"","Helicon Ltd."
+spotify:track:0HcxFYSCUbj5QLxbquzcz5,IL7532613795,"לא שלי","איך אני יוצא מזה","Fass",2026-11-19,153077,7,false,tteg245vfp7528wjhpufg3bu2,2026-11-19T20:06:26Z,"","Helicon Ltd."
+spotify:track:3UEBTZcJ4tNiovw9kjwNPZ,IL7532613796,"צונאמי","איך אני יוצא מזה","Fass",2026-11-19,138379,7,false,tteg245vfp7528wjhpufg3bu2,2026-11-19T20:08:52Z,"","Helicon Ltd."
+spotify:track:0OBQS9NvoXWuCYKMM1pFXt,IL5842663748,"אליי","אליי","הנדין;ניצ",2026-11-18,140952,6,false,tteg245vfp7528wjhpufg3bu2,2026-11-20T03:35:17Z,"","2026 S.B.E Music BY PIL LTD"
+spotify:track:4dMNTmOML9CH1MU0Vpbx35,IL7532613798,"שלך","איך אני יוצא מזה","Fass;Balulu - בלולו",2026-11-19,180057,8,false,tteg245vfp7528wjhpufg3bu2,2026-11-20T03:37:50Z,"","Helicon Ltd."
+spotify:track:6RopOY0N8T6ZLJHClBsUSe,IL7532613797,"יוצא מזה","איך אני יוצא מזה","Fass;Maor",2026-11-19,186360,9,false,tteg245vfp7528wjhpufg3bu2,2026-11-20T03:37:58Z,"mizrahi","Helicon Ltd."
+spotify:track:1iBvxOj4TaZGk29ytQkOEc,IL7532613794,"זמן טוב","איך אני יוצא מזה","Fass",2026-11-19,145995,8,false,tteg245vfp7528wjhpufg3bu2,2026-11-20T03:38:06Z,"","Helicon Ltd."
